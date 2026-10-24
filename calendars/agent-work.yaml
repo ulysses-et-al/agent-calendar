@@ -4597,3 +4597,254 @@ events:
     description: "Check for an employer reply to the Grants Coordinator application submitted on 2026-10-23; nothing is sent without the owner's word."
     begin: 2026-10-30 09:00:00
     duration: { minutes: 30 }
+
+  - summary: "Cloud billing relief case confirmed filed"
+    description: |
+      The billing-relief support case drafted earlier in the week
+      was confirmed filed in the evening, after the owner signed
+      in himself by browser takeover and approved the exact text.
+      The case sits in progress with the provider; its reply is
+      the awaited item ahead of the Monday suspension deadline.
+      No recovery path was used and no password was changed.
+    begin: 2026-10-23 20:56:00
+    duration: { minutes: 30 }
+
+  - summary: "Saskatchewan AI architect application completed; portal refused submission"
+    description: |
+      An application for a provincial AI Solution Architect role
+      was prepared from the master record, filled in the portal,
+      shown to the owner in full, and approved by him. Two
+      submission attempts were refused by the portal with the
+      same try-again error and no confirmation was issued; the
+      application remains complete and saved, unsubmitted. The
+      owner chose a scheduled retry for the next morning. The
+      posting closes in early November.
+    begin: 2026-10-23 20:57:00
+    duration: { hours: 2 }
+
+  - summary: "Evening priorities checkpoint delivered"
+    description: |
+      The nightly checkpoint briefing was delivered, severity
+      ranked. High items carried forward: a broad-match
+      auto-apply setting found on again one day after being
+      verified off, and a set of ads still disapproved for a
+      destination problem with the individual ads still to be
+      named. Indexing did not run that day (session-blocked, not
+      quota), the Pro session was stale ahead of the Saturday
+      research run, and the keyword lists for the new paper
+      groups still await the owner's word. Nothing was changed.
+    begin: 2026-10-23 23:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Family member payment window closed; follow-up still available"
+    description: |
+      A 72-hour payment window for a family member closed in the
+      early morning with none of the presented options taken.
+      Termination is not confirmed. A drafted follow-up email
+      asking for an itemised total and written confirmation can
+      still be sent. The item was flagged to the owner in the
+      morning menu.
+    begin: 2026-10-24 05:16:00
+    duration: { minutes: 15 }
+
+  - summary: "MapleScholar morning investigation blocked on session (Anticipation day)"
+    description: |
+      The Saturday investigation could not run: all browser
+      sessions were signed out overnight, so the in-product sweep
+      and the weekly forward-looking research run could not be
+      performed and the research file stays at its previous date.
+      The mail sweep was completed and was clean. Two carried
+      high items remain unverified today. Owner re-sign-in is
+      the unblock.
+    begin: 2026-10-24 06:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Search Console indexing run blocked on session"
+    description: |
+      The scheduled indexing run stopped at the two-step phone
+      tap-approval challenge after the saved password was
+      accepted; no alternate method was used. Search Console was
+      never reached, no requests were submitted, and the quota
+      was not hit. The last verified snapshot stands and the
+      remaining items carry to the next run.
+    begin: 2026-10-24 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Nonprofit cloud credit application filed"
+    description: |
+      A promotional cloud credit application for nonprofit
+      engagement and fundraising projects was filed once, with
+      the owner-approved project description and field values
+      verified against his record before the single submission,
+      including a correction to the correct organisational
+      email address. The confirmation page issued no reference
+      number; the application is submitted, not approved, and a
+      review period of roughly two business weeks is expected.
+    begin: 2026-10-24 08:10:00
+    duration: { minutes: 30 }
+
+  - summary: "Cloud account verification, credits and cost read completed"
+    description: |
+      At the owner's direction the billed account was verified
+      read-only in the console: a single account under the
+      organisational identity, matching the number used on the
+      morning's credit application. The credits page closed an
+      open question: the one active nonprofit credit is
+      effectively exhausted by the month's running usage, with
+      nothing unredeemed waiting. A full cost breakdown for the
+      month was also produced and delivered, naming the main
+      cost drivers by service and region.
+    begin: 2026-10-24 08:12:00
+    duration: { minutes: 30 }
+
+  - summary: "Cloud billing case holding reply posted"
+    description: |
+      A holding reply was posted to the open billing case with
+      the owner's approval of the exact text, after the provider
+      routed the case onward and set it to pending customer
+      action, where it would auto-resolve untouched. The reply
+      confirms the routing, notes the credit application now
+      filed, and re-asks for the suspension sequence in writing
+      as time-critical. The case status moved back to the
+      provider's side, still open, its answer awaited.
+    begin: 2026-10-24 08:36:00
+    duration: { minutes: 15 }
+
+  - summary: "Daily job sweep: one verified strong match found"
+    description: |
+      The daily sweep found one net-new verified strong match: a
+      grants development specialist role at a health research
+      institute, regular full-time, closing October 27. An
+      application prep brief was built from the employer's own
+      posting later that morning; no package was built and
+      nothing was sent. Other tracks returned no matches.
+    begin: 2026-10-24 08:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Family member housing documents check completed"
+    description: |
+      A scheduled check of a family member's mailbox found the
+      housing documentation request from early October and an
+      upload receipt listing the evidence files received in mid
+      October. No later mail asks for more documents or confirms
+      assessment. One risk was flagged: no message confirms the
+      final submit step was pressed after upload, and one
+      checklist item is not separately identifiable in the
+      receipt. A deadline in early November still stands.
+    begin: 2026-10-24 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Saskatchewan application submit retry blocked at sign-in"
+    description: |
+      The scheduled retry confirmed the correct posting, then
+      stopped at the portal's profile sign-in on both attempts:
+      no saved login exists for that portal and none can be
+      entered in a scheduled window. Nothing was submitted, no
+      code was triggered, and no new application was started.
+      A secure login-capture card was issued in the main chat;
+      once it is saved, the route is to sign in, verify the
+      saved application against its approved final state, and
+      submit once. The posting closes November 7.
+    begin: 2026-10-24 09:47:00
+    duration: { minutes: 15 }
+
+  - summary: "API key incident: two document-processing keys disabled overnight"
+    description: |
+      Two API keys used for document-processing work were
+      disabled by the provider overnight, flagged as leaked.
+      A separate colleague key was not touched, but the
+      swap-back fallback is gone and anything still calling the
+      disabled keys directly will fail until the owner issues
+      replacements. This follows similar provider key losses
+      earlier in the week. No key values are recorded here.
+    begin: 2026-10-24 09:54:00
+    duration: { minutes: 15 }
+
+  - summary: "Graduate outcomes survey completed and submitted"
+    description: |
+      A graduate outcomes survey for the owner's completed
+      master's program was filled from his record across the
+      morning, asking him only where the record did not reach:
+      residence history, enrolment reasons, practicum details,
+      financing and debt figures were his answers; rating pages
+      he delegated were answered from his record, shown to him
+      with their basis, and left changeable. One agent error (a
+      further-education answer) was caught and corrected with
+      his confirmation. The survey was completed and submitted,
+      with the prize draw entered.
+    begin: 2026-10-24 10:38:00
+    duration: { hours: 2 }
+
+  - summary: "University research coordinator package built and approved; submission paused"
+    description: |
+      A decision ask was delivered for a university research
+      coordinator role closing October 26; the owner directed
+      the build. The tailored package (two-page resume, one-page
+      cover letter) was built, passed QA with its honest limits
+      framed plainly, shown to the owner, and approved for
+      immediate submission. Submission is paused at the
+      employer's portal sign-in: there is no saved login, and
+      later attempts saw the portal session expire before the
+      sign-in approval arrived. Nothing was entered, locked or
+      half-submitted; the next attempt needs the owner's
+      approval immediately when it appears.
+    begin: 2026-10-24 11:22:00
+    duration: { hours: 1 }
+
+  - summary: "Cloud case correspondence checked: no new answer yet"
+    description: |
+      A proactive guard was delivered at midday: a new-case-mail
+      notification is, by its timestamp, the notice for the
+      owner's own morning reply, not a provider answer. The
+      credit application receipt is likewise only a receipt. The
+      state carried into Monday is unchanged: the relief routing
+      confirmation and the written suspension sequence are still
+      awaited.
+    begin: 2026-10-24 12:07:00
+    duration: { minutes: 15 }
+
+  - summary: "Scheduler booking links diagnosed: public pages failing, admin healthy"
+    description: |
+      After the owner reported the booking URLs not working, a
+      two-part diagnosis ran: the admin portal is healthy (sign
+      in works, no suspension or billing notices, templates and
+      bookings intact), but every public booking URL returns a
+      not-found error, including the templates' own current
+      links. One legacy slug on record was also found renamed.
+      Root cause was not yet established at this stage and
+      nothing was changed.
+    begin: 2026-10-24 13:45:00
+    duration: { hours: 1 }
+
+  - summary: "Domain renewal check paused by owner decision"
+    description: |
+      Two project domains are due for auto-renewal in early
+      November. The owner directed a check of which cloud
+      account holds the registrations; that check paused pending
+      a root sign-in. The owner then paused all domain action
+      entirely while he thinks: no renewals, transfers or
+      relaunched checks until he says otherwise.
+    begin: 2026-10-24 13:56:00
+    duration: { minutes: 15 }
+
+  - summary: "Scheduler booking links fixed with a redirect and verified; runbook written"
+    description: |
+      Root cause found on the host: the booking app has no
+      legacy booking route at all; its real path differs, while
+      the admin display still shows the legacy links. The owner
+      chose the redirect fix. A server redirect was applied and
+      verified live: every legacy booking link now lands on its
+      correct booking page, including a special case for the
+      renamed original, and the native links and admin still
+      work. The server was reloaded, not restarted, and nothing
+      else on the host changed. The hosting account identity was
+      verified and recorded in the account map, and a full
+      end-to-end runbook covering the diagnosis, fix and
+      rollback was written and pushed at the owner's request.
+    begin: 2026-10-24 14:54:00
+    duration: { hours: 1 }
+
+  - summary: "Cloud billing: suspension deadline day; case answer awaited"
+    description: "The past-due cloud account reaches its suspension deadline today. The billing-relief case answer and the nonprofit credit review are both awaited; published guidance says reinstatement requires clearing the full past-due balance, with a reinstatement window after suspension. No figures are listed on this public feed."
+    begin: 2026-10-26 09:00:00
+    duration: { minutes: 30 }
