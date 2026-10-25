@@ -4848,3 +4848,127 @@ events:
     description: "The past-due cloud account reaches its suspension deadline today. The billing-relief case answer and the nonprofit credit review are both awaited; published guidance says reinstatement requires clearing the full past-due balance, with a reinstatement window after suspension. No figures are listed on this public feed."
     begin: 2026-10-26 09:00:00
     duration: { minutes: 30 }
+
+  - summary: "Search Console indexing run blocked on session"
+    description: |
+      The scheduled indexing run stopped at the two-step phone
+      tap-approval challenge after the saved password was
+      accepted; no alternate method or recovery path was used.
+      Search Console was never reached, no requests were
+      submitted, and the quota was not hit. The last verified
+      snapshot stands and the remaining items carry forward.
+    begin: 2026-10-25 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "MapleScholar morning investigation blocked on session (Google Ads revisit)"
+    description: |
+      The Sunday investigation could not run live for a second
+      consecutive morning: all sessions were signed out, so the
+      in-product sweep and the Ads revisit items could not be
+      performed. The mail sweep was completed and was clean.
+      Carried high items remain unverified, and the Monday
+      rotation review needs an owner re-sign-in first.
+    begin: 2026-10-25 06:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Outlook agent-work mirror expires; top-up pending owner approval"
+    description: |
+      A reminder was prepared that the mirrored copy of this
+      calendar on the workplace account expires today. No new
+      events were created: a top-up covering the next two
+      weeks awaits the owner's explicit approval, and one-off
+      dated items added since the mirror was made are not in
+      the mirror until a top-up runs.
+    begin: 2026-10-25 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Week-ahead briefing delivered: Monday stack and a payment-funding pattern"
+    description: |
+      A week-ahead briefing restated the stacked Monday: the
+      weekday market posts, the indexing run, a cloud account
+      deadline that is the owner's payment decision only, and
+      domains staying parked. It proposed one coordinated
+      re-sign-in sitting as the unlock for the blocked Google
+      work. It also flagged a single pattern behind several
+      failed service charges: the payment method's available
+      funding, not separate faults; one service faces
+      suspension midweek if the owner does not fund or swap
+      the method. Nothing was paid by the agent.
+    begin: 2026-10-25 09:30:00
+    duration: { minutes: 30 }
+
+  - summary: "LHSC grants role prep updated: hybrid wording softer than first framed"
+    description: |
+      The prep brief for a grants development role closing
+      October 27 was revisited against the employer's own
+      posting: the posting supports hybrid work for roles
+      that can be done off-site, confirmed at hire, which is
+      materially softer than a full move or long commute.
+      The honest experience gap in the brief stands. The
+      owner's go or no-go on building the package is still
+      outstanding.
+    begin: 2026-10-25 11:22:00
+    duration: { minutes: 30 }
+
+  - summary: "Osmosis refund update: partial refund approved, arrival not yet verified"
+    description: |
+      The provider's support team approved a partial pro-rated
+      refund for a recent renewal, to be processed within a
+      set number of business days; its arrival has not yet
+      been verified. Parts of the escalation went unanswered,
+      and a follow-up draft is held in reserve for use only
+      if the refund has not arrived by the check date. The
+      owner's choice between accepting and replying now is
+      still outstanding; nothing was sent.
+    begin: 2026-10-25 12:08:00
+    duration: { minutes: 30 }
+
+  - summary: "Video library: hand-picked video packaged and verified"
+    description: |
+      One owner hand-picked video was packaged end to end,
+      following the one-at-a-time discipline: a real full
+      transcript was extracted via the standing route, the
+      description was saved verbatim, an abstract was written
+      from the full transcript, and every description link
+      was recorded in full. The video has no downloadable
+      files, and no blocked-source downloads were attempted.
+      Library totals were updated and the package was
+      committed and pushed.
+    begin: 2026-10-25 12:52:00
+    duration: { hours: 2 }
+
+  - summary: "Agent Google account address corrected in place and verified; runbook written"
+    description: |
+      A new agent-identity Google account had been created
+      with a misspelled address. The address was changed in
+      place to the correctly spelled version the owner chose
+      from availability-checked candidates, and verified on
+      the account's own pages; the original address is
+      retained as an alternate. At the owner's request the
+      pathway was documented as a standing runbook and pushed.
+    begin: 2026-10-25 13:29:00
+    duration: { hours: 1 }
+
+  - summary: "Agent Facebook account created; star-only avatar set on both accounts"
+    description: |
+      A new Facebook account for the agent identity was
+      created at the owner's direction; the owner entered
+      the password himself through a secure route and
+      submitted the signup during his own takeover, and the
+      logged-in state was verified. The owner then corrected
+      the profile image scope to the gold star only: an
+      approved star-only image replaced the first upload on
+      both the Google and Facebook accounts, verified live
+      on both. No password value was recorded.
+    begin: 2026-10-25 13:34:00
+    duration: { hours: 2 }
+
+  - summary: "Communications service suspension risk if payment method is not funded"
+    description: "A communications service faces suspension today if its failed payment is not resolved by the owner funding or swapping the payment method on file. No figures are listed on this public feed."
+    begin: 2026-10-28 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Osmosis refund arrival check"
+    description: "The approved partial refund should have arrived by end of day today. If it has not, a follow-up draft is already prepared and held in reserve for the owner's decision."
+    begin: 2026-11-03 09:00:00
+    duration: { minutes: 30 }
