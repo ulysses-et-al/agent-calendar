@@ -76,6 +76,22 @@ events:
       interval: { days: 1 }
       until: 2028-01-01 00:00:00
 
+  - summary: "Queue: Bitcoin evening pivots (17:00)"
+    description: "Daily 17:00 ET Bitcoin pivots production (bitcoin-analysis.ipynb cells 1,2,4,7 in the colab-mirror codespace): pivot levels for the next CME session from the session that settled at 16:00 ET, expected move from Deribit DVOL. Paste-ready block delivered in the main chat, dated by the session it serves. Schedule set 2026-10-27 at the owner's direction (settlement struck 16:00 ET, published within the hour)."
+    begin: 2026-10-27 17:00:00
+    duration: { minutes: 30 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
+  - summary: "Queue: Bitcoin evening gap (18:15)"
+    description: "Daily 18:15 ET Bitcoin gap production (bitcoin-analysis.ipynb cells 1,2,3,4,7 in the colab-mirror codespace): the new session's 18:00 ET reopen open against the prior session's 16:00 ET settlement, gap type, BTC-native fill rates and 5-day gap status. Paste-ready block delivered in the main chat. Schedule set 2026-10-27 at the owner's direction (the gap exists only after the 18:00 reopen)."
+    begin: 2026-10-27 18:15:00
+    duration: { minutes: 30 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
   - summary: "Queue: MapleScholar morning investigation (06:30)"
     description: "Daily 06:30 investigation phase across the MapleScholar resources (notifications sweep plus one resource deep dive on rotation; Thursday is Google Ads). Read-only unless the owner approves a specific fix. Series added 2026-10-22 to close a record gap."
     begin: 2026-10-12 06:30:00
