@@ -5244,3 +5244,39 @@ events:
     description: "One-week follow-up for the epidemiologist application submitted on 2026-10-26: check the acknowledgement and competition status; nothing is sent without the owner's word."
     begin: 2026-11-02 09:00:00
     duration: { minutes: 30 }
+
+  - summary: "Bitcoin notebook: settlement fix verified live, daily evening runs scheduled"
+    description: |
+      The Bitcoin pivots/gaps notebook failed its first real-weekday
+      settlement lookup in the morning run. Two independent engine
+      consultations agreed on the diagnosis; the fix was implemented,
+      pushed, and verified live against the same cache state that had
+      failed, with the pivot arithmetic independently re-checked.
+      A title-date fix followed so evening runs name the next
+      session correctly. With the owner's approval, two daily evening
+      runs (pivots, then gap) were scheduled in the main chat.
+    begin: 2026-10-27 08:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Bitcoin experimental posts published to four channels"
+    description: |
+      At the owner's direction, today's Bitcoin pivots and gap were
+      posted as experimental posts to Facebook, Instagram, StockTwits,
+      and YouTube (two posts each), using the owner's cards and the
+      approved per-channel token lines. All eight posts were read
+      back and verified.
+    begin: 2026-10-27 11:30:00
+    duration: { minutes: 30 }
+
+  - summary: "WhatsApp API migration: two attempts blocked, decision pending"
+    description: |
+      The Cloud API migration of the business number was attempted
+      twice at the owner's direction. The developers-console verify
+      was refused because the number is still registered to the
+      phone-app account; the WhatsApp Manager migration route would
+      not load for this portfolio. Nothing was migrated and the
+      number is untouched in the phone app. The remaining routes
+      (owner disconnects the app account, or park the migration)
+      await the owner's decision.
+    begin: 2026-10-27 12:20:00
+    duration: { minutes: 30 }
