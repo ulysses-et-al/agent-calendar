@@ -5280,3 +5280,84 @@ events:
       await the owner's decision.
     begin: 2026-10-27 12:20:00
     duration: { minutes: 30 }
+
+  - summary: "Record correction: password-draft precedent verified and memory corrected"
+    description: |
+      At the owner's direction the saved record was checked first
+      on a disputed practice. The record showed the practice had
+      been directed and used before, and that a later summary in
+      memory had misstated it. An independent engine consultation
+      given the same record reached the same verdict. The memory
+      summary was corrected in place. The working routes for a new
+      portal account were stated plainly to the owner.
+    begin: 2026-10-27 08:10:00
+    duration: { minutes: 30 }
+
+  - summary: "onlyspx gap: wrong numbers posted, one channel corrected, five awaiting owner decision"
+    description: |
+      The morning gap run's first delivered figures proved to be an
+      unreliable transcription; the file-verified figures differed
+      in gap size, type and open level. Posts carrying the wrong
+      figures had already gone out on six channels. The forum
+      channel post was edited in place to the corrected block and
+      independently verified. The other five posts remained live
+      with the wrong figures at wrap time, with a fix plan
+      presented and awaiting the owner's decision.
+    begin: 2026-10-27 10:44:00
+    duration: { minutes: 30 }
+
+  - summary: "Cloud billing relief case: answer received and delivered"
+    description: |
+      The provider's answer on a billing-relief case was delivered
+      to the owner with analysis: adjustment reviews are limited
+      to recent billing cycles, so the older invoices in question
+      fall outside the window. Several asks in the case remain
+      unanswered, including the post-deadline status. A follow-up
+      reply was drafted and saved; sending it needs the owner's
+      approval and no payment was authorized.
+    begin: 2026-10-27 11:54:00
+    duration: { minutes: 30 }
+
+  - summary: "LHSC grants application: package built, submission still blocked at deadline"
+    description: |
+      The tailored application package for the grants development
+      role was built, verified and shown to the owner, who directed
+      submission. The portal account already existed, but repeated
+      submission tasks stopped while waiting on the password entry
+      step. At wrap time on the closing day the application was
+      still not submitted; it is gated entirely on that entry, and
+      a fresh submission task will run the moment it is made.
+    begin: 2026-10-27 12:22:00
+    duration: { minutes: 30 }
+
+  - summary: "Deep-research marathon: package built with one lane's gap declared"
+    description: |
+      The multi-engine deep-research package was built and zipped
+      with a manifest: sixteen of twenty reports filed clean, with
+      the one outstanding lane's clean copies still missing and
+      that gap declared in the manifest rather than filled with
+      imperfect captures.
+    begin: 2026-10-27 12:55:00
+    duration: { minutes: 30 }
+
+  - summary: "Code-review triage: four automated pull requests queued for review"
+    description: |
+      Four automated pull requests landed overnight on the research
+      site and none had been reviewed. A triage order was set: a
+      claimed high-severity security fix first (diff review, then a
+      preview check), then a performance change whose matching key
+      needs checking, then two low-risk accessibility changes.
+      Nothing is to be merged on the automation's say-so.
+    begin: 2026-10-27 12:55:00
+    duration: { minutes: 15 }
+
+  - summary: "Icarus appraisal replies watch: no new reply"
+    description: |
+      The scheduled watch checked the mailbox for valuation
+      replies from the auction houses and appraiser contacted
+      earlier in the month. Only the two responses already on
+      record were found, plus the original enquiries; two parties
+      remain silent, no estimate has been received, and the watch
+      continues.
+    begin: 2026-10-27 17:00:00
+    duration: { minutes: 15 }
