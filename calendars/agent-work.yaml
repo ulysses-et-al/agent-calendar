@@ -5366,3 +5366,7 @@ events:
     description: "After a fabricated gap incident, built and tested a verification system for the two market productions: an artifact gate (numbers ship only from downloaded run-output files), an independent recomputation checker with cross-file and freshness checks wired as a hard gate into all four scheduled runs, and per-run archives. An external model was consulted on the design. End-to-end test on fresh productions passed every check."
     begin: 2026-10-27 20:00:00
     duration: { minutes: 60 }
+  - summary: "Free cross-source checks added to the verification gate"
+    description: "Built the free cross-source layer into the run checker (Deribit, CBOE/Yahoo/FRED, Yahoo intraday slicing, Coinbase) after Argon confirmed the free-only design with five adjustments; tamper tests pass. Massive remains the production data source."
+    begin: 2026-10-27 21:05:00
+    duration: { minutes: 25 }
