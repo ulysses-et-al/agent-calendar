@@ -5374,3 +5374,160 @@ events:
     description: "Implemented Argon's ES follow-up prescriptions on the owner's go: rth_bars half-open slicing fix pushed to colab-mirror (20f31d2); verify_run.py now emits SHA-256 signed bundles and emit_posts.py generates the exact post texts (byte-identical tests vs the Oct 27 production posts); blind card transcription wired into both ES jobs; Pillow deterministic card renderer built (samples rendered); GitHub Actions notebook runner committed locally, push awaiting the workflow token scope and the first run awaiting the Actions data secret. All four run jobs updated."
     begin: 2026-10-27 21:45:00
     duration: { minutes: 45 }
+  - summary: "Deterministic execution completed for emini + Bitcoin productions"
+    description: |
+      The remaining three market productions were test-fired on the
+      deterministic hosted runner and passed their verification
+      gates; Bitcoin state now persists on its own branch, dual
+      logging of the session close against the official settlement
+      is live, and all four scheduled runs were rewritten to the
+      runner route (dispatch, download artifact, gate, emit). The
+      browser-and-codespace execution path is retired.
+    begin: 2026-10-27 23:00:00
+    duration: { minutes: 60 }
+
+  - summary: "CME Bitcoin settlement confirmed for the Oct 28 session"
+    description: |
+      A live read of the exchange's published settlements confirmed
+      the settlement behind today's Bitcoin pivots and gap, removing
+      its unconfirmed label, and independently confirmed the
+      corrected prior-day anchor. A small low difference was noted
+      and explained by the exchange trade date running past the
+      settlement hour; open, high and settlement matched exactly.
+    begin: 2026-10-28 06:10:00
+    duration: { minutes: 15 }
+
+  - summary: "Card renderer rewritten left-aligned after likeness failure"
+    description: |
+      The deterministic card renderer's first version was rejected
+      by the owner: centred layout, a split session line and a
+      missing volume line failed the series continuity check. The
+      renderer was rewritten to the established left-aligned
+      geometry measured from reference cards, today's pivots card
+      and three correction cards were re-rendered from the prepared
+      texts, and all passed blind transcription checks.
+    begin: 2026-10-28 06:24:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing redo succeeded; streak ended"
+    description: |
+      With the owner-signed-in session live, the indexing redo was
+      the first successful run since Oct 18: five requests were
+      submitted and accepted, one paper failed twice on a transient
+      error and retries tomorrow, and the quota was not hit. Eleven
+      URLs remain in the discovered/crawled remainder.
+    begin: 2026-10-28 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Morning investigation redo completed; corrected record delivered"
+    description: |
+      The first fully live morning investigation since Oct 23. The
+      audience matched-size check completed: only the general
+      contacts audience is large enough to serve; the others remain
+      too small, and none is applied to a campaign. An auto-apply
+      finding was reopened on the corrected record, the platform
+      itself now flags a long-open conflicting negative decision,
+      and the corrected findings were delivered to the owner.
+    begin: 2026-10-28 07:03:00
+    duration: { minutes: 30 }
+
+  - summary: "Chat-history archive consultation: independent recommendation matched"
+    description: |
+      An independent engine was consulted on preserving the full
+      chat history from day one. Its recommendation matched the
+      agent's on every main point: keep all messages verbatim in
+      dual formats, the local database as source of truth, the
+      private repository as the versioned archive and a Drive
+      mirror, with a one-time backfill and count verification.
+    begin: 2026-10-28 07:06:00
+    duration: { minutes: 15 }
+
+  - summary: "Corrections posting run: apologies and verified levels across channels"
+    description: |
+      At the owner's direction, the correction apologies and the
+      day's verified pivots and gap were posted in strict order:
+      emini apology and pivots completed on the social and forum
+      channels, Bitcoin apology, pivots and gap completed on three
+      channels, and the day's gap completed on all six channels,
+      every post read back. On one channel image attachment is not
+      available to automation, so the emini apology went out
+      text-only by the owner's own post and the remaining image
+      posts were staged for his attach clicks, still unverified at
+      wrap time. A text-only canon breach on two Bitcoin posts was
+      caught by the owner and fixed the same day (see next entry).
+    begin: 2026-10-28 08:20:00
+    duration: { minutes: 60 }
+
+  - summary: "Facebook Bitcoin fix completed: image posts replaced text-only"
+    description: |
+      Under the owner's green light, the two Bitcoin posts that had
+      wrongly carried image cards on a text-only channel were
+      deleted and reposted text-only in the same order, verified
+      with no media attached. The one-time correction sections were
+      also removed from the remaining scheduled runs so the
+      correction is not duplicated.
+    begin: 2026-10-28 13:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Three payment failures surfaced to the owner"
+    description: |
+      Three separate payment problems were found in the day's mail
+      and delivered to the owner the same morning: a student-loan
+      servicing payment that could not be processed, a
+      communications account suspended with a cancellation deadline
+      in November, and a gym payment that did not go through.
+      Follow-up checks were booked ahead of the deadlines; no
+      payment was made by the agent.
+    begin: 2026-10-28 10:53:00
+    duration: { minutes: 15 }
+
+  - summary: "PhD dispatch: first batch sent, second batch staged"
+    description: |
+      The doctoral application dispatch package was implemented
+      from the owner's plan. The first two emails (a referee
+      request and a programme-director enquiry) were shown in full,
+      approved and sent from the owner's account, with the tracker
+      updated in both places. The next two supervisor/referee
+      drafts were staged with attachments verified, ready for the
+      owner's sign-off the following morning. One later batch
+      remains on hold per the plan.
+    begin: 2026-10-28 12:40:00
+    duration: { minutes: 30 }
+
+  - summary: "Developer tools updated and access verified"
+    description: |
+      Both command-line coding tools were updated at the owner's
+      direction and verified, with their existing sign-ins intact;
+      the owner confirmed the account in use for one of them is
+      correct. Repository access for a private project site,
+      including its deployment workflow and published page, was
+      verified as full.
+    begin: 2026-10-28 13:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Icarus appraisal replies watch: no new reply"
+    description: |
+      The scheduled watch checked the mailbox for valuation
+      replies from the auction houses and appraiser contacted
+      earlier in the month. No new replies were found; the status
+      of the earlier responses is unchanged and the watch
+      continues.
+    begin: 2026-10-28 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Family housing submission re-check"
+    description: |
+      Planned check: re-verify a family member's housing
+      submission ahead of its early-November deadline, since the
+      October upload was still unconfirmed at the last check.
+    begin: 2026-11-04 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Communications account cancellation-deadline check"
+    description: |
+      Planned check: confirm whether a suspended communications
+      account was paid and reactivated before its November
+      cancellation deadline, after which its numbers and recordings
+      would be removed.
+    begin: 2026-11-10 09:00:00
+    duration: { minutes: 15 }
