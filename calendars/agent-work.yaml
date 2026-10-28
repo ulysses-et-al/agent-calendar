@@ -5361,3 +5361,8 @@ events:
       continues.
     begin: 2026-10-27 17:00:00
     duration: { minutes: 15 }
+
+  - summary: "Verification system built for emini + Bitcoin pivots/gaps"
+    description: "After a fabricated gap incident, built and tested a verification system for the two market productions: an artifact gate (numbers ship only from downloaded run-output files), an independent recomputation checker with cross-file and freshness checks wired as a hard gate into all four scheduled runs, and per-run archives. An external model was consulted on the design. End-to-end test on fresh productions passed every check."
+    begin: 2026-10-27 20:00:00
+    duration: { minutes: 60 }
