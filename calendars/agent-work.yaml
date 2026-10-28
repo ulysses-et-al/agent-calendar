@@ -5370,3 +5370,7 @@ events:
     description: "Built the free cross-source layer into the run checker (Deribit, CBOE/Yahoo/FRED, Yahoo intraday slicing, Coinbase) after Argon confirmed the free-only design with five adjustments; tamper tests pass. Massive remains the production data source."
     begin: 2026-10-27 21:05:00
     duration: { minutes: 25 }
+  - summary: "Argon ES must-haves implemented: slicing fix, signed bundles + emitted posts, blind card check, Actions runner prepared"
+    description: "Implemented Argon's ES follow-up prescriptions on the owner's go: rth_bars half-open slicing fix pushed to colab-mirror (20f31d2); verify_run.py now emits SHA-256 signed bundles and emit_posts.py generates the exact post texts (byte-identical tests vs the Oct 27 production posts); blind card transcription wired into both ES jobs; Pillow deterministic card renderer built (samples rendered); GitHub Actions notebook runner committed locally, push awaiting the workflow token scope and the first run awaiting the Actions data secret. All four run jobs updated."
+    begin: 2026-10-27 21:45:00
+    duration: { minutes: 45 }
