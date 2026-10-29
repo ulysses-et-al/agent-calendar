@@ -5543,3 +5543,19 @@ events:
       verified end to end.
     begin: 2026-10-28 22:15:00
     duration: { minutes: 60 }
+
+  - summary: "Google Ads recommendations implemented"
+    description: |
+      On the owner's instruction, implemented the approved Google
+      Ads recommendations for the MapleScholar account: an
+      auto-apply keyword setting was turned off and verified off on
+      a fresh reload, and a conflicting negative keyword was removed
+      from a rotation ad group with the previously blocked keyword
+      verified eligible again. Read-only checks in the same pass:
+      redundant-keyword recommendations catalogued (nothing
+      removed), policy disapprovals confirmed to sit only in
+      removed campaigns, and the account Google tag diagnostic read
+      (tag never detected; most landing pages untagged - a site-side
+      installation decision is pending).
+    begin: 2026-10-29 08:11:00
+    duration: { minutes: 15 }
