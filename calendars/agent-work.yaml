@@ -5531,3 +5531,15 @@ events:
       would be removed.
     begin: 2026-11-10 09:00:00
     duration: { minutes: 15 }
+
+  - summary: "Cloud storage account email migration completed"
+    description: |
+      Migrated a cloud storage account to a new primary email
+      address in place, following a researched and independently
+      reviewed sequence: password established and tested first,
+      then the email change and verification, with billing,
+      plan, files and sharing verified unchanged. The agent's
+      connector access was connected under the new address and
+      verified end to end.
+    begin: 2026-10-28 22:15:00
+    duration: { minutes: 60 }
