@@ -5559,3 +5559,195 @@ events:
       installation decision is pending).
     begin: 2026-10-29 08:11:00
     duration: { minutes: 15 }
+
+  - summary: "CME Bitcoin settlement confirmed for the Oct 28 session"
+    description: |
+      A live read of the exchange's published settlements confirmed
+      the settlement behind today's Bitcoin pivots and gap, removing
+      its unconfirmed label; the session open, high and settlement
+      all matched the production values.
+    begin: 2026-10-29 06:09:00
+    duration: { minutes: 15 }
+
+  - summary: "Cloud storage migration: final verification closed"
+    description: |
+      The final verification of the previous night's cloud storage
+      email migration closed: sign-in with the new address completed
+      with the owner's device approval and landed in the correct
+      account, and read-only spot-checks confirmed the connected
+      apps, files, shared links and plan all intact.
+    begin: 2026-10-29 06:15:00
+    duration: { minutes: 20 }
+
+  - summary: "Market-post token audit completed across six channels"
+    description: |
+      Audited the last ten posts on each of the six market-post
+      channels against the per-channel token canon. Production posts
+      matched; the deviations found were all in hand-handled one-off
+      items from before the emitter era. A parallel check confirmed
+      the forum channel has no working token system for replies, so
+      its token-free format loses nothing. The owner directed that
+      the deviating posts be left exactly as they are.
+    begin: 2026-10-29 06:22:00
+    duration: { minutes: 40 }
+
+  - summary: "Token process fix: canon written, Bitcoin emitter completed, read-back rule set"
+    description: |
+      Fixed the root cause of the token deviations: the Bitcoin
+      emitter now generates the same per-channel post files from the
+      sealed run bundle that the emini runs already emitted, the
+      token canon is written in one file, and all four production
+      job bodies now require the token line to be read back from
+      the live post and quoted to the owner before a post counts
+      as complete. Hand-composed post texts are retired.
+    begin: 2026-10-29 07:05:00
+    duration: { minutes: 30 }
+
+  - summary: "Grant eligibility research: three funders checked on official sources"
+    description: |
+      Researched eligibility for three funders against their own
+      official pages and forms. One small-grants funder fits with a
+      confirmed November deadline and narrow exclusions that shape
+      the fundable framing; one family fund was confirmed as a
+      longer-horizon prospect; one foundation programme has no open
+      application route. The organisation's tax good standing was
+      verified on the record during the same pass.
+    begin: 2026-10-29 09:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Research package delivered as ZIP; one lane's retrieval route closed"
+    description: |
+      Delivered the built deep-research package as a ZIP in chat,
+      with the one outstanding lane's gap declared in its manifest.
+      A live check the same morning confirmed that lane's account
+      session is active, but its earlier report threads no longer
+      open, closing that clean-copy retrieval route; the remaining
+      routes were put to the owner for a decision.
+    begin: 2026-10-29 09:30:00
+    duration: { minutes: 20 }
+
+  - summary: "Payment-logo use verified: licences required, plain text only"
+    description: |
+      Verified from the two payment networks' own legal and brand
+      pages whether their logos may appear on the research site:
+      neither logo may be used without a licence; plain-text naming
+      is the only compliant route as things stand. A sourced
+      message with the exact quotations and references was prepared
+      for the owner.
+    begin: 2026-10-29 11:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Cloud company account restricted again: surfaced to the owner"
+    description: |
+      A notice found in the day's mail reported a company cloud
+      account restricted again over an unpaid balance, with the
+      amount not stated in the notice. The account hosts live
+      scheduling infrastructure. Surfaced to the owner the same
+      morning as a high-priority item with a proposed joint billing
+      sitting; nothing was paid or authorised by the agent.
+    begin: 2026-10-29 10:53:00
+    duration: { minutes: 15 }
+
+  - summary: "PhD dispatch: leads addendum processed into the plan"
+    description: |
+      Processed the owner's leads addendum into the doctoral
+      dispatch plan: three new tracker rows added locally and in
+      the shared mirror, a context paragraph inserted into a held
+      draft, and recommendations delivered. Drafts staged during
+      the pass were flagged after the owner clarified that
+      processing a document means plan integration and analysis
+      only, not execution; nothing was sent.
+    begin: 2026-10-29 13:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Office services invoice: final escalation surfaced"
+    description: |
+      A past-due office-services invoice behind the owner's standing
+      mail sign-in path reached its final escalation, with services
+      facing suspension within about a day and no record of payment
+      found. Surfaced to the owner the same day.
+    begin: 2026-10-29 13:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Site rebuild trigger quirk verified and worked around"
+    description: |
+      Verified that pushes authored by a collaborator account do
+      not trigger rebuilds of two project sites, while owner-authored
+      pushes do. Trigger commits were pushed as the owner and both
+      sites rebuilt. Repository access and automation token scopes
+      were re-verified live in the same pass.
+    begin: 2026-10-29 15:30:00
+    duration: { minutes: 20 }
+
+  - summary: "Grant application rebuilt around a grounded citation-audit project"
+    description: |
+      The first application draft, built around a workshop programme
+      the organisation has never delivered, was rejected by the
+      owner as ungrounded and superseded. A need-research pass on a
+      grounded citation-audit concept was delivered, a rebuilt
+      application draft and a decision report were written around
+      it, and the funder's current theme was confirmed on its own
+      site as a close fit. Awaiting the owner's confirmations;
+      nothing submitted ahead of the November deadline.
+    begin: 2026-10-29 16:00:00
+    duration: { minutes: 45 }
+
+  - summary: "PhD dispatch: decisions recorded, duplicate caught, duplicate-watch rule set"
+    description: |
+      Recorded the owner's dispatch decisions, including releasing
+      one held supervisor email now and treating a second university
+      as a parallel track. A mailbox check then found that one
+      addendum item presented as fresh work had already been sent
+      by the owner himself two days earlier; it was filed as sent
+      and must not be re-staged. A standing duplicate-watch rule
+      (full, partial, next-day and too-soon checks against the sent
+      record before any outreach) was set by the owner and recorded.
+    begin: 2026-10-29 16:35:00
+    duration: { minutes: 30 }
+
+  - summary: "Client booking page created on the scheduler platform"
+    description: |
+      Created and activated a construction-cleanup client's booking
+      page on the organisation's own scheduling platform, replicating
+      the established intake fields and defaults after the admin
+      duplicate action silently failed. The page logo was iterated
+      with the owner and settled on the full-bleed variant, which
+      was verified live on the public booking page.
+    begin: 2026-10-29 16:48:00
+    duration: { minutes: 45 }
+
+  - summary: "Icarus appraisal replies watch: no new reply"
+    description: |
+      The scheduled watch checked the mailbox for valuation
+      replies from the auction houses and appraiser contacted
+      earlier in the month. No new replies were found; the status
+      of the earlier responses is unchanged and the watch
+      continues.
+    begin: 2026-10-29 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "PhD dispatch: next wave due"
+    description: |
+      Planned: the next supervisor and referee emails in the
+      doctoral dispatch wave fall due today, each gated on the
+      owner's sign-off before anything is sent, with the duplicate
+      watch run against the sent record first.
+    begin: 2026-10-30 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Office services suspension check"
+    description: |
+      Planned check: confirm whether the office services behind the
+      standing mail sign-in path were suspended after the final
+      past-due escalation, or whether payment landed in time.
+    begin: 2026-10-30 09:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Doctoral funding go/no-go checkpoint"
+    description: |
+      Planned checkpoint: the owner's go/no-go decision on a
+      national doctoral funding application with a late-November
+      deadline, weighed against the application effort and the
+      absence of a confirmed supervisor so far.
+    begin: 2026-10-31 09:00:00
+    duration: { minutes: 15 }
