@@ -5751,3 +5751,150 @@ events:
       absence of a confirmed supervisor so far.
     begin: 2026-10-31 09:00:00
     duration: { minutes: 15 }
+
+  - summary: "ES gate corrected back to the approved plan; levels posted"
+    description: |
+      The morning levels gate first failed on two settlement-reference
+      checks. The owner directed verification exactly as planned days
+      earlier: levels are built from the session high, low and the
+      4:15 close, and the settlement is a log line only. The checker
+      was amended to that spec (the two settlement-reference checks
+      are now warnings recorded in the sealed bundle; the exact
+      one-minute slice, envelope and freshness checks remain hard
+      gates, and tamper controls still fail). Re-gate passed with
+      two warnings and the levels posted across five channels.
+      A consultation intended for a premium model ran on a fallback
+      model after the premium model was found to require a paid key.
+    begin: 2026-10-30 06:05:00
+    duration: { minutes: 55 }
+
+  - summary: "Bitcoin evening pair posted; deterministic card renderer built"
+    description: |
+      The previous evening's Bitcoin pivots and gap posts were
+      completed and read back live on the social, community and
+      video channels, with a new deterministic card renderer built
+      for the series and both cards passing blind read-back and
+      likeness checks. One image channel jammed repeatedly that
+      evening; its pivots post was later found live server-side,
+      while its gap post remains unposted.
+    begin: 2026-10-29 21:51:00
+    duration: { minutes: 45 }
+
+  - summary: "Site rebuild triggers pushed for collaborator updates, round one"
+    description: |
+      Collaborator commits to two project sites again did not
+      trigger rebuilds, as in the verified quirk. At the owner's
+      request, minimal trigger commits were pushed under the
+      project account for both sites so the new changes rebuild.
+    begin: 2026-10-30 08:30:00
+    duration: { minutes: 15 }
+
+  - summary: "PhD dispatch: supervisor and referee drafts prepared locally"
+    description: |
+      Two missing drafts in the doctoral dispatch wave were prepared
+      as local files only, nothing staged or sent: one supervisor
+      ask, duplicate watch clear and ready for sign-off, and one
+      referee request with two owner-only questions still open
+      (the exact permission sought, and which contact should write
+      the letter). Earlier drafts in the queue still await sign-off.
+    begin: 2026-10-30 11:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Analytics custom definitions created for year-end giving"
+    description: |
+      Custom dimensions and a donation metric for the year-end
+      giving events were created in both analytics properties,
+      where none pre-existed. No key events and no advertising
+      settings were touched. Screenshots captured in the session
+      did not come back as files; the verified definition lists
+      and counts are the delivered record, disclosed as such.
+    begin: 2026-10-30 10:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Booking-page logos matched and smoothed; swap awaiting go-ahead"
+    description: |
+      The two scheduler logo variants were matched to the same
+      size and position, and one was rebuilt as a flat field to
+      remove thin seam lines, verified row by row. The booking
+      page still carries the older upload; the swap to the
+      smoothed file awaits the owner's go-ahead.
+    begin: 2026-10-30 11:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Market gap video post completed after owner sign-in approval"
+    description: |
+      The morning gap post's video channel waited on a dropped
+      sign-in session. The owner approved the sign-in prompt on
+      his phone, the post then went up and was read back live
+      with the correct card and caption. The day's market set
+      was then complete on five channels for both posts.
+    begin: 2026-10-30 11:13:00
+    duration: { minutes: 15 }
+
+  - summary: "Second laptop access working; configuration cloned and verified"
+    description: |
+      Remote access to a second laptop was established through
+      the same private-network route as the first machine. Its
+      existing configuration file was compared by key names only
+      and found to be a subset of the main machine's file, which
+      was then cloned to the laptop's project folder at the
+      owner's direction, verified identical, and set to
+      owner-only permissions.
+    begin: 2026-10-30 12:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Social channel mute discovered; appeal sent"
+    description: |
+      A market-posting channel was found muted indefinitely
+      under its house rules, with no specific post, rule or
+      duration cited; submissions appeared accepted but were
+      not publicly visible. An owner-approved appeal was sent
+      asking for the specific rule, a review, and the posting
+      change required. That channel's leg stays held meanwhile.
+    begin: 2026-10-30 13:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Newsletter archive outreach: sent-mail census and revised draft"
+    description: |
+      At the owner's request, the sent-mail record for a
+      newsletter provider was censused, and a new archive-access
+      draft was saved, then revised at his direction to read as
+      a first contact from the new mailbox with no reference to
+      the other account. The draft remains unsent.
+    begin: 2026-10-30 15:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Site rebuild triggers pushed for collaborator updates, round two"
+    description: |
+      A second round of collaborator site updates again did not
+      trigger rebuilds. After re-checking on the owner's word
+      that one update had landed, minimal trigger commits were
+      pushed under the project account for both sites, and both
+      were reported rebuilding with the new changes included.
+    begin: 2026-10-30 15:45:00
+    duration: { minutes: 20 }
+
+  - summary: "PhD dispatch: next supervisor email due"
+    description: |
+      Planned: the next supervisor email in the doctoral dispatch
+      falls due today, gated on the owner's sign-off before
+      anything is sent, with the duplicate watch run against
+      the sent record first.
+    begin: 2026-10-31 10:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Domain renewal due for mail and storage accounts"
+    description: |
+      Planned check: a domain that now carries a cloud storage
+      account address and a mail account falls due for renewal
+      today; the owner plans to pay before it lapses.
+    begin: 2026-11-02 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "PhD dispatch: reference-request follow-up due"
+    description: |
+      Planned: if the reference request sent earlier in the
+      doctoral dispatch is still unanswered, its single
+      follow-up falls due today.
+    begin: 2026-11-04 10:00:00
+    duration: { minutes: 15 }
