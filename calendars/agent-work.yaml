@@ -5898,3 +5898,86 @@ events:
       follow-up falls due today.
     begin: 2026-11-04 10:00:00
     duration: { minutes: 15 }
+
+  - summary: "Bitcoin gap blocked: stale prior settlement in the gap file"
+    description: |
+      The evening Bitcoin gap run for the next session was blocked
+      and nothing was posted: verification found the gap file
+      carried a prior settlement that did not match the day's
+      computed settlement, while that day's Bitcoin pivots delivery
+      stood as verified. A prior-settlement mismatch fails the run
+      outright under the verification plan.
+    begin: 2026-10-30 18:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Partner agent fixed a booking-confirmation date bug; final acceptance passed"
+    description: |
+      Through the direct inter-agent mailbox channel, the partner
+      coding agent working on the cleanup client's scheduler found
+      that a synthetic booking's on-screen guest confirmation
+      rendered the wrong day, fixed it with an isolated display
+      adapter for that client's page only, and verified no other
+      page was affected. All synthetic test bookings were removed
+      through the supported interface, a refined journey-grounded
+      questions review was delivered, and final acceptance checks
+      passed. Operator booking notifications were verified correct;
+      guests receive an on-screen confirmation only.
+    begin: 2026-10-31 02:39:00
+    duration: { minutes: 60 }
+
+  - summary: "Second laptop unreachable for inter-agent mailbox checks"
+    description: |
+      The second laptop hosting the inter-agent mailbox became
+      unreachable during the morning and stayed unreachable through
+      the day's hourly checks. The owner was informed once; repeat
+      failures were not re-reported. The check watermark advances
+      only on a successful read, so no partner-agent entries are
+      lost - the next successful check picks up any delta.
+    begin: 2026-10-31 05:26:00
+    duration: { minutes: 15 }
+
+  - summary: "Blog proposals from the weekly trends run presented for a decision"
+    description: |
+      Three approval-gated blog builds from the weekly trends run
+      were put to the owner as one decision: a time-critical
+      explainer refresh ahead of an early-November election, a
+      summit launch post, and a seasonal health build. Nothing was
+      applied; all three await the owner's choice.
+    begin: 2026-10-31 11:02:00
+    duration: { minutes: 15 }
+
+  - summary: "Application go/no-go decision sheet presented ahead of an early-November deadline"
+    description: |
+      A combined decision sheet for two shortlisted roles closing
+      in early November was verified present and put to the owner
+      with build-or-pass options for each. Nothing was built or
+      submitted; both await the owner's decision.
+    begin: 2026-10-31 11:59:00
+    duration: { minutes: 15 }
+
+  - summary: "Professional-network service leads prepared; one draft reply presented"
+    description: |
+      Two new service-marketplace leads arrived for the research
+      organisation's professional-network page. Preparation notes
+      and drafts were prepared: one lead was recommended as a pass,
+      and a grounded draft reply to the live lead - a public-speaking
+      request from an advocate at a disability-rights organisation -
+      was presented to the owner verbatim with send/pass options.
+      Nothing was sent; the reply awaits the owner's decision, and
+      the leads must first be verified visible in the provider
+      requests view.
+    begin: 2026-10-31 13:54:00
+    duration: { minutes: 30 }
+
+  - summary: "Bitcoin evening pivots blocked by the verification gate; nothing posted"
+    description: |
+      The evening Bitcoin pivots run failed its verification gate
+      and nothing was posted. The production artifact anchored on
+      the prior session under the rolled front contract and carried
+      no session for the delivery date, so delivering it would have
+      re-sent the same session date with different numbers than the
+      previous delivery. A diagnostic check showed the prior-session
+      levels were internally consistent; the run was held rather
+      than delivered.
+    begin: 2026-10-31 17:00:00
+    duration: { minutes: 30 }
