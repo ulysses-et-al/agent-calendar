@@ -5981,3 +5981,182 @@ events:
       than delivered.
     begin: 2026-10-31 17:00:00
     duration: { minutes: 30 }
+
+  - summary: "Hermes chat archive failed: host unreachable, catch-up run needed"
+    description: |
+      The nightly chat archive for the previous day failed: the
+      host machine was unreachable over the secure connection on
+      all three attempts and no archive file was produced. Session
+      and message counts for that day are unknown - explicitly not
+      an empty day. An explicit catch-up run is needed once the
+      host is reachable; the next scheduled run targets the new
+      day and will not pick this one up automatically.
+    begin: 2026-11-01 00:53:00
+    duration: { minutes: 30 }
+
+  - summary: "Second laptop unreachable through the day for inter-agent mailbox checks"
+    description: |
+      Hourly inter-agent mailbox checks against the second laptop
+      failed all day with the same connection-closed signature as
+      the previous day. The check watermark advances only on a
+      successful read, so no partner-agent entries are lost - the
+      next successful check picks up any delta. The owner was
+      informed on the previous day; repeat failures were not
+      re-reported.
+    begin: 2026-11-01 00:24:00
+    duration: { minutes: 15 }
+
+  - summary: "Lead sources checked for a services client; master brief filed"
+    description: |
+      Morning session for a cleaning-services client's lead
+      work: the shared Drive folder was listed, a companion lead
+      page was verified live, and one research engine's finished
+      report was read in full - a dozen leads with several bid
+      closes in the first week of November. A shared conversation
+      link was found dead in every state, so the owner pasted the
+      master brief into chat and it was filed verbatim. An access
+      inventory was delivered correcting which accounts and
+      services are actually reachable. Two engines rank the same
+      mission differently; that difference was recorded, not
+      merged away.
+    begin: 2026-11-01 06:52:00
+    duration: { minutes: 45 }
+
+  - summary: "Contractor outreach draft presented ahead of early-November bid closes"
+    description: |
+      A draft outreach email to a contractor estimating team,
+      covering four bid closes in the first week of November, was
+      presented to the owner verbatim as it would be sent.
+      Nothing was sent. It awaits the owner's approval and the
+      signature details for the sign-off block, with a planned
+      send on the next business day if approved; it was
+      re-presented later the same day, still unanswered.
+    begin: 2026-11-01 10:15:00
+    duration: { minutes: 20 }
+
+  - summary: "Doctoral dispatch: next packet presented for one sign-off"
+    description: |
+      A mailbox check confirmed no reply to a supervisor email
+      sent the previous week, so its follow-up stands. A packet
+      of that follow-up plus two new supervisor emails, all due
+      on the same day later this week, was presented to the
+      owner verbatim for one sign-off; nothing was sent. A
+      warning was flagged with the packet: drafts staged earlier
+      for the two new emails carry superseded wording, and the
+      corrected local text must be swapped in before either
+      sends.
+    begin: 2026-11-01 11:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Application submit cutoff corrected; joint submit sitting requested"
+    description: |
+      A correction was presented on a previously shortlisted
+      public-sector application: its posted cutoff falls in the
+      first hour of its closing date, so the window effectively
+      closes the night before. The application is complete and
+      saved in the portal and was approved earlier, but two
+      submit attempts previously failed and no confirmation was
+      ever issued; its saved state has not been re-verified in
+      two days. The owner was asked to book one joint sitting
+      before the cutoff to verify the saved application, submit,
+      and capture the confirmation; no time has been picked yet.
+    begin: 2026-11-01 13:05:00
+    duration: { minutes: 20 }
+
+  - summary: "Background prep: a follow-up draft and a role prep brief prepared locally"
+    description: |
+      Two pieces of background preparation were completed and
+      reported together: a reference-request follow-up draft for
+      later this week was prepared as a local file only, and a
+      prep brief was built for the strong match from the
+      morning's job sweep, mapping its duties to the evidence on
+      record. Nothing was staged in any mailbox, built into an
+      application, or sent.
+    begin: 2026-11-01 13:05:00
+    duration: { minutes: 30 }
+
+  - summary: "Lead-intelligence Drive archive completed and verified"
+    description: |
+      A shared Drive archive for the cleaning-services client's
+      lead work was built and completed: one folder per research
+      engine, each with its input prompts and output files. Two
+      engines closed out directly - one's input was verified as
+      a single prompt with no follow-ups, and the other's report
+      was extracted in full section by section. The third
+      engine's files resisted every automated capture route and
+      were finally secured through owner downloads in the
+      taken-over browser plus a Drive upload; every file was
+      verified byte-identical against earlier copies, duplicates
+      were removed, and its full file bundle was filed unzipped.
+      A colleague's access to the shared folder was upgraded,
+      and a provenance sitemap was filed inside the archive.
+      A few related items outside the archive were left
+      untouched pending the owner's direction.
+    begin: 2026-11-01 14:35:00
+    duration: { minutes: 45 }
+
+  - summary: "Bitcoin evening pivots passed the verification gate; block delivered in chat only"
+    description: |
+      The evening Bitcoin pivots run passed its verification
+      gate in full. The session was a constructed weekend
+      session - a spot close taken as the settlement, labelled
+      as such and cross-checked against two independent sources -
+      not a futures settlement. The script-emitted block for the
+      new session was delivered in chat only; nothing was posted
+      to any external channel.
+    begin: 2026-11-01 17:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Model consolidation back-and-forth launched; working key isolated; large chunk blocked"
+    description: |
+      A consolidation of the lead archive by a frontier model
+      was launched as an explicit back-and-forth, not a one-shot
+      prompt: a multi-file package and a round-one brief were
+      built, with branding taken from the client's site repo and
+      a rule that the model inventory-confirm every document and
+      never dismiss one over formatting. The model was at first
+      blocked on every route. An owner-directed billing top-up
+      was declined on the default payment method and completed
+      on the owner-named method. Fault isolation then showed one
+      account key is blocked for this model specifically while
+      a sibling key on the same billing account generates
+      normally. A fresh round-one chat accepted the first three
+      upload chunks; the fourth failed when a single very large
+      report file pushed the conversation context very large.
+      No consolidated deliverables exist yet; a lean restart
+      that replaces the large file with its own sections is the
+      prepared fallback, and a diagnostic step was pending at
+      day's end.
+    begin: 2026-11-01 17:13:00
+    duration: { minutes: 45 }
+
+  - summary: "Planned: contractor outreach send decision"
+    description: |
+      Planned: if the owner approves the presented estimating-
+      team draft and supplies the signature details, send it
+      today ahead of the first of the week's bid closes.
+      Nothing sends without that approval.
+    begin: 2026-11-02 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Doctoral dispatch: packet due"
+    description: |
+      Planned: the packet presented on Nov 1 falls due today -
+      one supervisor follow-up and two new supervisor emails,
+      each gated on the owner's sign-off before anything is
+      sent, with the duplicate watch run first and the corrected
+      local wording swapped into the staged drafts before
+      sending.
+    begin: 2026-11-03 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Planned: joint application submit sitting before the overnight cutoff"
+    description: |
+      Planned: a joint sitting with the owner present for the
+      sign-in steps - first verify the saved application is
+      still intact in the portal, then submit and capture the
+      confirmation number. The sitting time has not been picked
+      yet; it must complete before tonight's early-hours
+      cutoff, which effectively closes the window tonight.
+    begin: 2026-11-06 09:00:00
+    duration: { minutes: 30 }
