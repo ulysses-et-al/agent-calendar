@@ -6160,3 +6160,269 @@ events:
       cutoff, which effectively closes the window tonight.
     begin: 2026-11-06 09:00:00
     duration: { minutes: 30 }
+
+  - summary: "Chat archive failed for the previous day: host unreachable, catch-ups outstanding"
+    description: |
+      The nightly chat archive for the previous day failed:
+      the host machine was unreachable on three attempts and
+      no archive file was produced, so session counts are
+      unknown and were not invented. Two days are now
+      outstanding and neither will be picked up automatically;
+      both need explicit catch-up runs once the host is
+      reachable.
+    begin: 2026-11-02 00:53:00
+    duration: { minutes: 30 }
+
+  - summary: "Services lead consolidation completed and filed"
+    description: |
+      The frontier-model consolidation of a cleaning-services
+      client's leads was completed as a guided back-and-forth:
+      every part was harvested and validated against the
+      verified source map, the final audit showed every source
+      cited exactly once with none missing or duplicated, and
+      the merged dataset and its spreadsheet version were
+      filed in shared cloud storage and verified there byte
+      for byte. An early account-route error was corrected on
+      the owner's direction: the work was moved to the
+      owner-named subscription account, where a key picker
+      that had failed on an unsettled page worked once the
+      page was fully settled first.
+    begin: 2026-11-02 05:49:00
+    duration: { minutes: 45 }
+
+  - summary: "Morning investigation and indexing both blocked on signed-out sessions"
+    description: |
+      Both morning Google-session runs were blocked: every
+      browser session was signed out, and the indexing run
+      stopped at a device-confirmation prompt under the
+      standing rule, so no requests were submitted and no
+      quota was used. The mailbox sweep in the one accessible
+      account completed clean. A single coordinated re-sign-in
+      sitting with the owner clears both runs.
+    begin: 2026-11-02 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Monday rotation review missing: no runs returned"
+    description: |
+      The weekly rotation review did not run: its tracing
+      project returned no runs at all, not even the stale run
+      it still showed the previous week, so no brief was
+      created and nothing was emailed. The last real brief on
+      record remains the previous month's. What to check is
+      the hosting project's scheduled execution and why the
+      tracing project now returns zero runs.
+    begin: 2026-11-02 07:15:00
+    duration: { minutes: 20 }
+
+  - summary: "OPS epidemiologist application: acknowledgement found, screening under way"
+    description: |
+      The acknowledgement check for the public-sector
+      epidemiologist application found the receipt
+      confirmation from the employer's careers mailbox. The
+      competition page shows the status as application
+      screening with a large applicant pool; shortlist
+      invitations are expected roughly four to six weeks after
+      the late-October close. No follow-up was sent and none
+      was scheduled, per the standing rule.
+    begin: 2026-11-02 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Cloud provider billing case on its auto-resolution track; decision pending"
+    description: |
+      A cloud provider emailed that a long-open billing case
+      had not heard back in a week, putting it on its
+      auto-resolution track with no exact closing date given.
+      A follow-up reply drafted earlier would reset the
+      customer-action clock with no payment involved; whether
+      to post it or let the case lapse is the owner's decision
+      and was still pending at day's end.
+    begin: 2026-11-02 09:19:00
+    duration: { minutes: 15 }
+
+  - summary: "Both E-mini runs gate-blocked by one anomalous cross-source bar; nothing posted"
+    description: |
+      Both E-mini productions computed successfully but were
+      blocked at the verification gate by a single anomalous
+      one-minute bar in the free cross-check source, priced
+      above that source's own full-day high; every other check
+      passed for both runs. Nothing was delivered or posted on
+      any channel, and the day was lost for that content. A
+      prepared amendment that would bound that one check by
+      the source's own full-day envelope, logging exclusions
+      as warnings while every other check stays a hard gate,
+      awaits the owner's approval and was not applied.
+    begin: 2026-11-02 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Shared maps credential inventoried and distributed"
+    description: |
+      At the owner's direction, a shared maps credential found
+      in a private project repo was inventoried - it was the
+      only credential with a value in that repo; everything
+      else there is an environment reference - and distributed
+      to the local store, a second machine's agent store, and
+      a collaborator inbox for the services work, verified by
+      hash at each destination. Credential values were never
+      printed in chat or in this record.
+    begin: 2026-11-02 10:56:00
+    duration: { minutes: 20 }
+
+  - summary: "Related credential sets merged without overwrites; storage keys rotated"
+    description: |
+      Two owner-directed credential tasks completed together:
+      missing entries from all forms of a project credential
+      file were merged into three stores, adding only what
+      each was missing, overwriting nothing, and resolving a
+      handful of conflicting values to the root file's values,
+      verified by read-back; and a cloud storage app's access
+      and refresh tokens were rotated, with the new set saved
+      in a mail draft for copy-paste replacement while the old
+      tokens were left valid and the app secret unchanged.
+    begin: 2026-11-02 11:13:00
+    duration: { minutes: 30 }
+
+  - summary: "Contractor bid-support draft advanced, still unsent"
+    description: |
+      The planned contractor outreach was not sent. Proactive
+      preparation filled the signer and contact details in the
+      draft from the client's own published materials, but the
+      send remains blocked: the client's civic mailing address
+      is nowhere in the searched record and must not be
+      invented, the owner still needs to confirm the signer,
+      and the send itself needs approval. The first of the
+      week's bid closes falls the next day.
+    begin: 2026-11-02 11:21:00
+    duration: { minutes: 20 }
+
+  - summary: "Scholar intake form updated with scheduling and upload links"
+    description: |
+      A live intake form was updated at the owner's direction
+      with wording shown and approved first: its scheduling
+      section now carries the existing consultation booking
+      link, and its upload question now carries the existing
+      file-request link. No new scheduling page or file
+      request was created - both already existed and were
+      simply wired into the form. The changes were verified
+      by re-reading the form.
+    begin: 2026-11-02 11:34:00
+    duration: { minutes: 20 }
+
+  - summary: "Dedicated maps key created for the services map app; shared key's home identified"
+    description: |
+      A dedicated maps key for the services opportunity map
+      app was created in a cloud project after enabling the
+      two map APIs it needs, restricted to those APIs and to
+      the app's own referrer domains, and filed in the local
+      store, a mail draft, and the collaborator inbox. The
+      original shared key's home was also identified - an
+      organisation project where it is unrestricted - and a
+      hardening offer was left as the owner's call. A naming
+      correction was then applied everywhere: the app is the
+      services client's build, the shared key is the
+      organisation's key, and credential stores are labelled
+      by purpose so nothing is attributed to the wrong
+      project.
+    begin: 2026-11-02 11:48:00
+    duration: { minutes: 30 }
+
+  - summary: "Doctoral reference follow-up presented for sign-off"
+    description: |
+      A reference-request follow-up due later this week under
+      the one-follow-up protocol was presented to the owner in
+      full, exactly as it would be sent. Before presenting it,
+      the mailbox was re-checked and no reply to the original
+      request had arrived, so the follow-up stands. The draft
+      remains a local file only - nothing staged, nothing
+      sent - and the owner's decision was pending.
+    begin: 2026-11-02 13:15:00
+    duration: { minutes: 20 }
+
+  - summary: "Services opportunity map app built, reviewed, and all review fixes applied"
+    description: |
+      The services client's live opportunity map app was built
+      in guided stages under the owner's subscription account
+      after an assembled one-shot build prompt and a key-based
+      route both failed to generate; generation worked only
+      under the subscription plan. All stages were verified
+      live - pins, dossiers, radius and field-radar features,
+      quick filters, import and export, the second map engine
+      after a referrer domain was added to the dedicated key,
+      and a geocoding fix that verified the full pin set. A
+      backup copy was made, a frontier-model review returned a
+      graded list of findings, and the owner directed that all
+      of them be applied in guided, audited group rounds,
+      which was done, with the live-verified and code-only
+      results reported separately. The app still runs a
+      synthetic dataset and a model-made logo; the real
+      dataset goes in through the owner or the app's new
+      paste-in import.
+    begin: 2026-11-02 15:40:00
+    duration: { minutes: 60 }
+
+  - summary: "Corporate tax account reviewed against the filed returns"
+    description: |
+      The owner shared a corporate tax account view showing a
+      balance from an earlier arbitrary assessment for years
+      whose returns had not yet been filed at assessment time.
+      Checked against the filed returns on record, every year
+      shows no tax payable, so the expected balance on
+      reassessment is nil; the assessed balance stays until
+      the relief submission already on file is processed.
+      Extracting the returns' summary pages for the tax
+      authority was offered; the owner's response was pending.
+    begin: 2026-11-02 15:43:00
+    duration: { minutes: 30 }
+
+  - summary: "Bitcoin evening pivots delivered in chat only; settlement unconfirmed"
+    description: |
+      The evening Bitcoin pivots run completed and passed its
+      checker, but its settlement came from a session close
+      proxy because the official settlement was missing in the
+      feed, so it is stamped unconfirmed pending a morning
+      confirmation check. The script-emitted block was
+      delivered in chat only; nothing was posted to any
+      external channel. The evening gap run had not yet fired
+      at wrap time.
+    begin: 2026-11-02 17:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Appraisal replies watch: no new reply"
+    description: |
+      The mailbox was checked live for replies from the
+      appraisal houses contacted in October. Only the already
+      reported replies and the owner's own enquiries were
+      found; no new reply arrived, and the stop conditions
+      for the watch were not met, so its schedule stays
+      enabled.
+    begin: 2026-11-02 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Collaborator mailbox: handover answered with the real dataset; new questions arrived"
+    description: |
+      A collaborator building a website integration for the
+      services map app was first briefed with no action
+      requested, then, after the owner instructed the
+      integration directly, was answered in the shared inbox
+      with everything asked for: the real lead dataset in two
+      formats, the review findings, and the app's display
+      option definitions and persistence model, all verified
+      on the receiving machine. The agreed data position was
+      recorded: the real dataset belongs behind the
+      authenticated portal and never in a public repository.
+      Later the same day the collaborator filed new questions,
+      including a request for a source index and a bid
+      deadline conflict between two source pages, retaining
+      the earlier, conservative cutoff pending confirmation.
+    begin: 2026-11-02 17:24:00
+    duration: { minutes: 45 }
+
+  - summary: "Planned: chat archive catch-up runs for two outstanding days"
+    description: |
+      Planned: with both tailnet machines reachable again,
+      run the explicit catch-up exports for the two chat
+      archive days that failed while the host was unreachable,
+      then commit each day and mirror it to shared storage.
+      The regular nightly run targets only the previous day,
+      so neither outstanding day is picked up automatically.
+    begin: 2026-11-03 00:53:00
+    duration: { minutes: 30 }
