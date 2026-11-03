@@ -6426,3 +6426,202 @@ events:
       so neither outstanding day is picked up automatically.
     begin: 2026-11-03 00:53:00
     duration: { minutes: 30 }
+
+  - summary: "Chat archive failed again: host unreachable, three days outstanding"
+    description: |
+      The nightly chat archive for the previous day failed
+      again: the host machine was unreachable on three
+      attempts, so no archive was created, committed or
+      mirrored, and session counts are unknown and were not
+      invented. Three archive days are now outstanding and
+      are queued for the same catch-up run once the host is
+      reachable again; the planned catch-up runs for today
+      have no completion record.
+    begin: 2026-11-03 00:53:00
+    duration: { minutes: 30 }
+
+  - summary: "Bitcoin settlements reconciled against the exchange's official tables"
+    description: |
+      The disputed Bitcoin settlements were reconciled
+      against the exchange's own official settlement tables.
+      Neither pipeline value for the previous session was
+      correct, so the cross-run gate that had blocked the
+      previous evening's gap run was correct and nothing had
+      been posted from the disputed figure. An older dispute
+      was also solved: its two values were the official
+      settlements of two different contracts. That day's
+      pivots passed their gate and were delivered in chat
+      only, held from social posting while the settlement
+      source was corrected.
+    begin: 2026-11-03 06:15:00
+    duration: { minutes: 30 }
+
+  - summary: "E-mini pivots gate-passed; posting completed on five of six channels"
+    description: |
+      The morning E-mini pivots run passed its verification
+      gate cleanly. A channel-verification pass found two
+      channels had not received the post, so each was posted
+      exactly once and read back live; the remaining channels
+      were likewise verified live with their full caption
+      lines read back, and no duplicates were found anywhere.
+      One channel remains held under its standing account
+      restriction.
+    begin: 2026-11-03 06:00:00
+    duration: { minutes: 60 }
+
+  - summary: "Morning investigation blocked on sessions; indexing retry completed"
+    description: |
+      The morning investigation found no live browser
+      sessions for the second consecutive morning and was
+      skipped rather than faked. The indexing run was first
+      blocked at a device-confirmation prompt under the
+      standing rule and submitted nothing; after the owner
+      restored the session, a retry the same morning
+      submitted and had accepted five indexing requests, with
+      one remaining workable page failing twice on a
+      transient error - not a quota limit - and the rest of
+      the list owner-excluded.
+    begin: 2026-11-03 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Doctoral sent-record verification: one send confirmed, one claim retracted"
+    description: |
+      At the owner's direction, claims that the owner had
+      sent doctoral outreach himself were checked against
+      the Sent folders before being believed. One earlier
+      supervisor email was confirmed there, sent as a reply
+      in an older thread with both attachments present. A
+      second claimed send was not found in any searchable
+      account, so that claim was retracted as unverified,
+      the tracker and person record were corrected, and the
+      item returned to the outstanding list. A two-week
+      doctoral review was then delivered from the corrected
+      record.
+    begin: 2026-11-03 07:15:00
+    duration: { minutes: 20 }
+
+  - summary: "Doctoral dispatch Wave 1 sent: five supervisor emails, scope narrowed"
+    description: |
+      The owner narrowed the dispatch wave to a single
+      university track only, parking the second university
+      track entirely, and directed the five supervisor
+      emails in that wave be sent now. All five were shown
+      in full, approved, and sent from the owner's account
+      with the application documents attached, and the
+      tracker was updated with their follow-up dates under
+      the one-follow-up protocol; one follow-up was later
+      cancelled when that track's intake form barred
+      follow-up emails (see the intake survey entry).
+    begin: 2026-11-03 09:00:00
+    duration: { minutes: 45 }
+
+  - summary: "E-mini opening gap gate-passed; three channels live, two legs unposted"
+    description: |
+      The market-open gap report passed its verification
+      gate cleanly and was posted and verified on the
+      discussion thread, and its social image and text legs
+      were posted exactly once from the script-emitted files
+      with duplicate checks first and live read-backs. The
+      remaining two channels were never posted: the browser
+      holding them died at a verification-code step while
+      waiting for the owner's code, with nothing half-posted
+      and no duplicates; relaunching them requires the owner
+      standing by for a fresh prompt. One channel remains
+      held under its standing restriction.
+    begin: 2026-11-03 09:45:00
+    duration: { minutes: 60 }
+
+  - summary: "Saved application: joint submit sitting decision put to the owner"
+    description: |
+      The owner was reminded proactively that an approved
+      public-sector application, complete and saved in its
+      portal, has never been submitted, and that its cutoff
+      falls at the end of this week, the night before a test
+      day. He was asked to pick one of two evenings for the
+      joint submit sitting, at which he must be present for
+      the sign-in steps and the saved application's
+      intactness is re-verified first. No pick was recorded
+      by day's end.
+    begin: 2026-11-03 11:22:00
+    duration: { minutes: 15 }
+
+  - summary: "Doctoral intake survey submitted by the owner"
+    description: |
+      One supervisor replied with a standing auto-reply
+      directing applicants to an expression-of-interest
+      survey, making the survey that track's required intake
+      step and cancelling its follow-up email. The applicant
+      record was refurbished from primary documents on file,
+      both document links in the form were verified public,
+      and the open flags were each verified against their
+      sources. The agent filled the live form with the
+      owner's own reviewed answers and stopped before the
+      submit button; the owner checked the filled form and
+      submitted it himself.
+    begin: 2026-11-03 13:05:00
+    duration: { minutes: 30 }
+
+  - summary: "Contractor bid-support email sent ahead of the first bid close"
+    description: |
+      The bid-support email for a services contractor was
+      sent from the owner's account, covering all four of
+      this week's bid closes and arriving ahead of the first
+      close that afternoon. The owner reversed his morning
+      position on the sign-off during the day, and the email
+      went exactly as last shown to him before his go, with
+      the sign-off details he finally directed.
+    begin: 2026-11-03 13:12:00
+    duration: { minutes: 15 }
+
+  - summary: "Frontier-model settlement recommendations implemented for Bitcoin runs"
+    description: |
+      After earlier attempts in the day failed on a stale
+      session that displayed as signed in, the standing
+      frontier-model thread for the market verification work
+      was consulted again as a back-and-forth, with the
+      owner completing the sign-in himself. Its
+      recommendations were approved by the owner and fully
+      implemented the same afternoon: weekday settlements
+      come only from the session bar's own settlement field,
+      retried inside the run and then the run blocks, with
+      no close-proxy or snapshot fallback; the gap run reads
+      only the settlement the pivots locked in; the session
+      cutoff was fixed; a cache guard prevents a
+      settlement-less fresh row overwriting a cached row
+      that has one; and the pivots schedule moved later in
+      the evening, with the calendar's recurring event
+      updated to match. One basis-distortion observation was
+      left inspection-only, with no fix prescribed. A saved
+      credential that was rejected during the sign-in was
+      reported to the owner in the moment, and updating it
+      remains an open item.
+    begin: 2026-11-03 14:40:00
+    duration: { minutes: 45 }
+
+  - summary: "Bitcoin pivots: first run under the new settlement policy"
+    description: |
+      The evening Bitcoin pivots run was the first under the
+      settlement policy implemented that afternoon: its
+      anchor settlement came from the aggregate settlement
+      field itself, with no proxy used, its checker passed
+      cleanly, and the paste-ready block for the next session
+      was delivered in chat only.
+    begin: 2026-11-03 17:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Planned: doctoral dispatch Wave 2 ready for one sign-off"
+    description: |
+      Planned: the next doctoral dispatch wave stands ready
+      for the owner's sign-off tomorrow - the single
+      permitted follow-up to an earlier supervisor request,
+      a referee ask whose earlier contact was checked and
+      found to have been on a social platform only, and a
+      new introduction to a research lab, drafted after a
+      mailbox check confirmed no prior email contact, so it
+      is a clean first contact that openly names the separate
+      supervision ask. A separate organisational referee item
+      was unblocked when the owner decided to ask both
+      referees; its specific paper and permission ask remains
+      open. Nothing in this wave sends without sign-off.
+    begin: 2026-11-04 09:00:00
+    duration: { minutes: 30 }
