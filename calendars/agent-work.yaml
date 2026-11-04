@@ -6678,3 +6678,333 @@ events:
       mapped, so the five FAQs were shortened to fit.
     begin: 2026-11-04 06:09:00
     duration: { minutes: 30 }
+
+  - summary: "Bitcoin posting completed for the next session"
+    description: |
+      Late in the evening, on the owner's go, the Bitcoin
+      pivots and gap blocks for the next session were posted
+      after their gates were re-verified in-session: both
+      blocks live on the three image/text channels used for
+      this series, each read back live with its full token
+      line quoted to the owner. One channel was held under
+      its standing restriction.
+    begin: 2026-11-03 23:36:00
+    duration: { minutes: 15 }
+
+  - summary: "Nightly chat archive failed again: host unreachable, backlog grows"
+    description: |
+      The nightly chat archive for the previous day failed:
+      the source host was unreachable on all spaced attempts
+      and no archive was produced. Counts for the day are
+      unknown and were not invented. The catch-up backlog
+      now stands at four days, all outstanding until the
+      host is reachable again.
+    begin: 2026-11-04 00:53:00
+    duration: { minutes: 30 }
+
+  - summary: "Morning investigation completed: performance day"
+    description: |
+      The morning investigation completed as a performance
+      check day: the main and Pro sessions were live again
+      after two blocked mornings, the in-product sweep was
+      verified unchanged, and field performance on the home
+      and hub pages was measured, with some measures
+      worsening. A re-run for several paper pages with full
+      addresses is owed.
+    begin: 2026-11-04 06:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Search Console indexing: six requests accepted"
+    description: |
+      The daily indexing run submitted six requests, all
+      accepted, with no quota hit. One long-failing page was
+      accepted on the first attempt for the first time in
+      over two weeks; one other page took its latest accepted
+      request and is still not indexed. Eleven URLs remain
+      across the two working lists.
+    begin: 2026-11-04 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Upwork listing: owner summary and adjusted gallery live"
+    description: |
+      The owner's own replacement summary for the AI
+      Visibility listing was saved verbatim, cleared
+      re-review, and is now live on the public page. The
+      gallery was replaced with designed cards, then rebuilt
+      at a reduced scale anchored to the top of the frame
+      after the owner flagged the cover being cut off, and
+      swapped in live. Open item: the owner still sees the
+      cover cut off on his phone, while the file the platform
+      actually serves was downloaded and verified complete;
+      a fresh-view test or a fresh screenshot from his phone
+      is the next evidence.
+    begin: 2026-11-04 07:59:00
+    duration: { minutes: 60 }
+
+  - summary: "Doctoral reply check: one supervisor decline, track closed"
+    description: |
+      A mailbox check for replies to the first dispatch wave
+      found one substantive reply: a supervisor is not
+      accepting new students. That track is closed and its
+      planned follow-up is cancelled. The other first-wave
+      supervisors were still silent at one day out; their
+      follow-ups remain due next week. One track remains
+      survey-only, with no follow-up permitted.
+    begin: 2026-11-04 08:28:00
+    duration: { minutes: 15 }
+
+  - summary: "Family housing re-check: submission still unconfirmed"
+    description: |
+      The pre-deadline re-check found no confirmation from
+      the housing portal, the platform, or the council since
+      the October upload. The submission remains unconfirmed
+      and the final submit step in the portal still needs
+      pressing before the deadline later this week; a
+      previous application was closed for missing documents,
+      so the risk is real. Nothing was sent or changed.
+    begin: 2026-11-04 09:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Refund arrival check completed: refund arrived, check closed"
+    description: |
+      The one-off arrival check for an approved partial
+      refund found the bank credit: the exact approved
+      amount arrived by the original payment route the day
+      after approval, in October. No separate refund-issued
+      notice existed; the bank credit is the arrival
+      evidence. The held follow-up draft was not sent and
+      this check is closed.
+    begin: 2026-11-04 09:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Doctoral dispatch Wave 2 sent and verified in Sent"
+    description: |
+      On the owner's go, all three Wave 2 sends went from
+      the owner's account and were verified in Sent: a
+      referee ask with documents attached, the single
+      permitted follow-up to an earlier reference request
+      (sent only after a re-check confirmed no reply), and a
+      research-lab introduction with a CV attached. A stale
+      duplicate draft of the referee ask was removed and
+      verified gone. A separate organisational outreach item
+      was put on hold by the owner until good leads firm up.
+    begin: 2026-11-04 09:18:00
+    duration: { minutes: 30 }
+
+  - summary: "E-mini gap: emitter crash fixed, run completed on all live channels"
+    description: |
+      The opening gap run passed its verification gate and
+      sealed its bundle, but the post emitter crashed on a
+      case it had never met: the open sat above every pivot
+      level. The emitter was fixed for the one-sided case
+      and the posts were re-emitted from the sealed bundle
+      without re-running the workflow. The completed gap
+      was then posted and read back on all five live
+      channels; one channel was held under its restriction.
+    begin: 2026-11-04 09:45:00
+    duration: { minutes: 90 }
+
+  - summary: "Channel monitor: one new video identified, treatment blocked"
+    description: |
+      The video channel monitor found exactly one new video,
+      uploaded the previous day and in no existing package.
+      Its full treatment is blocked: the transcript route
+      runs through a host that was unreachable all day, and
+      the direct route is blocked from this machine. The
+      video's description and its verified downloadable
+      files are staged, the package is unchanged, and the
+      next successful run will complete the treatment.
+    begin: 2026-11-04 10:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Family membership deadline update: payment window closes this week"
+    description: |
+      A fresh notice for a family member's membership gave a
+      short payment window closing at the end of this week,
+      and two contribution notices named exact per-member
+      amounts for the first time. An updated action sheet
+      was prepared with a draft asking for a full itemised
+      total before anything is paid. Nothing has been sent
+      or paid.
+    begin: 2026-11-04 10:54:00
+    duration: { minutes: 20 }
+
+  - summary: "Maps nonprofit credits recovered: closed billing account reopened"
+    description: |
+      Email records proved a monthly nonprofit Maps credit
+      had been granted in March and lost when its billing
+      account was terminated over a missing payment
+      instrument. The closed account was reopened self-serve
+      with nothing due, and the credit was verified back in
+      place for its remaining term. A duplicate credits
+      application filed the same day was withdrawn by reply,
+      and its address-amendment case closed as moot; the
+      provider's closure confirmations are still pending.
+    begin: 2026-11-04 11:52:00
+    duration: { minutes: 30 }
+
+  - summary: "Earth mapping app installed and verified on this machine"
+    description: |
+      The desktop Earth application was installed from the
+      official package, verified on the system, and
+      smoke-tested launching cleanly under a virtual
+      display. It is a free desktop app and does not draw
+      on the Maps credit. A placemark file for all the
+      services leads was built alongside it.
+    begin: 2026-11-04 11:47:00
+    duration: { minutes: 20 }
+
+  - summary: "All Maps projects relinked onto the recovered credit account"
+    description: |
+      Every project that uses Maps - the services map
+      project, the shared-key project identified by
+      elimination and the record, and a lead-imagery project
+      found already linked - was relinked to the reopened
+      credit account and verified. Five projects now sit on
+      that account, so Maps usage draws on the monthly
+      nonprofit credit first for its remaining term. No
+      charge was made for either change.
+    begin: 2026-11-04 12:18:00
+    duration: { minutes: 20 }
+
+  - summary: "New collection notice surfaced: verification first, nothing paid"
+    description: |
+      A new collection notice arrived about a bank account.
+      It does not match the earlier notice on record - the
+      details differ markedly - so it may be a separate
+      account, an aggregate, or an error. It was surfaced to
+      the owner with the recommendation to verify which
+      account it concerns and obtain an itemised breakdown
+      before any payment discussion. Nothing was paid or
+      contacted, and no decision is recorded yet.
+    begin: 2026-11-04 13:16:00
+    duration: { minutes: 15 }
+
+  - summary: "Services lead imagery fetch completed for all sites"
+    description: |
+      Satellite views were fetched for every one of the
+      services leads and ground-level street views for most
+      of them, billed against the recovered Maps credit at
+      small cost. A full-resolution pack with all images, a
+      manifest tying each lead to its files, the placemark
+      file and per-site links was delivered. Earlier attempts
+      to precompute imagery dates from free satellite
+      catalogues failed from this network and were not
+      presented as data.
+    begin: 2026-11-04 13:26:00
+    duration: { minutes: 30 }
+
+  - summary: "Doctoral delivery correction: lab introduction bounced"
+    description: |
+      Delivery checking - beyond the Sent folder - found
+      the Wave 2 lab introduction had bounced minutes after
+      sending: the address does not exist, so the lab never
+      received it. Its planned follow-up is cancelled. The
+      other two Wave 2 sends have no bounce notices and
+      stand as delivered. The tracker was corrected and
+      resend options were put to the owner.
+    begin: 2026-11-04 13:45:00
+    duration: { minutes: 15 }
+
+  - summary: "Lab introduction resent to the supervisor's own address; delivery stands"
+    description: |
+      On the owner's choice, the lab introduction and CV
+      were resent to the supervisor's own published address.
+      A first attempt's approval expired with nothing sent
+      (verified); the owner then directed the send and it
+      went, with no bounce following, so delivery stands and
+      one follow-up is due next week if there is silence. An
+      auto-reply on that thread says the supervisor is not
+      currently accepting graduate students, which concerns
+      the separate supervision ask; its planned follow-up
+      needs the owner's reconsideration.
+    begin: 2026-11-04 15:28:00
+    duration: { minutes: 20 }
+
+  - summary: "Doctoral dispatch Wave 3 sent: three Tier-2 supervision asks"
+    description: |
+      Three Tier-2 supervision asks, promoted the same day
+      after a clarification that the earlier sequencing was
+      the agent's own choice and not an institutional rule,
+      were drafted, approved by the owner, sent with CV and
+      research statement, verified in Sent, and bounce-
+      checked clean. Follow-ups fall due next week if they
+      stay silent. One ask drew an auto-reply pointing to an
+      intake form gated to a specific topic area; that
+      follow-up is on hold pending the owner's decision.
+    begin: 2026-11-04 15:51:00
+    duration: { minutes: 30 }
+
+  - summary: "Upwork freelancer profile overhaul completed and verified"
+    description: |
+      The owner's freelancer profile was overhauled from his
+      own resume and cover-letter masters and verified by a
+      public read-back: title, rate (owner-approved),
+      overview, experience level and languages corrected;
+      education entries fixed; recent employment added; a
+      certification saved. A spelling error in an older
+      employment entry was then fixed on the owner's
+      approval and verified. Still open: one certificate
+      entry needs its exact issue date from the owner.
+    begin: 2026-11-04 16:47:00
+    duration: { minutes: 45 }
+
+  - summary: "Supervisor intake form loaded for the owner's own review, not submitted"
+    description: |
+      Tailored documents for the gated intake form were
+      rebuilt in the house style and shared with link access
+      verified. At the owner's direction the form was then
+      filled with his prepared answers and every field read
+      back verbatim; the form sets no length limits. The
+      submit button was not pressed: the filled form stays
+      open for the owner's own review and decision, and the
+      related email follow-up remains on hold.
+    begin: 2026-11-04 17:34:00
+    duration: { minutes: 20 }
+
+  - summary: "Planned: family deadlines day - housing submit step and membership window"
+    description: |
+      Planned: two family deadlines land today - the housing
+      submission's final submit step must be pressed before
+      its deadline, and a membership payment window closes
+      this evening. Both were flagged in advance with their
+      contact routes; nothing is to be sent or paid without
+      the owner's word.
+    begin: 2026-11-06 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Planned: preparatory tests in Montreal; slot time still unconfirmed"
+    description: |
+      Planned: preparatory tests for a training programme
+      take place today in Montreal. The preferred morning
+      slot was a preference only, not an assignment; no
+      slot-assignment email had arrived at the last check,
+      and the organiser is to be contacted the evening
+      before if it still has not come. Identity and
+      education documents are to be brought.
+    begin: 2026-11-07 09:00:00
+    duration: { minutes: 60 }
+
+  - summary: "Planned: doctoral first-wave follow-ups due"
+    description: |
+      Planned: the single follow-ups for the still-silent
+      first-wave supervision asks fall due today. Exceptions
+      already settled: one track is closed after a decline,
+      one track is survey-only with no follow-up permitted,
+      and one supervision follow-up needs the owner's
+      reconsideration after an auto-reply said the
+      supervisor is not accepting graduate students.
+    begin: 2026-11-10 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Planned: doctoral Wave 2 and Wave 3 follow-ups due"
+    description: |
+      Planned: the single follow-ups fall due today for the
+      Wave 2 referee ask and the resent lab introduction,
+      and for two of the three Wave 3 supervision asks, if
+      they stay silent. One Wave 3 follow-up is on hold
+      pending the owner's decision on a gated intake form,
+      and the Wave 2 reference follow-up was already used
+      and permits no second follow-up.
+    begin: 2026-11-11 09:00:00
+    duration: { minutes: 30 }
