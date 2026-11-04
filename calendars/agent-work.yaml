@@ -6662,3 +6662,19 @@ events:
       decide on posting.
     begin: 2026-11-04 02:15:00
     duration: { minutes: 20 }
+
+  - summary: "Upwork AI Visibility offer submitted and approved live"
+    description: |
+      The AI Visibility Project Catalog offer was created on
+      the owner's Upwork freelancer account from the verified
+      form-aligned draft: title, three tiers, three custom
+      add-ons, three gallery slides, eight client
+      requirements, five work steps, five FAQs and the
+      description summary. Upwork approved it on submission
+      and it is live and visible. Two form-forced changes
+      were reported to the owner: custom add-ons are capped
+      at three (the 90-day re-audit add-on could not be
+      added), and the live FAQ limits were tighter than
+      mapped, so the five FAQs were shortened to fit.
+    begin: 2026-11-04 06:09:00
+    duration: { minutes: 30 }
