@@ -6625,3 +6625,22 @@ events:
       open. Nothing in this wave sends without sign-off.
     begin: 2026-11-04 09:00:00
     duration: { minutes: 30 }
+
+  - summary: "First chat scrape completed: shared Claude conversation archived"
+    description: |
+      The first full chat scrape under the owner-set method
+      (per-message Copy controls, top to bottom, read-only;
+      never Edit or Rerun) is complete: the whole shared
+      conversation was captured - every message and every
+      attachment, verbatim - assembled into a transcript
+      with stable anchors plus a JSON manifest mapping each
+      attachment to its message, verified hash-by-hash
+      against the staged captures, and uploaded to the
+      chat-archives Drive folder. All attachments are
+      extracted text from their previews; the share page
+      offers no binary downloads. Known source limits are
+      flagged in the archive notes (interactive question
+      widgets are not copyable text; two messages discuss
+      uploads the share snapshot does not render).
+    begin: 2026-11-04 01:53:00
+    duration: { minutes: 120 }
