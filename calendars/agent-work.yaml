@@ -7008,3 +7008,293 @@ events:
       and permits no second follow-up.
     begin: 2026-11-11 09:00:00
     duration: { minutes: 30 }
+
+  - summary: "Supervisor intake form confirmed submitted"
+    description: |
+      Reopening the gated intake form returned its survey-
+      taken page, confirming the form was submitted with the
+      owner's chosen answers and documents. The planned
+      email follow-up for that ask was cancelled at the
+      owner's direction: the submitted form is the only live
+      thread, with no further contact unless there is a
+      response or the owner directs it.
+    begin: 2026-11-04 21:54:00
+    duration: { minutes: 15 }
+
+  - summary: "Nightly chat archive failed again: host unreachable, backlog grows"
+    description: |
+      The nightly chat archive failed again: the host was
+      unreachable on three spaced attempts, so the day's
+      sessions are unknown rather than absent. Catch-up runs
+      for four earlier days are also still outstanding, so
+      five days are now awaiting a reachable host.
+    begin: 2026-11-05 00:53:00
+    duration: { minutes: 20 }
+
+  - summary: "Corporate payroll account identified; annual letter unread"
+    description: |
+      A notification showed a corporate payroll program
+      account distinct from the known corporate tax account,
+      classified as a quarterly remitter. Its annual schedule
+      letter sits unread in the business account mail; it is
+      a routine letter, not an assessment. Reading it needs
+      a joint sign-in sitting; nothing was paid or replied.
+    begin: 2026-11-05 05:24:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin posting completed for today's session on all live channels"
+    description: |
+      On the owner's direction, both Bitcoin blocks for
+      today's session (pivots and gap) were posted live and
+      read back on all three live channels, with the full
+      per-channel lines quoted to the owner. One channel was
+      held under its standing restriction. The pivots block
+      had first been re-verified and re-emitted after the
+      gap run overwrote the shared bundle.
+    begin: 2026-11-05 06:07:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing queue completed: no eligible URLs remain"
+    description: |
+      A manual re-run after the scheduled run blocked on a
+      sign-in challenge succeeded: the last eligible paper
+      page was inspected and its indexing request confirmed.
+      The remaining rows are all in the class the owner
+      excluded by standing decision, so zero eligible URLs
+      remain. Whether to retire the daily run or keep it as
+      a watch is the owner's open decision.
+    begin: 2026-11-05 06:58:00
+    duration: { minutes: 30 }
+
+  - summary: "Learning programme mapped and studied; profile update drafted, not posted"
+    description: |
+      A partner learning programme was mapped against the
+      posted freelance profile: the free written curriculum
+      was inventoried and tagged by overlap, and most of the
+      high-overlap modules were studied from the written
+      docs; two video-only modules remain unstudied. The
+      actual credential comes only from a live bootcamp with
+      no dated cohort currently offered. A profile update
+      draft grounded in the study was prepared for the
+      owner's review; nothing was posted or enrolled.
+    begin: 2026-11-05 07:27:00
+    duration: { minutes: 45 }
+
+  - summary: "Cloud account access check: no working access held for the suspended account"
+    description: |
+      Asked whether agent access exists to a suspended
+      research cloud account, the check found no saved
+      profile or command tooling for it, and the only key
+      pair held locally was tested and rejected outright; it
+      was never established as that account's key. Viewing
+      the account's inventory requires a joint console
+      sitting with the owner signing in, or a new access key
+      created by the owner.
+    begin: 2026-11-05 07:40:00
+    duration: { minutes: 20 }
+
+  - summary: "Second freelance platform: login saved, account survey blocked and parked"
+    description: |
+      A login for a second freelance platform was saved at
+      the owner's request. The account survey was blocked at
+      a new-device verification step, and later retries with
+      the saved login were rejected, so work stopped rather
+      than risk a lockout. No account data was observed and
+      nothing on the account was touched; the survey resumes
+      only after the login is re-saved correctly.
+    begin: 2026-11-05 08:19:00
+    duration: { minutes: 20 }
+
+  - summary: "Freelancer plan upgraded by the owner and verified active; first sweep delivered"
+    description: |
+      The owner upgraded his freelancer account to its paid
+      plan; the plan was verified active for its first cycle
+      and its credit balance landed. Saved job searches were
+      created across his service areas and a first sweep
+      delivered a shortlist of verified fits. No proposals
+      were sent; the picks are the owner's.
+    begin: 2026-11-05 08:36:00
+    duration: { minutes: 30 }
+
+  - summary: "Professional-network trial reminders delivered; keep-or-cancel decision still open"
+    description: |
+      Reminders were delivered for two professional-network
+      premium trials, both renewing on Nov 8. The owner
+      acknowledged the reminder, then redirected to other
+      work before any cancellation step, so neither trial
+      has been cancelled and the keep-or-cancel decision
+      remains open ahead of the renewals.
+    begin: 2026-11-05 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Pro account sign-in completed: Saturday session block cleared"
+    description: |
+      A coordinated sign-in restored the Pro account session
+      that had gone stale, clearing the block flagged for
+      Saturday's scheduled run. A reconstruction question
+      sent just before the owner's redirect to a different
+      reviewer was disclosed plainly, and its answer is not
+      being used for that work.
+    begin: 2026-11-05 09:41:00
+    duration: { minutes: 20 }
+
+  - summary: "E-mini social posting completed for today on all live channels"
+    description: |
+      On the owner's direction, both of today's E-mini
+      pieces (pivots and gap) were posted to all five live
+      channels and read back with their full per-channel
+      lines quoted to the owner; the forum channel already
+      carried both pieces. One channel was held under its
+      standing restriction. Today's market work is fully
+      posted, with nothing outstanding.
+    begin: 2026-11-05 10:37:00
+    duration: { minutes: 45 }
+
+  - summary: "AI visibility focus set to one service domain; evidence figures verified verbatim"
+    description: |
+      The owner set the immediate focus to AI visibility and
+      one service domain, with everything shared for it to be
+      processed in parallel with the command-line reviewer.
+      The domain template and career masters were processed;
+      the reviewer corrupted the template's budget tiers
+      twice, was formally corrected on the record, and the
+      consolidated highlight carries only figures verified
+      verbatim against the source file.
+    begin: 2026-11-05 12:50:00
+    duration: { minutes: 30 }
+
+  - summary: "AI visibility methodology consolidated; rebuilt proposals presented, nothing sent"
+    description: |
+      The full service blueprint and clean offer process
+      were assembled from the record: the consensus account
+      of how AI answers are produced, the owner's in-house
+      findings, the priorities diagnostic, and the two
+      parallel delivery paths, including a full read of both
+      path documents. Two invented claims found in drafts
+      were struck. Rebuilt proposals for the two focus jobs
+      were presented in full for the owner's review; nothing
+      was sent and a third proposal is parked for later.
+    begin: 2026-11-05 14:04:00
+    duration: { minutes: 45 }
+
+  - summary: "Identification search for a Montreal project manager: claim unsupported, still unresolved"
+    description: |
+      An externally supplied analysis linking a heard name
+      to a hospital modernisation project was checked
+      against the record and online: no supporting evidence
+      was found for any spelling. The owner corrected the
+      name, further rounds found only a closest-match
+      candidate with no link to the project, and no
+      identification is confirmed. The search awaits a
+      concrete anchor from the owner.
+    begin: 2026-11-05 14:29:00
+    duration: { minutes: 30 }
+
+  - summary: "Saved job application submission session ended in error; still unsubmitted"
+    description: |
+      The owner chose tonight for the joint submit sitting
+      for a saved, approved job application. The portal
+      browser session ended with an error at the sign-in
+      step and no submission confirmation ever arrived, so
+      the application remains saved and unsubmitted. The
+      portal cutoff is early on Nov 7; a fresh relaunch
+      sitting was offered and awaits the owner's word.
+    begin: 2026-11-05 14:28:00
+    duration: { minutes: 20 }
+
+  - summary: "Collaborator mailbox: new topic created; real calibration matrix located in the local checkout"
+    description: |
+      A new mailbox topic was created for the calibration
+      project at the owner's direction. The collaborator's
+      first reply located the real calibration matrix in the
+      local checkout on his machine, ahead of the shared
+      repository, which does not contain it at all: a route
+      calibration that selects verified pathways per city
+      and surface before any real client query is spent.
+    begin: 2026-11-05 14:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Collaborator deliveries: most-recent matrix files and confirmation logs received"
+    description: |
+      Follow-up deliveries arrived for the calibration
+      project: the most-recent matrix files and the
+      confirmation logs and outputs inventory, both
+      hash-verified and spot-checked. A key finding is that
+      no single owner-designated universal latest
+      specification exists; the latest saved instance is a
+      bounded diagnostic, not a production run. Designating
+      the local checkout as the master copy remains the
+      owner's decision.
+    begin: 2026-11-05 15:06:00
+    duration: { minutes: 30 }
+
+  - summary: "Email outage diagnosed and confirmed: DNS in a suspended account; decision paused"
+    description: |
+      Inbound mail for one domain was confirmed down at the
+      DNS layer: its zones sit in a cloud account suspended
+      the previous afternoon, minutes after the last mail
+      arrived, while sending still works. The mailbox
+      provider account was verified directly as active and
+      paid, and its console flags the mail records as missing
+      only because it reads the unserved DNS. Moving the DNS
+      to the provider that already serves the other domain
+      was presented as an option; the owner paused the
+      decision and nothing was changed.
+    begin: 2026-11-05 15:16:00
+    duration: { minutes: 45 }
+
+  - summary: "Geography term verdicts delivered: two different quantities kept apart"
+    description: |
+      The collaborator's dedicated reply separated the two
+      quantities behind a remembered radius term: an
+      exit-side distance from the intended market to the
+      witnessed exit location, judged against configured
+      city and region radii, and an incoming-side timing
+      bound whose final determination rejected it as proof
+      of location. One proposed mechanism is genuinely
+      documented in the project's records; the other appears
+      only as false positives. A final follow-up question
+      remains outstanding.
+    begin: 2026-11-05 15:43:00
+    duration: { minutes: 30 }
+
+  - summary: "New subscription invoice declined overnight; nothing paid"
+    description: |
+      A new subscription invoice due today was declined
+      overnight because the payment balance was short; it is
+      separate from an older invoice already at final
+      escalation. Nothing had been paid on it at the time of
+      the report.
+    begin: 2026-11-05 13:54:00
+    duration: { minutes: 15 }
+
+  - summary: "Collaborator host closed by the owner; one follow-up pickup pending its return"
+    description: |
+      The owner closed his laptop to go home, which took the
+      collaborator mailbox offline from mid-afternoon; the
+      later unreachable checks are that closure, not a fault.
+      One collaborator answer - whether a past discussion
+      covered a network path and a likely radius - could not
+      be picked up and remains outstanding until the machine
+      is back on.
+    begin: 2026-11-05 17:06:00
+    duration: { minutes: 15 }
+
+  - summary: "Planned: evening-before reminder for the Montreal test day"
+    description: |
+      Planned: the evening before the preparatory test day
+      in Montreal, check email for a slot assignment and
+      remind the owner to bring identity and supporting
+      documents. The preferred morning slot was a preference
+      only, not an assignment.
+    begin: 2026-11-06 19:47:00
+    duration: { minutes: 15 }
+
+  - summary: "Planned: inbox check for the training programme team reply"
+    description: |
+      Planned: search the owner's inbox for the training
+      programme team's reply and report what it says on
+      eligibility, interview, or document requests. No
+      contact with the team is authorised.
+    begin: 2026-11-16 09:47:00
+    duration: { minutes: 15 }
