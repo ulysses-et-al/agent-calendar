@@ -7298,3 +7298,361 @@ events:
       contact with the team is authorised.
     begin: 2026-11-16 09:47:00
     duration: { minutes: 15 }
+
+  - summary: "Nightly chat archive failed again; host unreachable, backlog now six days"
+    description: |
+      The nightly archive for the previous day's
+      conversations failed on all attempts because the
+      host machine was unreachable. No archive was
+      produced and the day's counts are unknown, not
+      empty. Six days are now outstanding and await a
+      backfill in order once the host is reachable.
+    begin: 2026-11-06 00:53:00
+    duration: { minutes: 20 }
+
+  - summary: "AI visibility gap-closure pack built and delivered for ruling"
+    description: |
+      A single ruling sheet reconciled two independent
+      reviews of the client process: the terminology
+      decisions were retained by both reviewers, the
+      proposals were sorted into concurred and amended
+      sets, and each remaining owner decision was reduced
+      to the single missing fact. A legacy questionnaire
+      found in a checkout was identified as not being the
+      governing client instrument. Awaiting rulings at
+      delivery.
+    begin: 2026-11-06 05:10:00
+    duration: { minutes: 30 }
+
+  - summary: "Training-day inquiry email sent and verified"
+    description: |
+      An owner-approved inquiry was sent confirming
+      attendance at Saturday's preparatory test day in
+      Montreal and requesting an early-morning slot in
+      place of the earlier preference. The original
+      confirmation carried no reference number, and that
+      was stated in the message. The send was verified
+      in Sent with a clean bounce check; a reply is
+      awaited.
+    begin: 2026-11-06 05:53:00
+    duration: { minutes: 15 }
+
+  - summary: "Websites restored by the colleague; verified live"
+    description: |
+      Both public websites were restored after the
+      colleague migrated the projects into an existing
+      hosting account overnight, following a free-usage
+      exhaustion pause on the old account. Live checks
+      confirmed both sites and their crawler and sitemap
+      files serving normally again.
+    begin: 2026-11-06 05:56:00
+    duration: { minutes: 15 }
+
+  - summary: "Hosting traffic-burn investigation: indexing exonerated, automated traffic confirmed"
+    description: |
+      The investigation into what exhausted the old
+      hosting account found, in the sites' own analytics,
+      a one-day surge of automated sessions on the chat
+      pages from an overseas datacentre, with no
+      engagement. The search indexing work was ruled out
+      by the search provider's own crawl counts, the
+      lowest in two weeks that day. Naming the visitor
+      still requires the old account's logs, held by the
+      colleague; a log request draft was delivered to the
+      owner and has not been sent.
+    begin: 2026-11-06 06:09:00
+    duration: { minutes: 45 }
+
+  - summary: "Hosting account deep check: free-tier risks recorded, nothing changed"
+    description: |
+      A read-only check of the hosting account now
+      carrying production found it on the free tier - the
+      same exhaustion exposure as the outage - with no
+      usage alerts, no two-factor protection, projects
+      not connected to their repositories, and a single
+      account member. Post-migration traffic was quiet
+      and the costly conversion route had run only a few
+      times. Nothing was changed.
+    begin: 2026-11-06 06:14:00
+    duration: { minutes: 30 }
+
+  - summary: "E-mini pivots social posting completed on all live channels"
+    description: |
+      On the owner's direction, today's E-mini pivots
+      piece was posted to all five live channels and read
+      back with its full per-channel lines; the forum
+      channel already carried it from the morning run.
+      One channel was held under its standing
+      restriction.
+    begin: 2026-11-06 06:39:00
+    duration: { minutes: 15 }
+
+  - summary: "CLI session log created; standing session-recording rule set"
+    description: |
+      A session log was created so every command-line
+      agent session is recorded at the start of its run,
+      with its identifier, task and resume route, instead
+      of being restarted cold. It was backfilled from the
+      actual session files on disk with the previous
+      night's sessions and their topics.
+    begin: 2026-11-06 06:50:00
+    duration: { minutes: 20 }
+
+  - summary: "Client-process instruments ruled: fixed intake, calibration set, designed prompts"
+    description: |
+      The owner ruled the instrument model for the AI
+      visibility client process: a fixed intake
+      questionnaire is always asked at the second step;
+      a standard question set belongs to the calibration
+      step and is the same for every client; and the
+      later step designs prompt sets per client, varying
+      in count, whose citation patterns inform content
+      strategy. Earlier framings placing the standard
+      set in the later step were corrected in the merged
+      process document.
+    begin: 2026-11-06 06:55:00
+    duration: { minutes: 45 }
+
+  - summary: "Workspace agentic-access deadline check: all items still unhandled"
+    description: |
+      A scheduled check found all four preparation items
+      for an upcoming platform access change still
+      unchecked, across both projects, with neither
+      project's clients yet inventoried. No settings were
+      changed. The cutoff falls in the coming week, after
+      which the fix becomes materially harder.
+    begin: 2026-11-06 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Saved application still unsubmitted; final-window reminder delivered"
+    description: |
+      The morning joint submit sitting passed without a
+      submission, so a proactive final-window reminder was
+      delivered: the application remains complete,
+      approved and saved in the portal, tonight is the
+      last window before the overnight cutoff, and the
+      sitting still needs the owner present, a field
+      re-verification, then a single submit with the
+      confirmation captured. No submission has occurred.
+    begin: 2026-11-06 11:20:00
+    duration: { minutes: 15 }
+
+  - summary: "Family deadline-day re-check delivered; both decisions pending the owner"
+    description: |
+      A deadline-day mailbox re-check found no movement
+      on the membership item, with its total still
+      unconfirmed and nothing sent or paid ahead of its
+      evening close, and the housing application's final
+      submit step still unconfirmed. Both options were
+      put to the owner; both decisions remain pending.
+    begin: 2026-11-06 12:15:00
+    duration: { minutes: 20 }
+
+  - summary: "E-mini gap social posting completed on all live channels"
+    description: |
+      Today's E-mini gap piece was posted across the
+      live channels and read back; the last channel was
+      completed after the owner signed in to unblock it.
+      The forum channel already carried it from the
+      morning run. One channel was held under its
+      standing restriction.
+    begin: 2026-11-06 12:30:00
+    duration: { minutes: 30 }
+
+  - summary: "AI visibility proposals register fully ruled and closed"
+    description: |
+      The owner completed rulings on all eighteen
+      operating proposals for the client process, with
+      several adopted as amended by the owner's own
+      rules: intake answers cannot be incomplete, the
+      paying client decides, and markets and languages
+      come from a demographic study of the regions of
+      interest. An unsupported sampling promise was
+      struck from the draft proposals, one draft was
+      repriced into its client's displayed range, and
+      two owner-property items were removed from the
+      client register. Nothing was sent.
+    begin: 2026-11-06 12:44:00
+    duration: { minutes: 30 }
+
+  - summary: "Post-ruling client steps document merged; same-page audit closed the loop"
+    description: |
+      A merged post-ruling steps document was produced
+      applying all of the day's rulings, then audited
+      against the rulings record and a compiled
+      continuation transcript. The audit verdict was
+      substantially aligned; the discrepancies it found
+      were verified against the sources and corrected,
+      including a count claim that a later ruling then
+      settled. Transcript, rulings and document now
+      agree.
+    begin: 2026-11-06 12:50:00
+    duration: { minutes: 45 }
+
+  - summary: "Founding design transcripts read in full; standard question file recovered"
+    description: |
+      Three founding design transcripts from a single
+      morning were located in shared storage, downloaded
+      and read in full: they hold the intake instrument's
+      design, the neutral prompt method, and the
+      ecosystem audit's origin. None contains the
+      standard question set as a list; that file was
+      separately recovered from the project repository,
+      showing it predates the transcripts and was never
+      only on the closed laptop.
+    begin: 2026-11-06 13:17:00
+    duration: { minutes: 45 }
+
+  - summary: "Ten-steps understanding report verified against the record"
+    description: |
+      A full understanding report on the ten-step client
+      process was read against the record and verified:
+      all instrument placements correct, the philosophy
+      traced to the owner's recorded observations rather
+      than generic doctrine, and beliefs qualified as not
+      demonstrated. It named two genuine open points,
+      including an unspecified bridge from the standard
+      answers to calibration constraints.
+    begin: 2026-11-06 14:01:00
+    duration: { minutes: 30 }
+
+  - summary: "Rulings: manual calibration ready; offer architecture settled"
+    description: |
+      The owner ruled that calibration is ready as
+      manual, owner-performed client work, with the
+      not-ready label now scoping only to the automated
+      track, and that the client monitoring tool's work
+      is likewise manual, with a project-transfer feature
+      in build. The three freelance offers were settled
+      to stand on the ten-step plan: one carries only the
+      search substance, one carries a bounded search
+      foundation plus the full AI visibility focus, and
+      the combined offer carries both in full.
+    begin: 2026-11-06 14:17:00
+    duration: { minutes: 30 }
+
+  - summary: "Form-ready three-offer draft verified; gallery found not crop-safe"
+    description: |
+      The form-ready draft of the three freelance offers
+      passed verification on every field-length check,
+      with clean claims and the settled architecture in
+      place. None of the nine existing gallery cards
+      passed the crop safe-area check; all were marked
+      for adaptation or rebuild before any offer could
+      be submitted, and pricing flags were raised for the
+      owner's ruling.
+    begin: 2026-11-06 14:55:00
+    duration: { minutes: 30 }
+
+  - summary: "Market sweep and pricing matrix: adopted prices set for the three offers"
+    description: |
+      Three market sweeps captured several dozen unique
+      open client requests; closed demand was
+      unobservable through the platform's search and is
+      recorded as such, not as zero. A joint pricing
+      matrix was built from the manifest, its figures
+      spot-verified, and the owner adopted its
+      recommendations, applying adopted prices and
+      windows to the offer draft and drafting two
+      diagnostics. A later ruling withdrew the smaller
+      diagnostic, leaving the joint scoping diagnostic
+      adopted and unlisted.
+    begin: 2026-11-06 15:05:00
+    duration: { minutes: 45 }
+
+  - summary: "Calibration policy draft delivered; response messages drafted, none sent"
+    description: |
+      A calibration deployment policy draft was delivered
+      keeping manual calibration and the automated track
+      separate, with a dozen named decisions left for the
+      owner. Separately, customised response messages
+      were drafted for the ranked market requests, with
+      exclusions recorded for requests outside what the
+      practice does; verification confirmed only adopted
+      prices appear and the withdrawn diagnostic is never
+      offered. Nothing was sent; approvals are per
+      message.
+    begin: 2026-11-06 15:41:00
+    duration: { minutes: 45 }
+
+  - summary: "Both professional-network premium trials cancelled and verified"
+    description: |
+      On the owner's direction, both premium trials were
+      cancelled through the full cancellation flows and
+      verified from the provider's own wording: no
+      further charges will occur, and premium access runs
+      until the scheduled end date. The organisation page
+      itself stays published. This closes the
+      keep-or-cancel decision left open the previous day.
+    begin: 2026-11-06 15:10:00
+    duration: { minutes: 15 }
+
+  - summary: "New marketplace leads arrived; nothing replied"
+    description: |
+      Two new service-marketplace leads arrived for the
+      research practice: one adjacent-fit request for
+      application support and one request outside the
+      practice's service lines. A prepared approach for
+      the adjacent lead was drafted for the owner's
+      approval with no outcome promises. Nothing was
+      replied to either lead.
+    begin: 2026-11-06 15:06:00
+    duration: { minutes: 15 }
+
+  - summary: "Identification search updated with an employer anchor; still unconfirmed"
+    description: |
+      The owner supplied an employer anchor for the
+      heard name under investigation. The employer is a
+      real local firm in the relevant trade, but no
+      public source lists the person there, so the
+      identification remains unconfirmed and still lacks
+      a first name.
+    begin: 2026-11-06 09:47:00
+    duration: { minutes: 20 }
+
+  - summary: "Freelance offers live: combined edited in place, two new listings approved"
+    description: |
+      Under the owner's listing-structure ruling, the
+      combined offer edited and replaced the existing
+      live listing in place at the adopted tiers, and
+      two new single-focus listings were created and
+      approved with visibility on. A credit promise
+      embedded in the replaced copy was removed by the
+      edit; no buyer held it, an independent review
+      advises against re-adding a credit now, and the
+      owner's ruling on that point is still owed. The
+      joint scoping diagnostic remains unlisted by
+      design.
+    begin: 2026-11-06 16:04:00
+    duration: { minutes: 60 }
+
+  - summary: "Gallery competition held; owner's chosen package swapped onto all listings"
+    description: |
+      Three crop-safe gallery packages were built to a
+      binding specification - one deterministic, one from
+      the local coding reviewer, and one from the image
+      model in the chat surface the owner named, after an
+      initial routing to the wrong surface was corrected.
+      The owner chose the reviewer's package, which was
+      swapped onto all three listings with no text or
+      price changes; all listings remain approved, and
+      the combined listing's public page was confirmed
+      current after an initial lag. The other packages
+      are retained on file.
+    begin: 2026-11-06 16:53:00
+    duration: { minutes: 45 }
+
+  - summary: "Ruling: calibration is internal measurement hygiene, not a client deliverable"
+    description: |
+      The owner ruled that calibration is internal
+      measurement hygiene - the baseline discipline that
+      keeps client tests uncontaminated - not a client
+      benefit or deliverable, and clients never receive
+      calibration data; its run record is internal only.
+      A policy and copy reconciliation is owed. The
+      owner also took the question of whether to list
+      the adopted joint scoping diagnostic under
+      consideration; it remains unlisted and nothing
+      changed.
+    begin: 2026-11-06 17:50:00
+    duration: { minutes: 15 }
