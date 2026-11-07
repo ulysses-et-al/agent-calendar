@@ -7656,3 +7656,276 @@ events:
       changed.
     begin: 2026-11-06 17:50:00
     duration: { minutes: 15 }
+
+  - summary: "Proposal drafts copied to the shared drive and verified"
+    description: |
+      On the owner's direction, the individual proposal
+      draft files were copied to the appropriate shared
+      folder alongside the other workstream outputs.
+      The copy was verified complete and identical to
+      the local set. Nothing was sent to any client.
+    begin: 2026-11-06 22:32:00
+    duration: { minutes: 15 }
+
+  - summary: "Evening priorities checkpoint delivered"
+    description: |
+      The evening checkpoint recorded that the morning
+      indexing run had not proceeded, the weekend
+      anticipation session remained blocked on a signed-out
+      account, and several carried items still awaited
+      the owner's word. No fixes were applied and no
+      schedule was changed.
+    begin: 2026-11-06 23:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Nightly chat archive failed again; host unreachable, backlog now seven days"
+    description: |
+      The nightly chat archive for the previous day
+      failed after repeated attempts: the host was
+      unreachable before authentication. No archive was
+      produced. The outstanding backlog now spans
+      seven days and remains open.
+    begin: 2026-11-07 00:53:00
+    duration: { minutes: 20 }
+
+  - summary: "Proposal-ask folder complete; live pages govern over sweep records"
+    description: |
+      For each drafted proposal, the original client
+      request was captured live and filed under the
+      matching filename, locally and in the shared
+      folder, verified identical. Most pages were open;
+      two were private and were preserved from records,
+      and one client's account was suspended. The live
+      pages repeatedly contradicted earlier sweep
+      records on geography, budget and client history,
+      so the live asks now govern, and drafts priced
+      from board figures must be reviewed before any
+      send. All proposals remained unsent at that point.
+    begin: 2026-11-07 06:31:00
+    duration: { minutes: 45 }
+
+  - summary: "Daily job sweep: two verified strong matches found"
+    description: |
+      The daily sweep found two net-new verified strong
+      matches in separate tracks and logged several
+      near-misses. Details were filed in the sweep log;
+      no applications were submitted in this run.
+    begin: 2026-11-07 08:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Recursive reasoning instructions adopted in full and filed verbatim"
+    description: |
+      The owner supplied the complete recursive
+      reasoning instruction and directed that it govern
+      the work as system instructions. It was filed
+      verbatim, verified identical to the supplied text
+      by two independent checks, with an application
+      note using a recent checklist miss as the worked
+      illustration. Standing summaries now point to the
+      full text as governing.
+    begin: 2026-11-07 09:49:00
+    duration: { minutes: 30 }
+
+  - summary: "First bid package built with refurbished samples and a full claim audit"
+    description: |
+      The first bid package was built through several
+      back-and-forth rounds with the coding reviewer:
+      the response was restructured to fit the client's
+      posted budget by reducing depth, real prior audits
+      were refurbished into finished, method-redacted
+      sample outputs, and a claim audit was built with
+      the draft and then rebuilt for the restructured
+      bid, with every claim grounded directly or
+      indirectly and none ungrounded. Nothing was sent
+      at that stage.
+    begin: 2026-11-07 10:00:00
+    duration: { minutes: 60 }
+
+  - summary: "Proposal form mechanics verified live; contract-basis contradiction surfaced"
+    description: |
+      A read-only live test of the actual proposal form
+      verified the cover-letter character limit, the
+      attachment allowance, and that the client's
+      questions travel inside the letter. It also
+      surfaced an unresolved contradiction: the scraped
+      ask recorded a fixed-price budget while the live
+      form presented an hourly job. No text was changed
+      for it, nothing was submitted, and no credits
+      were spent.
+    begin: 2026-11-07 10:35:00
+    duration: { minutes: 15 }
+
+  - summary: "Bid-package process self-audited; repeatable step format established"
+    description: |
+      At the owner's correction, the pair self-audited
+      the process actually used to create the first bid,
+      using the chat transcript as evidence. The audit
+      replaced an earlier asserted draft with an audited
+      step format: open exploration first, form limits
+      only at the focused finish, live-ask and form
+      verification before drafting, and claim audits
+      built with the first draft. Drafting authority and
+      owner-only gates were recorded as standing rules.
+    begin: 2026-11-07 10:57:00
+    duration: { minutes: 30 }
+
+  - summary: "Lead-selection model and monthly send plan built"
+    description: |
+      A strategic audit of all captured leads was built
+      with the coding reviewer under the adopted
+      reasoning instructions. A lead qualifies only when
+      fit, a viable purchase at the live budget, honest
+      proof, a ready draft and a closable gate all hold
+      at once. Most observable asks differed from the
+      earlier sweep records, so live asks govern ranking.
+      A small first priority batch and two conditional
+      experiments were set out; the rest were held with
+      reasons and one was excluded. Nothing was sent.
+    begin: 2026-11-07 11:34:00
+    duration: { minutes: 30 }
+
+  - summary: "Satellite imagery: one route funded, a second provider declined"
+    description: |
+      Replies from two imagery providers were surfaced:
+      one allocated free credits to the practice's
+      account, with the balance still to be verified in
+      its console before any order and minimum order
+      sizes applying, and the other declined free
+      imagery and pointed to resellers. Nothing was
+      ordered or purchased.
+    begin: 2026-11-07 11:52:00
+    duration: { minutes: 15 }
+
+  - summary: "First freelance bid submitted and logged"
+    description: |
+      With the owner's standalone approval of the exact
+      final version, the first bid was submitted through
+      the platform, confirmed by the platform, and listed
+      among submitted proposals, not yet opened by the
+      client at report time. A send-log folder was
+      created in the shared drive tree, with an index
+      and the full log for this send as its first entry.
+    begin: 2026-11-07 12:45:00
+    duration: { minutes: 15 }
+
+  - summary: "Doctoral track: one supervision ask closed after a decline"
+    description: |
+      A supervisor replied that they are not available
+      at this time. That track was closed as declined,
+      its scheduled follow-up was cancelled under the
+      standing not-available rule, and no reply is owed.
+      The other scheduled follow-ups for the coming
+      week remain standing.
+    begin: 2026-11-07 14:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Doctoral follow-up drafts prepared; nothing sent"
+    description: |
+      Four single follow-up drafts were prepared locally
+      for the still-silent supervision asks falling due
+      in the coming week, following the one-follow-up
+      format. Nothing was staged or sent.
+    begin: 2026-11-07 15:00:00
+    duration: { minutes: 20 }
+
+  - summary: "First bid proof of delivery filed; unopened status documented"
+    description: |
+      At the owner's direction, live-page evidence for
+      the first bid was captured and filed in the send
+      log, locally and in the shared folder, verified
+      identical. The documented status was: sent that
+      day, evidence verified live that afternoon, and
+      the proposal not yet opened by the client. The
+      live client record also corrected earlier scrape
+      figures, and the fuller record now governs.
+    begin: 2026-11-07 15:56:00
+    duration: { minutes: 15 }
+
+  - summary: "Second bid package built; live form test corrected its cost and fields"
+    description: |
+      The owner authorised beginning the second bid's
+      package process, not its send. The package was
+      built with the coding reviewer: the defective old
+      draft was treated as raw material only, the letter
+      was rebuilt answering every question in the ask,
+      and a claim audit was built with the draft. A
+      read-only live form test then corrected the send
+      cost recorded in the ask capture, revealed the
+      form's own screening fields, and showed the client
+      was already interviewing. Nothing was sent.
+    begin: 2026-11-07 16:01:00
+    duration: { minutes: 45 }
+
+  - summary: "Second bid gates approved; standalone send rule restated as standing"
+    description: |
+      The owner approved the second bid's commercial
+      gates as proposed and approved its form-field
+      answers separately. In the same sitting the owner
+      restated that a send is authorised only by its own
+      explicit, standalone instruction naming that send;
+      approvals of terms, gates or drafts never carry a
+      send with them. That rule was recorded as standing.
+    begin: 2026-11-07 16:15:00
+    duration: { minutes: 15 }
+
+  - summary: "Second bid style options fitted; reviewer selection accepted"
+    description: |
+      The owner's two style options for the second bid's
+      letter were measured, claim-audited and fitted
+      under the verified character limit, with all
+      baseline claims preserved in both. The coding
+      reviewer advised one option; the owner accepted
+      that selection, and it was locked as the final
+      letter.
+    begin: 2026-11-07 16:45:00
+    duration: { minutes: 20 }
+
+  - summary: "Second freelance bid submitted and logged"
+    description: |
+      After the owner's standalone green light naming
+      this send, the second bid was submitted exactly as
+      approved, confirmed by the platform, and logged in
+      the send log with its evidence. It had not been
+      opened by the client at the post-send check.
+    begin: 2026-11-07 16:54:00
+    duration: { minutes: 15 }
+
+  - summary: "Second bid client-record discrepancy resolved; corrections propagated"
+    description: |
+      A post-send check found the proposal page's client
+      block contradicted the client history the bid had
+      been built on. A read-only check of the original
+      job page settled it: the live platform record
+      governs, the client is a new account with no hire
+      or spend history, and the earlier client line was
+      a scrape mis-join from another listing. The owner
+      was assured the bid went to the correct job, and
+      corrections were propagated to the send log, the
+      ask file, the package and the selection model,
+      with the lead's ranking to be revisited at the
+      next selection review.
+    begin: 2026-11-07 17:05:00
+    duration: { minutes: 20 }
+
+  - summary: "Cloud storage renewal reminder delivered"
+    description: |
+      A proactive reminder was delivered that a cloud
+      storage subscription renews the next day on the
+      account's usual payment method, flagged because
+      that method has had declines elsewhere recently.
+      The action is the owner's; nothing was paid or
+      changed by the agent.
+    begin: 2026-11-07 17:10:00
+    duration: { minutes: 10 }
+
+  - summary: "Bitcoin evening pivots failed its gate; nothing delivered"
+    description: |
+      The evening pivots run failed its freshness gate:
+      its output was anchored on the previous session
+      and re-titled for today, when no new session
+      exists, the same Saturday stale re-emission seen
+      before. Delivering it would have duplicated the
+      previous block, so no numbers were delivered and
+      nothing was posted.
+    begin: 2026-11-07 17:15:00
+    duration: { minutes: 15 }
