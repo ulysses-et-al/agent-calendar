@@ -7982,3 +7982,17 @@ events:
       account.
     begin: 2026-11-08 12:07:00
     duration: { minutes: 15 }
+
+  - summary: "Rotation review Option A executed in the Ads account"
+    description: |
+      With the owner's standalone confirmation, the
+      approved rotation changes were made and verified
+      in the account: two Measles keywords paused, two
+      3I/ATLAS keywords paused, the AI Higher Ed pair
+      overlap removed on both sides, and the limited
+      Oral Semaglutide ad paused. A read-only audit
+      covered the remaining groups' keywords. The
+      twenty-eight day judging window starts today.
+      No budgets or campaign structures were changed.
+    begin: 2026-11-08 12:20:00
+    duration: { minutes: 10 }
