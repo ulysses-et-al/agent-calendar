@@ -7996,3 +7996,16 @@ events:
       No budgets or campaign structures were changed.
     begin: 2026-11-08 12:20:00
     duration: { minutes: 10 }
+
+  - summary: "Oral Semaglutide group made fully non-serving; notifications attributed"
+    description: |
+      With the owner's approval, the two remaining
+      enabled ads in the Oral Semaglutide group were
+      paused and verified, so both drug-paper groups
+      are now fully non-serving. A read-only drill-down
+      attributed the names-or-logos warning to a
+      business name asset attached only to removed
+      campaigns. The executable Ads work of the cleanup
+      sitting is complete; Kingston filing follows.
+    begin: 2026-11-08 13:02:00
+    duration: { minutes: 6 }
