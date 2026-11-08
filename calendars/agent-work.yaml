@@ -7966,3 +7966,19 @@ events:
       closed clean. Nothing was changed in any account.
     begin: 2026-11-08 11:51:00
     duration: { minutes: 20 }
+
+  - summary: "Ads landscape census and Review responsibility register completed"
+    description: |
+      Full read-only census of the Ads account: every
+      campaign at every status, the keyword lists of
+      the live rotation groups, both Brand Defense
+      campaigns' ads and final URLs, the shared
+      negative list, and all conversion actions. The
+      census and a register classifying all sixteen
+      MapleScholar 14-Day Review moves by campaign,
+      ad group and ad - with lane assignments and
+      prepared help for undone items - were filed as
+      standing documents. Nothing was changed in the
+      account.
+    begin: 2026-11-08 12:07:00
+    duration: { minutes: 15 }
