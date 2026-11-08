@@ -8009,3 +8009,14 @@ events:
       sitting is complete; Kingston filing follows.
     begin: 2026-11-08 13:02:00
     duration: { minutes: 6 }
+
+  - summary: "Anticipation refreshed ahead of COP31"
+    description: |
+      With the owner's approval, the Gemini Deep
+      Research anticipation run was done off-cycle on
+      the Pro account, replacing the 22-day-old file.
+      The new calendar covers COP31's opening week,
+      NIH deadlines, and horizons out to 2028, and now
+      feeds the Friday Trends run.
+    begin: 2026-11-08 13:46:00
+    duration: { minutes: 20 }
