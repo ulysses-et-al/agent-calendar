@@ -7929,3 +7929,18 @@ events:
       nothing was posted.
     begin: 2026-11-07 17:15:00
     duration: { minutes: 15 }
+
+  - summary: "Google Ads cleanup session opened (owner-directed)"
+    description: |
+      The owner directed a cleanup of the long-standing
+      Google Ads and domain issues. The browser was
+      opened to Google with access to all accounts
+      confirmed by the owner; a read-only first pass of
+      Ads account 796-008-6556 was commissioned:
+      notifications read in full, Data Manager tag
+      detection status, Customer Match matched size,
+      and the campaign list. No budgets, statuses or
+      settings were changed; cleanup decisions are
+      joint after the read.
+    begin: 2026-11-08 11:33:00
+    duration: { minutes: 30 }
