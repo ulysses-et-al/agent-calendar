@@ -7941,6 +7941,13 @@ events:
       detection status, Customer Match matched size,
       and the campaign list. No budgets, statuses or
       settings were changed; cleanup decisions are
-      joint after the read.
+      joint after the read. Outcome: the first attempts
+      were refused while the session presented the
+      wrong account; under the correct account the
+      pass completed - notifications were empty, the
+      Data Manager tag is still never detected, the
+      Customer Match size check closed at under 100
+      matched on every network, and the removed
+      rotation campaigns were flagged for review.
     begin: 2026-11-08 11:33:00
     duration: { minutes: 30 }
