@@ -7951,3 +7951,18 @@ events:
       rotation campaigns were flagged for review.
     begin: 2026-11-08 11:33:00
     duration: { minutes: 30 }
+
+  - summary: "Six-domain passes and 14-Day Review overlap check completed"
+    description: |
+      Read-only passes across Search Console, PageSpeed,
+      Trends and the Gemini Pro session, plus an Ads
+      evidence pass against the MapleScholar 14-Day
+      Review's sixteen moves. The removed rotation
+      campaigns were traced to a manual removal on
+      September 30 under the account owner's own login;
+      a broad-match auto-apply firing on October 25 was
+      identified; the Featured Blog Defense fix from the
+      review is in place; the competitor-keyword question
+      closed clean. Nothing was changed in any account.
+    begin: 2026-11-08 11:51:00
+    duration: { minutes: 20 }
