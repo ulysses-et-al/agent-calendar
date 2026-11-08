@@ -8020,3 +8020,218 @@ events:
       feeds the Friday Trends run.
     begin: 2026-11-08 13:46:00
     duration: { minutes: 20 }
+
+  - summary: "Third freelance bid submitted and logged"
+    description: |
+      A third freelance bid was submitted after the
+      owner's standalone send instruction, with its
+      terms and letter verified against the approved
+      package at send time. Evidence was captured
+      read-only: the proposal was unopened at capture
+      and its client record was settled as consistent
+      across the proposal and job pages. Running
+      totals were updated in the private proposal log.
+    begin: 2026-11-07 19:23:00
+    duration: { minutes: 15 }
+
+  - summary: "Fourth bid package completed; final letter selected and frozen"
+    description: |
+      The fourth bid's gates were ruled by the owner:
+      a conditional full-scope offer, the live fixed
+      terms, a single review extract as the only
+      attachment, and no boost. Two style options were
+      fitted against the accepted wording with no
+      claims dropped or changed in strength, and the
+      reviewer-preferred option was selected and
+      frozen as the final version. Nothing was sent
+      in this step.
+    begin: 2026-11-07 22:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Fourth freelance bid submitted and logged"
+    description: |
+      The fourth freelance bid was submitted after
+      the owner's standalone send instruction, exactly
+      as approved in the frozen package, and logged
+      with its evidence filed and totals updated in
+      the private proposal log. The proposal was
+      unopened at capture and its client record
+      matched the settled record from the live pages.
+    begin: 2026-11-07 22:59:00
+    duration: { minutes: 15 }
+
+  - summary: "Evening priorities checkpoint delivered"
+    description: |
+      The evening checkpoint was delivered covering
+      the standing priorities: the anticipation file
+      remained stale ahead of a major conference
+      opening, the Ads in-product surface was
+      unreadable for a second day with prior baselines
+      carried unverified, and the daily indexing run
+      had failed at a sign-in step for a third day.
+      Items awaiting the owner's direction were
+      listed; nothing was changed in any account.
+    begin: 2026-11-07 23:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Nightly chat archive failed again; backlog now eight days"
+    description: |
+      The nightly chat archive for the previous day
+      failed: the archive host was unreachable on
+      repeated spaced attempts, so no sessions or
+      messages could be captured, filed, or uploaded.
+      The archive backlog now stands at eight days
+      and remains outstanding for a catch-up run
+      when the host returns.
+    begin: 2026-11-08 01:05:00
+    duration: { minutes: 20 }
+
+  - summary: "Fourth bid opened by its client; other bids still unopened"
+    description: |
+      A live read-only status check found the fourth
+      freelance bid had been viewed by its client
+      that morning, with no message, interview, or
+      offer yet. The other three submitted bids were
+      all still unopened. Nothing was sent, edited,
+      or withdrawn in the check, and the updated
+      status was logged and filed.
+    begin: 2026-11-08 07:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Proposal-offers: both invites read in full; mock applications built"
+    description: |
+      Two client invites were read in full, read-only,
+      and handled as mock applications at the owner's
+      direction. For one, the external application
+      route and its terms were mapped and a mock
+      letter drafted, not submitted. For the other,
+      the live application form was verified, a mock
+      letter and screening answers were built stating
+      the owner's willingness to relocate plainly,
+      and the owner set the proposed rate at the top
+      of the posted range. Real sends still need the
+      owner's standalone approval of each final version.
+    begin: 2026-11-08 07:18:00
+    duration: { minutes: 30 }
+
+  - summary: "Daily job sweep: two time-sensitive matches found"
+    description: |
+      The daily job sweep found two net-new strong
+      matches, both time-sensitive: a research study
+      coordinator opening with two competitions both
+      closing today, and a clinical research
+      coordinator opening closing within days. Other
+      near-misses were recorded with their disqualifying
+      reasons. The full sweep log was filed.
+    begin: 2026-11-08 08:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Kingston study coordinator package built and presented"
+    description: |
+      An application package was built for both
+      competitions of the study coordinator opening
+      found in the morning sweep: a tailored resume,
+      a cover letter naming both competitions with
+      the experience gap stated honestly, screening
+      answers, and a checklist. The package was
+      presented to the owner in full; nothing was
+      submitted in this step.
+    begin: 2026-11-08 08:57:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote project platforms: sign-ins completed and profiles inspected"
+    description: |
+      At the owner's direction, existing accounts on
+      two remote project platforms were signed into
+      using passwordless routes only, with no account
+      created and no password changed, and inspected
+      read-only. One profile is live with several
+      proposals under review and a pending terms
+      acceptance that was deliberately not accepted.
+      The other account's applications and profile
+      gaps were mapped. A standing correction was
+      recorded: these platform accounts run under a
+      different account address than the main one,
+      verified from the messages' own headers.
+    begin: 2026-11-08 08:16:00
+    duration: { minutes: 30 }
+
+  - summary: "Platform interest check submitted then archived; second gated, not submitted"
+    description: |
+      One platform interest check was completed with
+      the owner's answers and submitted, then moved
+      to archived by the platform minutes later with
+      no reason shown; a later investigation found
+      no reapply path, so that outcome is final
+      unless the platform reopens it. A second
+      interest check was not submitted: on submit the
+      platform gated completion behind a technical
+      assessment, the attempt was cancelled under
+      the standing rule, and its answers were not
+      saved. Both outcomes await the owner's decision.
+    begin: 2026-11-08 09:05:00
+    duration: { minutes: 20 }
+
+  - summary: "Kingston filing: draft-only attempt blocked; nothing submitted, no account created"
+    description: |
+      The owner approved the Kingston package, then
+      directed that an account be created and both
+      applications entered in draft only, with final
+      submits awaiting a later standalone instruction.
+      The filing was blocked at the resume upload:
+      the portal's bot wall rejected the upload twice,
+      a fallback route assumed earlier was verified
+      not to exist on this portal, the original
+      filing window later errored and closed, and a
+      fresh inspection found the portal serving a
+      blank page. Last verified state: nothing
+      submitted and no account created. A manual
+      field-by-field draft build run sheet was
+      prepared and tabled; the remaining path is
+      the owner's decision, and both competitions
+      close today.
+    begin: 2026-11-08 16:01:00
+    duration: { minutes: 30 }
+
+  - summary: "Freelance market scan: new asks verified on live pages and tabled"
+    description: |
+      A fresh market scan verified new freelance asks
+      on their live pages and tabled them in the
+      owner's format, sorted by category and region
+      with organisation type on every row. Counts
+      were script-verified before delivery, including
+      a table-build error caught and fixed. Nothing
+      was drafted or bid in the scan itself.
+    begin: 2026-11-08 15:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Highest-yield ranking completed in the resumed reviewer session"
+    description: |
+      The market scan was shared with the standing
+      reviewer session, resumed from its previous
+      session rather than started fresh after two
+      fresh runs were lost to a runtime restart.
+      The ranking placed two asks at the head of
+      preparation, with a further set held as gated
+      candidates and overlaps between the new and
+      earlier lists flagged for reconciliation.
+      All quoted figures were verified against the
+      scan tables. Nothing was bid, sent, or spent.
+    begin: 2026-11-08 17:16:00
+    duration: { minutes: 30 }
+
+  - summary: "Fifth bid commissioned and started; history package assembled and verified"
+    description: |
+      The owner commissioned a fifth bid package for
+      the ranking's top ask, to be built through the
+      established multi-step process with the review
+      step reserved for the owner and no send
+      authorised. A chat-history package covering
+      the relevant track since the last package was
+      assembled and verified, processing was launched
+      in the resumed reviewer session, and a read-only
+      live capture of the job page and application
+      form was launched in parallel. No cover letter
+      exists yet; the build continues.
+    begin: 2026-11-08 17:26:00
+    duration: { minutes: 30 }
