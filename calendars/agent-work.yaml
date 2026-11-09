@@ -8249,3 +8249,247 @@ events:
       against the account history, and the full record filed.
     begin: 2026-11-09 04:23:00
     duration: { minutes: 5 }
+
+  - summary: "Nightly chat archive failed again; backlog now nine days"
+    description: |
+      The nightly archive export for the previous day
+      was not produced: the archive host was unreachable
+      on all spaced attempts, with the same connection
+      failure seen by the parallel jobs. No archive file
+      was written and session counts are unknown, not
+      zero. The catch-up backlog is now nine days; the
+      resume point is recorded for when the host is
+      reachable again.
+    begin: 2026-11-09 00:53:00
+    duration: { minutes: 15 }
+
+  - summary: "Freelance notification leads qualified; five new asks filed, one qualifies"
+    description: |
+      Seven job-alert notifications sent by the owner
+      were checked against the proposal-ask list. Two
+      were already recorded; five were new, were captured
+      read-only from their live pages, and were filed as
+      new asks. Each was qualified on fit, viable purchase,
+      honest proof, ready draft, and a closable gate: four
+      did not qualify, and one — a diagnosis-first rankings
+      decline audit — qualified subject to owner gates.
+    begin: 2026-11-09 02:03:00
+    duration: { minutes: 20 }
+
+  - summary: "Sixth bid build: form mechanics verified and site pre-review completed"
+    description: |
+      The owner approved building the sixth bid package.
+      A read-only capture verified the application form
+      is hourly-only, so any fixed audit figure can only
+      live in the letter text. A public pre-review of the
+      client site was completed from public pages only,
+      recording checkable observations and keeping
+      causal explanations as hypotheses to be settled
+      by the platform data the client offers.
+    begin: 2026-11-09 02:58:00
+    duration: { minutes: 20 }
+
+  - summary: "Shared document identified as the operation's own leadership review; assessment delivered"
+    description: |
+      A document the owner shared for shaping the sixth
+      bid's approach was read in full and identified as
+      the operation's own recent leadership review — the
+      same evidence base already used for bid samples —
+      not an external framework. The assessment delivered
+      mapped its investigation process (causes ranked
+      with evidence, a ruled-out section, competing
+      readings with tests, moves in order) onto the
+      client's stated concerns.
+    begin: 2026-11-09 03:02:00
+    duration: { minutes: 15 }
+
+  - summary: "Sixth bid scope option chosen by the owner; package assembled"
+    description: |
+      Three scope structures for the sixth bid were
+      framed by the reviewer session and presented to
+      the owner, who chose the bounded audit option the
+      reviewer recommended. The remaining gates were
+      recorded as ruled with it, and the package was
+      assembled and frozen around that version. No send
+      was authorised at this stage.
+    begin: 2026-11-09 03:19:00
+    duration: { minutes: 15 }
+
+  - summary: "Style critique studied; both rewrites rejected; package re-frozen clean"
+    description: |
+      A long style critique supplied by the owner was
+      studied jointly with the reviewer session. Both
+      full rewrites were rejected claim by claim: they
+      removed approved scope limits and hardened
+      commitments. Only four punctuation joins were
+      adopted, with wording and figures unchanged.
+      Byte measurement then found extraction scaffolding
+      in both frozen files; the package was re-frozen
+      clean and re-verified.
+    begin: 2026-11-09 04:12:00
+    duration: { minutes: 20 }
+
+  - summary: "Monday rotation brief missing for a third consecutive week"
+    description: |
+      The Monday rotation notifier ran its prescribed
+      fetch and found no runs at all in the review
+      project — the same result as the previous Monday.
+      No brief was produced, nothing was emailed, and
+      nothing in the ads account was touched. This is
+      the third consecutive missing Monday brief;
+      whether the hosting service is investigated is
+      the owner's decision.
+    begin: 2026-11-09 07:15:00
+    duration: { minutes: 15 }
+
+  - summary: "Premarket pivots social posting complete: five of six channels verified"
+    description: |
+      After the owner's approval, the morning pivots
+      post went out on the social channels. Five of six
+      channels are live and were read back verbatim,
+      including the community thread reply posted by
+      the run itself. One channel could not publish:
+      the account there remains restricted by the
+      platform, verified on its public profile after
+      repeated attempts.
+    begin: 2026-11-09 08:37:00
+    duration: { minutes: 20 }
+
+  - summary: "Agent-identity account correction verified; no sign-in needed"
+    description: |
+      The owner corrected the agent-identity account
+      address on record: the successor address replaced
+      the retired one, and the morning session flag was
+      an artefact of a stale account list. A switcher
+      check verified all accounts signed in, including
+      the successor, so no login was needed in the end.
+      The scheduled job's own account list still names
+      the old address and awaits the owner's update.
+    begin: 2026-11-09 08:50:00
+    duration: { minutes: 15 }
+
+  - summary: "Analytics and ads deep dive: permissions flag resolved; policy flag found"
+    description: |
+      A read-only deep dive resolved the morning's
+      analytics permissions flag as a wrong-active-
+      account artefact: the property opens normally
+      under the main account, whose owner is its only
+      human administrator. The ads dive found a policy
+      flag — a set of ads disapproved over destination
+      errors, with no account-level restriction — plus
+      unchanged recommendation and auto-apply states.
+      Reproducing the affected ads awaits the owner's
+      direction; nothing was changed.
+    begin: 2026-11-09 09:09:00
+    duration: { minutes: 20 }
+
+  - summary: "Bid-issues study commissioned; own operation added as the reference case"
+    description: |
+      The owner commissioned a study gathering the
+      common issues across all six bids — which are
+      unique to search optimisation, which to AI
+      visibility, and which to both — read through the
+      operation's own inspection surfaces and domains.
+      An extraction of every client-stated issue was
+      filed, and at the owner's direction the operation's
+      own work was added as a reference case, to be
+      worked jointly with the reviewer session rather
+      than alone.
+    begin: 2026-11-09 09:27:00
+    duration: { minutes: 20 }
+
+  - summary: "Opening gap social posting complete: five channels verified, one held"
+    description: |
+      After the owner's instruction to post, the opening
+      gap post went out: the community thread reply plus
+      four social channels, all live and read back
+      verbatim. One caption defect found on read-back
+      was repaired in place on the same post, with no
+      duplicate created, and recorded transparently.
+      The restricted channel was held under the standing
+      restriction.
+    begin: 2026-11-09 10:35:00
+    duration: { minutes: 20 }
+
+  - summary: "Own-work operating plan converged; judging window settled"
+    description: |
+      The reviewer back-and-forth on the own-work case
+      completed: an issues register and a converged
+      operating plan are on file, with a claims-to-tests
+      ledger separating claims testable now from sourced
+      research claims. The reviewer caught a window
+      arithmetic fault; the owner settled it — the
+      judging window is a true 28-day window ending in
+      early December, with the review after the data
+      matures. Nine further decisions remain the owner's.
+    begin: 2026-11-09 10:56:00
+    duration: { minutes: 25 }
+
+  - summary: "Measurement route map complete: bidding steers on one live signal"
+    description: |
+      Read-only captures across the ads and analytics
+      accounts, reviewed jointly with the reviewer
+      session, completed the measurement route map.
+      All enabled campaigns use the same goal set and
+      there are no custom goals. Of the three primary
+      actions, exactly one has a verified end-to-end
+      route; the other two are configured everywhere
+      except the site event itself, which has never
+      been observed firing. The owner's measurement
+      choice is prepared in three forms; no change made.
+    begin: 2026-11-09 11:36:00
+    duration: { minutes: 20 }
+
+  - summary: "AI citation baseline captured: first run complete, qualified on one surface"
+    description: |
+      The first citation-log baseline was captured:
+      all planned observations completed across four
+      AI surfaces under a frozen prompt set, each in a
+      fresh conversation. Branded questions were
+      recognised and cited on every surface; unbranded
+      questions named the operation in no answer and
+      cited it once. One surface's branded answers drew
+      on prior account material, so those rows carry a
+      permanent contamination flag. A baseline only —
+      no trend follows; the next run is weekly.
+    begin: 2026-11-09 11:54:00
+    duration: { minutes: 20 }
+
+  - summary: "Cloud OAuth inventory completed across accounts; marking handed to the owner"
+    description: |
+      A read-only inventory of cloud projects and OAuth
+      clients was completed across the accounts ahead of
+      this week's agentic-marking deadlines, including
+      the final account after the owner signed in. Only
+      a handful of clients exist; one in the mail
+      operations project is the clear marking candidate.
+      One client's setting could not be verified because
+      that account's console enforces a verification
+      step on detail pages. A self-service checklist
+      with links was sent to the owner; the marking
+      itself remains his action on his own computer.
+    begin: 2026-11-09 14:27:00
+    duration: { minutes: 25 }
+
+  - summary: "Planned: agentic OAuth marking deadline"
+    description: |
+      Provider deadline: workspace agent servers begin
+      rejecting OAuth clients not marked for agentic
+      use today, and the marking becomes permanent on
+      existing clients tomorrow. The inventory is done
+      and the one clear candidate client is named in
+      the owner's checklist; the marking itself is the
+      owner's action on his own computer.
+    begin: 2026-11-11 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Planned: ads judging-window review"
+    description: |
+      Review of the 28-day judging window that began
+      Nov 8, held once the final day's analytics data
+      has matured. The scorecard is judged on its
+      standing measures; data from the day after the
+      window closes is retained as evidence but sits
+      outside the window.
+    begin: 2026-12-08 09:00:00
+    duration: { minutes: 30 }
