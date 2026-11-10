@@ -8526,3 +8526,238 @@ events:
       is applied to or bid on by the watch.
     begin: 2026-11-10 00:01:00
     duration: { minutes: 5 }
+
+  - summary: "International jobs map verified against live careers pages"
+    description: |
+      A research report's international institution map
+      was read in full and its strongest named roles were
+      checked against live employer careers pages. One
+      role was genuinely open but gated by a professional
+      clinical credential and long clinical experience
+      outside the record; the other named roles did not
+      exist as described, and one employer's portal was
+      unreachable. The map remains useful for institutions
+      and visa routes; its job layer largely did not
+      survive verification. Nothing was applied for.
+    begin: 2026-11-10 00:23:00
+    duration: { minutes: 20 }
+
+  - summary: "Nightly chat archive failed again; backlog now ten days"
+    description: |
+      The nightly chat archive export failed on all
+      attempts because the source computer was
+      unreachable. No sessions were read and no counts
+      were invented. Ten days of archives are now
+      outstanding, to be exported in order once the
+      source is reachable again.
+    begin: 2026-11-10 00:54:00
+    duration: { minutes: 20 }
+
+  - summary: "International sweep completed: no role inside all gates"
+    description: |
+      The remaining employers on the international map
+      were verified the same way, including two
+      governance postings opened in full. Final tally
+      across all employers checked: no role was
+      simultaneously open, in-field, and inside the
+      record's gates. The nearest misses fail on years
+      of specialised experience, a hands-on coding
+      specification, or a credential gate. One employer
+      with international hiring support stays a live
+      institution to watch despite no suitable role.
+    begin: 2026-11-10 01:48:00
+    duration: { minutes: 25 }
+
+  - summary: "Morning investigation: analytics measurement contradiction found"
+    description: |
+      The routine morning investigation completed with
+      access restored on the main account. Analytics now
+      shows an additional key event with a substantial
+      count that the previous day's measurement route
+      map had found had never fired. The two readings
+      contradict each other; reconciliation is open
+      before any measurement decision relies on either.
+      The ads surface was not read today due to an
+      account-chooser stall.
+    begin: 2026-11-10 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Premarket pivots social posting complete, five channels verified"
+    description: |
+      The day's premarket pivot card was posted on the
+      owner's instruction and read back exact, including
+      its token lines, on five channels: the trading
+      group thread, Facebook, Instagram, X, and YouTube.
+      The restricted channel was held under the standing
+      restriction.
+    begin: 2026-11-10 07:40:00
+    duration: { minutes: 20 }
+
+  - summary: "Job-search Drive sharing updated; identification folder kept private"
+    description: |
+      At the owner's direction, five job-search reference
+      items were shared by link with an additional
+      viewer added to each, and a screening-answers file
+      was first uploaded into the folder and shared the
+      same way. The identification folder was deliberately
+      held back from any public link and shared privately
+      with only the two accounts the owner named.
+    begin: 2026-11-10 07:55:00
+    duration: { minutes: 10 }
+
+  - summary: "Upwork alert watch closed by owner; checks move to manual"
+    description: |
+      The scheduled alert watch failed repeatedly because
+      its own browser flow lost the signed-in session
+      after a bot check, while the main browser session
+      was verified signed in with the alerts feed visible.
+      The owner closed the scheduled watch; alert checks
+      are manual from here, run from the live signed-in
+      browser, with the same five-gate screening and
+      reviewer consultation standard.
+    begin: 2026-11-10 08:08:00
+    duration: { minutes: 10 }
+
+  - summary: "Manual Upwork alert check: thirteen alerts, no great fit"
+    description: |
+      A manual check from the live signed-in browser
+      screened thirteen new alerts since the previous
+      watermark. Jointly with the local reviewer session,
+      none was a great fit, including the nearest
+      audit-shaped posting, which was closed on its
+      proof demand and economics. Nothing was bid on
+      and no credits were spent; the watermark advanced.
+    begin: 2026-11-10 08:13:00
+    duration: { minutes: 15 }
+
+  - summary: "Fresh manual Upwork sweep: no qualified lead, one watch item"
+    description: |
+      A fresh manual sweep screened dozens of new
+      postings across ten searches. The strongest shape
+      seen was initially rated build-then-decide, then
+      closed when its exact screening question surfaced
+      demanding vertical experience and a verifiable
+      result the record cannot honestly supply. All
+      other captures were closed except one advisory
+      posting left on watch pending a clarification.
+      The owner accepted the outcome: no matches, wait.
+    begin: 2026-11-10 08:24:00
+    duration: { minutes: 20 }
+
+  - summary: "Video package monitor blocked; two videos still pending"
+    description: |
+      A fresh enumeration found no new uploads. Two
+      recent videos remain pending full treatment
+      because the transcript route through the source
+      computer failed repeatedly today, the same block
+      as recent days. Staged description downloads were
+      re-verified intact; nothing was added and no
+      blocked download source was attempted.
+    begin: 2026-11-10 10:47:00
+    duration: { minutes: 25 }
+
+  - summary: "Opening gap social posting complete, five channels verified"
+    description: |
+      The day's opening gap card was posted on the
+      owner's instruction and read back exact from the
+      sealed emitted files on five channels: the trading
+      group thread, Facebook, Instagram, X, and YouTube.
+      The restricted channel was held under the standing
+      restriction.
+    begin: 2026-11-10 11:01:00
+    duration: { minutes: 20 }
+
+  - summary: "Two same-day closing research packages built and presented"
+    description: |
+      At the owner's direction, application packages for
+      two clinical research roles closing today were
+      built from the master record only, quality-checked,
+      and presented ready, each with its gaps named
+      plainly. A third role closing today was passed on
+      by recommendation. Nothing was submitted; each
+      filing awaited its own standalone approval.
+    begin: 2026-11-10 12:55:00
+    duration: { minutes: 30 }
+
+  - summary: "Communications account paid ahead of cancellation deadline"
+    description: |
+      The morning deadline check found no payment
+      evidence and warned that cancellation was due
+      the next day. The owner later reported the
+      account paid, closing the cancellation and
+      recordings-deletion risk ahead of the deadline.
+      No agent verification was performed.
+    begin: 2026-11-10 14:03:00
+    duration: { minutes: 5 }
+
+  - summary: "Doctoral first-wave follow-ups sent and audited"
+    description: |
+      The two due first-wave supervision follow-ups were
+      sent after a duplicate watch found no replies and
+      no prior follow-ups. One send was first misdirected
+      to the owner himself by a reply on his own sent
+      mail, was corrected immediately with a direct send,
+      and the split delivery was audited in Sent and
+      confirmed good by the owner. The other follow-up
+      was sent cleanly and directly.
+    begin: 2026-11-10 14:05:00
+    duration: { minutes: 15 }
+
+  - summary: "Job submissions authorised but paused on owner-only steps"
+    description: |
+      The owner authorised submitting both research
+      applications. The first filing paused awaiting his
+      answers to attestation questions and a cover-letter
+      choice; the second paused awaiting him registering
+      on the employer's portal and setting its password
+      himself. Neither application was submitted today.
+    begin: 2026-11-10 14:05:00
+    duration: { minutes: 20 }
+
+  - summary: "Paid study application attempted; study already closed"
+    description: |
+      An application to a paid work-experience study was
+      authorised and attempted through the invitation.
+      Sign-in succeeded but the study page showed it
+      closed and not accepting applications, with the
+      apply control disabled. No screening questions
+      were answered and nothing was submitted.
+    begin: 2026-11-10 14:20:00
+    duration: { minutes: 10 }
+
+  - summary: "Agentic OAuth marking completed for the deadline client"
+    description: |
+      The owner was given the direct links for the
+      agentic-use marking decisions ahead of this week's
+      deadlines and completed the marking for the one
+      deadline client himself. The other clients stay
+      deliberately unmarked under yesterday's agreement,
+      apart from one dormant client that remains his
+      choice against a later deletion date and one
+      client still unverified behind a verification wall.
+    begin: 2026-11-10 14:45:00
+    duration: { minutes: 15 }
+
+  - summary: "Full Google accounts tally compiled and delivered"
+    description: |
+      A full tally of projects, OAuth clients, and
+      deadlines across all Google accounts in scope was
+      compiled from the recent sweep and delivered.
+      Most projects are counted and credential-checked
+      but not individually named, which would need a
+      further console pass. Open items include a set of
+      unrestricted API keys with no provider date, one
+      account's unaccepted terms decision, and the
+      dormant client's later use-or-delete date.
+    begin: 2026-11-10 15:45:00
+    duration: { minutes: 20 }
+
+  - summary: "Planned: dormant OAuth client use-or-delete decision"
+    description: |
+      A dormant OAuth client in a personal project will
+      be deleted by the provider later this month if it
+      stays unused. Whether to mark it for agentic use
+      to keep it alive is the owner's choice; the other
+      clients remain deliberately unmarked.
+    begin: 2026-11-26 09:00:00
+    duration: { minutes: 15 }
