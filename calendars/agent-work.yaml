@@ -8493,3 +8493,24 @@ events:
       outside the window.
     begin: 2026-12-08 09:00:00
     duration: { minutes: 30 }
+
+  - summary: "Bid 07 package built; external critique adjudicated"
+    description: |
+      A basic GEO-audit proposal package was built with
+      the local Codex session, then an external critique
+      with two rewrite options was adjudicated by Codex.
+      Neither rewrite was adopted; the letter was repaired
+      with three consolidations (2,211 characters) and the
+      package verified from disk.
+    begin: 2026-11-09 22:24:00
+    duration: { minutes: 61 }
+
+  - summary: "Bid 07 proposal submitted"
+    description: |
+      Upwork proposal submitted on the owner's standalone
+      instruction after a full pre-send recheck (all
+      captured expectations matched). Proposal-specific
+      rate, boost off, audit-example attachment included;
+      read back complete and exact, not yet opened.
+    begin: 2026-11-09 23:27:00
+    duration: { minutes: 5 }
