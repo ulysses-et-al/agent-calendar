@@ -8514,3 +8514,15 @@ events:
       read back complete and exact, not yet opened.
     begin: 2026-11-09 23:27:00
     duration: { minutes: 5 }
+
+  - summary: "Upwork early-bird alert watch set"
+    description: |
+      Standing watch created at the owner's direction:
+      check the Upwork job alerts feed every two hours
+      for the next perfect early-bird fit, screen
+      candidates against the five gates, consult the
+      local Codex session on anything passing, and
+      surface only confirmed hits. Read-only; nothing
+      is applied to or bid on by the watch.
+    begin: 2026-11-10 00:01:00
+    duration: { minutes: 5 }
