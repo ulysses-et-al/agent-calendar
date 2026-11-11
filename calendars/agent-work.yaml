@@ -8761,3 +8761,209 @@ events:
       clients remain deliberately unmarked.
     begin: 2026-11-26 09:00:00
     duration: { minutes: 15 }
+
+  - summary: "Nightly chat archive failed again; backlog now eleven days"
+    description: |
+      The nightly archive for the previous day could not
+      reach the source computer over the remote route on
+      repeated attempts, failing before authentication.
+      Nothing was exported, committed, or mirrored, and
+      the outstanding backlog grew to eleven days. The
+      failure pattern matches the intermittent remote
+      access problems seen across both home computers.
+    begin: 2026-11-11 00:54:00
+    duration: { minutes: 20 }
+
+  - summary: "Remote access to both home computers intermittent all day"
+    description: |
+      Both hourly mailbox watches failed to reach the
+      remote laptop all day, reaching more than twenty
+      consecutive unverified runs since the last success
+      the previous afternoon. The same failure appeared
+      on the second home computer's route, pointing to a
+      shared transport problem rather than a per-device
+      credential issue. No watch state was advanced on
+      any failed run; earlier delivered rounds stand.
+    begin: 2026-11-11 06:10:00
+    duration: { minutes: 15 }
+
+  - summary: "Premarket pivots social posting complete, five channels verified"
+    description: |
+      The morning pivot card passed its verification
+      gate and was posted from the sealed emitted files
+      on five channels: the trading group thread,
+      Facebook, Instagram, X, and YouTube, with the
+      follow-up verification checks passed. The
+      restricted channel was held under the standing
+      restriction.
+    begin: 2026-11-11 06:54:00
+    duration: { minutes: 20 }
+
+  - summary: "Morning investigation: PageSpeed re-run closed; field data failing"
+    description: |
+      The owed performance re-run was completed in full:
+      every measured page was run on mobile and desktop.
+      The top rotation pages score strongly, but origin
+      field data failed and worsened, and one heavy
+      landing page was identified as the drag on the
+      whole origin. A site-side performance pass on that
+      page is the next step and awaits the owner's
+      direction.
+    begin: 2026-11-11 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing: one accepted; five URLs blocked by robots file"
+    description: |
+      One indexing request was submitted and accepted.
+      All five file-hosted chat URLs were verified
+      directly as blocked by the site's robots file for
+      the third day running and were rejected; one other
+      URL was skipped for a redirect error. Twelve URLs
+      remain against the indexed total, and the block is
+      a site-side fix, not a resubmission.
+    begin: 2026-11-11 06:30:00
+    duration: { minutes: 25 }
+
+  - summary: "Public rank check stopped; no third-party account created"
+    description: |
+      A public ranking lookup for the organisation's own
+      domain found it below the estimator's tracking
+      threshold. The lookup reached a sign-up wall on a
+      third-party metrics service and the owner directed
+      a stop: no account was created, no sign-in was
+      completed, and the task was abandoned.
+    begin: 2026-11-11 07:43:00
+    duration: { minutes: 10 }
+
+  - summary: "Partnership pitch assessed; owner deferred the decision"
+    description: |
+      An inbound institutional partnership pitch from an
+      overseas research consultancy was researched and
+      assessed: the organisation is real, but its
+      flagship journal carries the lowest national
+      recognition tier and no major index listings, and
+      the value of the proposed framework flows mostly
+      one way. A polite, non-committal reply was
+      recommended, with no name or logo use meanwhile.
+      The owner took the assessment to think over; no
+      reply was drafted or sent. A follow-up audience
+      check found no published mailing-list size and
+      only a small public footprint.
+    begin: 2026-11-11 08:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Doctoral follow-ups due today drafted, not sent"
+    description: |
+      The follow-ups due today under the dated plan were
+      prepared as direct sends, with recipient addresses
+      verified before sending, applying the lesson of
+      the previous day's misdirected send. None was
+      sent: each still awaits the owner's standalone
+      go-ahead, and the planned deadline item therefore
+      stands unmet rather than completed.
+    begin: 2026-11-11 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Opening gap posted to the trading group; other channels awaiting approval"
+    description: |
+      The market-open gap run passed its full
+      verification gate and the card passed its blind
+      check exactly. The post was published and verified
+      in the trading group thread. Posting to the other
+      channels was left awaiting the owner's approval
+      and had not happened at the evening wrap; the
+      restricted channel stays held.
+    begin: 2026-11-11 09:45:00
+    duration: { minutes: 20 }
+
+  - summary: "Newsletter OCR tracker located and analysed in full"
+    description: |
+      The progress tracker for the market newsletter
+      archive was located in cloud storage, downloaded,
+      and parsed in full. About two-thirds of the
+      documents have been extracted; the remainder has
+      been pending since partway through an earlier
+      year, while the page-image step is complete. The
+      next step was left open with the owner: summarise
+      the pending rows, estimate finishing the run, or
+      leave the file as located.
+    begin: 2026-11-11 09:54:00
+    duration: { minutes: 25 }
+
+  - summary: "Video package monitor blocked again; two videos still pending"
+    description: |
+      A fresh enumeration found no new uploads today.
+      Two recent videos remain pending full treatment
+      because the transcript route through the source
+      computer failed on every attempt, the eighth
+      consecutive blocked run. Staged description
+      downloads were re-verified intact; nothing was
+      added and no blocked download source was
+      attempted.
+    begin: 2026-11-11 10:47:00
+    duration: { minutes: 25 }
+
+  - summary: "Two research job filings re-confirmed as blocked, not completed"
+    description: |
+      A reconciliation of the previous day's closing
+      round corrected the task state for both research
+      applications: neither is completed or cancelled.
+      Both remain blocked on owner-only steps, one on
+      attestation answers, the other on the employer's
+      portal registration, and the closing exit record
+      was written and published.
+    begin: 2026-11-11 11:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Critical database security alert still open; fix ready"
+    description: |
+      The critical alert reported the previous day, a
+      public database table with row-level security
+      disabled, remains unresolved. A ready one-step fix
+      pack exists, but it needs the owner's confirmation
+      of which table is affected before it runs. Nothing
+      was changed in the database today, and the item
+      stays open as a risk, not hidden.
+    begin: 2026-11-11 12:00:00
+    duration: { minutes: 10 }
+
+  - summary: "Ads and analytics access verified live, read-only"
+    description: |
+      A live read-only check confirmed access to both
+      the ads account and both analytics properties
+      under the correct account, with no sign-in or
+      two-step blocker and nothing created or changed.
+      New campaign briefs are expected from the
+      colleague who owns that desk; none had been given
+      yet.
+    begin: 2026-11-11 12:25:00
+    duration: { minutes: 15 }
+
+  - summary: "Analytics secrets restored to the website project; lookup dimensions created"
+    description: |
+      The restoration brief was completed in full. Both
+      measurement secrets already existed in analytics
+      and were not recreated; they were transferred into
+      the website project's hosting settings inside the
+      browser only, after sign-in was completed through
+      a passwordless email-code route, and both were
+      verified saved. Four new lookup dimensions were
+      created in the main analytics property. Secret
+      values were never printed, written to a file, or
+      placed in any report, despite repeated requests
+      that they be filed; an alternate sign-in route was
+      abandoned at its two-factor screen with no code
+      entered. No redeploy was performed.
+    begin: 2026-11-11 14:54:00
+    duration: { minutes: 40 }
+
+  - summary: "Appraisal replies watch: no new reply"
+    description: |
+      The scheduled watch checked the mailbox for replies
+      from the four appraisal houses contacted in
+      October. No new replies arrived; the two already
+      reported responses stand, and the two remaining
+      houses are still silent. No stop condition is met,
+      so the watch stays enabled.
+    begin: 2026-11-11 17:00:00
+    duration: { minutes: 10 }
