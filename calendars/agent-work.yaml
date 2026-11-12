@@ -8967,3 +8967,281 @@ events:
       so the watch stays enabled.
     begin: 2026-11-11 17:00:00
     duration: { minutes: 10 }
+  - summary: "Nightly chat archive failed again; backlog now twelve days"
+    description: |
+      The nightly archive for the previous day could not
+      reach the source computer over the remote route on
+      repeated attempts, failing before authentication.
+      Nothing was exported, committed, or mirrored, and
+      the outstanding backlog grew to twelve days.
+    begin: 2026-11-12 00:54:00
+    duration: { minutes: 20 }
+
+  - summary: "Remote access to the remote laptop unreachable all day"
+    description: |
+      Both hourly mailbox watches failed to reach the
+      remote laptop all day, passing fifty consecutive
+      unverified runs for one watch since the last success
+      two days earlier. No watch state or watermark was
+      advanced on any failed run; earlier delivered
+      rounds stand and any newer entries remain
+      unsurveyed until a reachable run.
+    begin: 2026-11-12 06:10:00
+    duration: { minutes: 15 }
+
+  - summary: "Premarket pivots posted on all live channels, verified"
+    description: |
+      The morning pivot run passed its full verification
+      gate and the card passed its blind check. The post
+      was published in the trading group thread and,
+      after the owner's standalone instruction, on the
+      four social channels from the sealed emitted files,
+      with the follow-up verification checks passed and
+      the token lines read back from the live posts.
+      The restricted channel was held.
+    begin: 2026-11-12 06:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing: two requests accepted; five blocked by robots file"
+    description: |
+      Two indexing requests were submitted and confirmed,
+      one of them new. All five file-hosted chat URLs
+      were verified directly as blocked by the site's
+      robots file for the fourth day running and were
+      rejected; a set of owner-excluded URLs was skipped.
+      Twelve URLs remain against the indexed total, and
+      the block is a site-side fix, not a resubmission.
+    begin: 2026-11-12 06:30:00
+    duration: { minutes: 25 }
+
+  - summary: "Morning investigation: ads deep dive read live; analytics not read"
+    description: |
+      The Thursday investigation was completed read-only.
+      The ads surface was read live for the first time in
+      a week, closing a multi-day worker gap: a set of
+      policy flags was re-verified item by item as
+      artefacts of removed campaigns, the change history
+      explained a small keyword-count change, and a
+      tracking tag still shows as never detected. The
+      analytics surface could not be read: its shell
+      loaded with errors and a permissions dialog pointing
+      at another property, so no account identity could
+      be verified in the tab and no data was taken.
+    begin: 2026-11-12 06:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Doctoral funding: owner go, then deadline correction found the window closed"
+    description: |
+      A national doctoral funding go/no-go was presented
+      and the owner directed a start. Groundwork against
+      the funder's and the university's own pages then
+      found the presented date is only the date
+      institutions forward selected applications: both
+      applicant deadlines for this cycle had already
+      passed in the autumn. The correction was presented
+      the same day, with the further gates that a named
+      primary supervisor is mandatory at application and
+      two sponsor assessments must be in before
+      submission. Preparation notes were built and carry
+      forward to the next cycle; nothing was submitted.
+    begin: 2026-11-12 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Account security flag closed; owner confirmed his own activity"
+    description: |
+      A security flag raised the previous day over a
+      password reset and unfamiliar-browser confirmations
+      on a service account was closed after the owner
+      confirmed that activity was his own. No further
+      action was needed.
+    begin: 2026-11-12 09:28:00
+    duration: { minutes: 5 }
+
+  - summary: "Opening gap posted on all live channels, verified"
+    description: |
+      The market-open gap run passed its full
+      verification gate and was published in the trading
+      group thread. After the owner's standalone
+      instruction it was posted on the four social
+      channels from the sealed emitted files, and the
+      follow-up verification checks found the posts live,
+      public, and matching the emitted texts exactly.
+      The restricted channel was held.
+    begin: 2026-11-12 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Video package monitor blocked again; two videos still pending"
+    description: |
+      A fresh enumeration found no new uploads today and
+      the catalogue was unchanged. Two recent videos
+      remain pending full treatment because the
+      transcript route through the source computer failed
+      on every attempt, continuing a multi-day block.
+      Staged description downloads were re-verified
+      intact; nothing was added and no blocked download
+      source was attempted.
+    begin: 2026-11-12 10:47:00
+    duration: { minutes: 25 }
+
+  - summary: "Doctoral referee follow-up sent and verified"
+    description: |
+      The single permitted follow-up to a doctoral
+      reference request was sent as a direct send after
+      a pre-send check found no reply since the original
+      and no earlier follow-up. The resolved recipient
+      was verified on the sent copy. A second follow-up
+      in the same wave was not bundled with this send.
+    begin: 2026-11-12 11:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Doctoral thread read: one supervision ask declined; admissions guidance received"
+    description: |
+      A full thread read at the owner's request confirmed
+      a supervisor declined the ask earlier in the week,
+      as the topics are outside their capabilities, but
+      offered a brief meeting to explore pathway options
+      through a scheduler. The owner had already replied
+      asking for the earliest slot; no scheduling reply
+      had arrived at the read. Admissions guidance in
+      the same thread confirmed a confirmed supervisor
+      is required before applying, admissions are
+      rolling, and the programme can be completed online
+      if the confirmed supervisor agrees.
+    begin: 2026-11-12 12:43:00
+    duration: { minutes: 20 }
+
+  - summary: "Doctoral supervisor and programme deep dive completed"
+    description: |
+      An owner-directed deep dive, not a skim, checked
+      the official supervisor directory, adjacent units
+      and research centres, both doctoral programme
+      pages, and publication-level evidence, marking
+      already-contacted names as closed rather than
+      re-proposing them. One programme was verified with
+      a mid-December application deadline for a September
+      start and a confirmed supervisor required first;
+      the other is rolling and online-eligible. The
+      strongest publication fit was found closed to new
+      students in the directory. New verified candidates
+      were surfaced for the owner to decide on.
+    begin: 2026-11-12 12:30:00
+    duration: { minutes: 40 }
+
+  - summary: "Doctoral supervisor follow-up sent and closed"
+    description: |
+      A supervisor follow-up whose protocol window had
+      passed was sent only on the owner's own standalone
+      approval for that send, as a direct send with the
+      exact approved text, after a pre-send check found
+      no reply and no earlier follow-up. That follow-up
+      allowance is now used.
+    begin: 2026-11-12 13:16:00
+    duration: { minutes: 15 }
+
+  - summary: "Separate supervision ask sent to the reference holder"
+    description: |
+      On the owner's direction, overriding a
+      recommendation to wait, a separate supervision ask
+      was sent to the academic who already holds the
+      reference request. The draft states the two
+      requests are independent, with no obligation
+      carried from one to the other, and the usual
+      application documents were attached.
+    begin: 2026-11-12 13:50:00
+    duration: { minutes: 15 }
+
+  - summary: "Doctoral funding confirmation email sent"
+    description: |
+      On the owner's chosen confirm-first route, a short
+      email was sent to the funding body's contact centre
+      asking it to confirm in writing that both applicant
+      deadlines for this cycle are closed, whether any
+      late route exists, and when the next cycle's
+      deadlines are expected. The funding decision now
+      rests on that reply.
+    begin: 2026-11-12 13:55:00
+    duration: { minutes: 10 }
+
+  - summary: "New doctoral supervisor batch of four sent"
+    description: |
+      Four new supervisor asks, drafted after the owner's
+      green light from the deep-dive candidates and each
+      approved by name, were sent as direct sends,
+      customised to each recipient's work, with the
+      application documents attached and a duplicate
+      watch clean. Each receives exactly one follow-up
+      in seven days if there is no reply. A fifth
+      candidate checked in the same pass was removed
+      after verification showed she had moved to another
+      university.
+    begin: 2026-11-12 14:05:00
+    duration: { minutes: 30 }
+
+  - summary: "Two further doctoral supervisor asks sent"
+    description: |
+      Two further asks from the deep dive were drafted,
+      shown to the owner, and sent on his instruction:
+      one as a primary-supervisor ask and one as a
+      co-supervision or committee ask only, because the
+      recipient's own programme carries a licensing
+      requirement the owner does not hold. Both were
+      verified on the sent copies and join the same
+      seven-day follow-up cohort if unanswered.
+    begin: 2026-11-12 14:30:00
+    duration: { minutes: 20 }
+
+  - summary: "Doctoral application checklists built for both programmes"
+    description: |
+      Application checklists for both doctoral packages
+      were built at the owner's direction and filed
+      locally with a copy in the shared dispatch folder.
+      The real gaps are named: a supervisor confirmation
+      gates both packages, an internal writing-sample
+      milestone falls later this month (clarified as the
+      owner's own plan date, not a university deadline),
+      one letter of intent needs an opening edit if the
+      distance route is chosen, a recent-statistics
+      requirement needs checking against transcripts,
+      and only unofficial transcripts are on file.
+    begin: 2026-11-12 15:00:00
+    duration: { minutes: 25 }
+
+  - summary: "Freelance bid for a specialist AI role built, audited and submitted"
+    description: |
+      A bid package for a specialist AI role was built
+      with the local coding agent from the owner's
+      record, kept strictly to that specialism. Two
+      external polish variants were claim-audited; one
+      clause was flagged for overstating how a platform
+      component is backed, and the coding agent chose
+      the clean variant with one further micro-edit
+      removing an unsupported deployment claim. The
+      final letter was independently re-verified and
+      submitted on the owner's standalone instruction;
+      no screening questions appeared in the flow.
+    begin: 2026-11-12 15:54:00
+    duration: { minutes: 30 }
+
+  - summary: "Appraisal replies watch: no new reply"
+    description: |
+      The scheduled watch checked the mailbox for replies
+      from the four appraisal houses contacted in
+      October. No new replies arrived; the two already
+      reported responses stand, and the two remaining
+      houses are still silent. No stop condition is met,
+      so the watch stays enabled.
+    begin: 2026-11-12 17:00:00
+    duration: { minutes: 10 }
+
+  - summary: "Bitcoin evening pivots blocked; production run failed"
+    description: |
+      The evening Bitcoin pivots production failed in
+      its run step almost immediately and uploaded no
+      artefact, so no levels could be verified or
+      delivered. The error text is not exposed in the
+      run log under the current setup. The run was not
+      re-dispatched, in line with the standing policy
+      of reporting notebook and data errors rather than
+      retrying them.
+    begin: 2026-11-12 17:15:00
+    duration: { minutes: 15 }
