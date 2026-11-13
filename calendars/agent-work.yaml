@@ -9245,3 +9245,193 @@ events:
       retrying them.
     begin: 2026-11-12 17:15:00
     duration: { minutes: 15 }
+
+  - summary: "Paid research study invitation surfaced; not applied"
+    description: |
+      A paid research study invitation was surfaced to
+      the owner and not applied to, awaiting his word.
+      A fit caveat was recorded: the screening is framed
+      on non-profit and public-sector management
+      involvement, and any application would need to
+      answer honestly on the founder and non-profit
+      management angle rather than a practitioner one.
+    begin: 2026-11-12 12:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening gap verified but withheld; closed by time"
+    description: |
+      The evening Bitcoin gap passed its own verification,
+      including an independent volatility cross-check, but
+      its cross-check against the pivots file could not
+      run because that production had failed, so nothing
+      was delivered. By the following day its session had
+      ended and the item closed by time, with no owner
+      decision needed.
+    begin: 2026-11-12 18:15:00
+    duration: { minutes: 20 }
+
+  - summary: "Billing corrections surfaced; an earlier payment closure reopened"
+    description: |
+      Evening billing corrections were surfaced to the
+      owner, superseding an earlier closure that had been
+      taken on his word without verification. A payer's
+      own notice showed a recent payment attempt on a
+      communications account had failed, with suspension
+      possible later this month if unpaid, and two other
+      subscription payment attempts were also declined.
+      No payment was attempted by the agent on any item.
+    begin: 2026-11-12 19:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Nightly chat archive failed again; backlog now thirteen days"
+    description: |
+      The nightly archive for the previous day could not
+      reach the source computer over the remote route on
+      repeated attempts, failing before authentication.
+      Nothing was exported, committed, or mirrored, and
+      the outstanding backlog grew to thirteen days.
+    begin: 2026-11-13 00:53:00
+    duration: { minutes: 20 }
+
+  - summary: "Premarket pivots delivered; group post verified, social awaiting approval"
+    description: |
+      The morning pivot run passed its full verification
+      gate, including its cross checks, and the card
+      passed its blind check. The post was published in
+      the trading group thread and verified on read-back,
+      and the full delivery was shown in the main chat.
+      The social channels were not yet posted, awaiting
+      the owner's instruction; the restricted channel
+      was held.
+    begin: 2026-11-13 06:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing blocked on a two-step prompt; no requests made"
+    description: |
+      The indexing run selected the correct account and
+      its saved sign-in was accepted, then stopped at a
+      phone tap-to-confirm two-step prompt and was parked
+      under the standing rule, with no alternate route
+      tried. No pages report was opened and no requests
+      were made; twelve URLs remain from the previous
+      day's verified snapshot.
+    begin: 2026-11-13 06:30:00
+    duration: { minutes: 25 }
+
+  - summary: "Recruitment reply surfaced; draft prepared, nothing sent"
+    description: |
+      A reply in a recruitment thread was verified live
+      and surfaced to the owner: the employer asked what
+      type of position he is looking for. A draft reply
+      was prepared naming a quality-inspector direction
+      from his laboratory and quality background, with a
+      second interest as secondary, and claiming no
+      experience he does not hold. Nothing was sent or
+      staged; a send awaits his standalone approval on
+      the exact final text.
+    begin: 2026-11-13 06:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Morning investigation: trends deep dive completed; all browser sessions signed out"
+    description: |
+      The Friday investigation was completed read-only.
+      The trends deep dive finished, with several tracked
+      topics changing state and the mail sweep for the
+      ads surface clean. All six browser sessions were
+      found signed out, so the search, analytics, ads,
+      and AI research surfaces could not be read and
+      their baselines were carried unverified. An owner
+      re-sign-in is needed before the weekend research
+      run and the indexing run can proceed.
+    begin: 2026-11-13 06:30:00
+    duration: { minutes: 60 }
+
+  - summary: "Daily job sweep: one verified strong match found"
+    description: |
+      The daily sweep found one net-new verified strong
+      match: an AI operations manager role, remote in
+      Canada, verified on the employer's own page. Its
+      pay sits below the relevant track floor and was
+      reported with that gap rather than discarded.
+      Near-misses were logged with their reasons, and
+      the full record was filed in the sweep log.
+    begin: 2026-11-13 08:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Opening gap: first verification failed; re-check passed, nothing posted"
+    description: |
+      The market-open gap run failed its verification
+      gate on a single cross-source open check, so no
+      numbers were delivered or posted and no bundle was
+      sealed. An afternoon re-run passed the full gate
+      after the second source revised its early bar into
+      tolerance, confirming the original file was right.
+      The bundle was then sealed, but nothing was posted
+      late; the decision was left to the owner with a
+      recommendation to leave it unposted.
+    begin: 2026-11-13 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Video package monitor blocked again; two videos still pending"
+    description: |
+      A fresh enumeration found no new uploads today and
+      the catalogue was unchanged. Two recent videos
+      remain pending full treatment because the
+      transcript route through the source computer failed
+      on every attempt, continuing a multi-day block.
+      Staged description downloads were re-verified
+      intact; nothing was added and no blocked download
+      source was attempted.
+    begin: 2026-11-13 10:47:00
+    duration: { minutes: 25 }
+
+  - summary: "Remote laptop access intermittent; two afternoon checks succeeded unchanged"
+    description: |
+      The remote laptop was unreachable on most hourly
+      watch runs today, failing before authentication,
+      and no watch state or watermark was advanced on
+      any failed run. Two mid-afternoon checks did
+      succeed, breaking the streak, and both verified
+      their files unchanged against their watermarks.
+      Access was unreachable again afterwards; earlier
+      delivered rounds stand and the watches' purposes
+      were already complete.
+    begin: 2026-11-13 14:05:00
+    duration: { minutes: 15 }
+
+  - summary: "Appraisal replies watch: no new reply"
+    description: |
+      The scheduled watch checked the mailbox for replies
+      from the four appraisal houses contacted in
+      October. No new replies arrived; the two already
+      reported responses stand, and the two remaining
+      houses are still silent. No stop condition is met,
+      so the watch stays enabled.
+    begin: 2026-11-13 17:00:00
+    duration: { minutes: 10 }
+
+  - summary: "Production troubleshooting: data-fetch retry fixes pushed and verified"
+    description: |
+      An owner-directed troubleshooting pass diagnosed
+      the previous evening's Bitcoin production failure
+      as a transient, unretried data fetch, its exact
+      error unrecoverable under the old logging setup.
+      Fixes were pushed to the production repo: a bounded
+      retry on the data fetch, an explicit error on an
+      incomplete session bar, and run logs always
+      uploaded. A smoke test passed. A similar fetcher
+      in the other notebook was left untouched, as its
+      runs are healthy, pending the owner's word.
+    begin: 2026-11-13 17:07:00
+    duration: { minutes: 40 }
+
+  - summary: "Bitcoin evening pivots delivered for the next session"
+    description: |
+      The evening Bitcoin pivots production passed its
+      verification fully, and the script-emitted block
+      for the next session was delivered in the main
+      chat. The run fired as the troubleshooting fixes
+      were being pushed, so it may carry the pre-fix
+      code; its outcome was verified on its own gate.
+    begin: 2026-11-13 17:15:00
+    duration: { minutes: 30 }
