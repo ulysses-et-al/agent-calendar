@@ -9435,3 +9435,128 @@ events:
       code; its outcome was verified on its own gate.
     begin: 2026-11-13 17:15:00
     duration: { minutes: 30 }
+
+  - summary: "Doctoral supervisor replies: one co-supervision offer, two declines closed"
+    description: |
+      Replies to the recent supervisor batch were read.
+      One professor offered to co-supervise or sit on the
+      committee rather than serve as primary supervisor,
+      and a thank-you reply is drafted awaiting the
+      owner's standalone approval. Two others declined
+      and their threads are closed, with their scheduled
+      follow-ups cancelled; one asked for no follow-up.
+    begin: 2026-11-13 21:58:00
+    duration: { minutes: 20 }
+
+  - summary: "Ads plan received and updated; read-only round started, blocked on two-step"
+    description: |
+      A contractor's multi-round ads plan was received,
+      read in full, played back, and assessed, and a
+      revised version was verified against the first.
+      Two internal conflicts were resolved in favour of
+      pause-and-report. The read-only first round was
+      started but collected no data, blocked on the
+      owner's phone tap for the main account sign-in.
+      Nothing was changed in any account.
+    begin: 2026-11-13 22:06:00
+    duration: { minutes: 45 }
+
+  - summary: "Audio programme acceptance surfaced; activation deadline in one week"
+    description: |
+      An acceptance into a complimentary audio programme
+      for the research organisation was surfaced, with a
+      one-week activation window. The correct activation
+      order and follow-on obligations were recorded, and
+      draft directory text was prepared. Nothing had
+      been activated and no follow-on item was actioned.
+    begin: 2026-11-13 22:35:00
+    duration: { minutes: 20 }
+
+  - summary: "Nightly chat archive failed again; backlog now fourteen days"
+    description: |
+      The nightly chat archive failed again because the
+      source computer was unreachable on every spaced
+      attempt. No file was produced and no counts were
+      invented. Fourteen days are now outstanding.
+    begin: 2026-11-14 00:53:00
+    duration: { minutes: 25 }
+
+  - summary: "Morning investigation: sessions signed out a second day; weekend research blocked"
+    description: |
+      The Saturday investigation was completed read-only.
+      The mail sweep was clean and the site checks were
+      unchanged, but all six browser sessions were signed
+      out for a second straight day, so the search,
+      analytics, ads, and AI research surfaces were not
+      read and their baselines were carried unverified.
+      The weekend research run was blocked; an owner
+      re-sign-in is the single unblock.
+    begin: 2026-11-14 06:30:00
+    duration: { minutes: 60 }
+
+  - summary: "Search Console indexing blocked on a two-step prompt; no requests made"
+    description: |
+      The indexing run was blocked at the main account
+      two-step phone prompt. No inspections or requests
+      were made and the quota was not reached. The
+      remaining unindexed URLs stand as last verified.
+    begin: 2026-11-14 06:30:00
+    duration: { minutes: 25 }
+
+  - summary: "Two payment notices surfaced; no payment made"
+    description: |
+      Two payment notices dated the previous day were
+      surfaced to the owner: a phone service payment
+      declined with a brief continuation warning, and a
+      cloud billing account flagged past due again with
+      one project named at risk of suspension. No
+      amounts were stated in the notices, and nothing
+      was paid or changed by the agent.
+    begin: 2026-11-14 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Video package monitor blocked again; two videos still pending"
+    description: |
+      A fresh enumeration found no new uploads and the
+      catalogue was unchanged. Two recent videos remain
+      pending full treatment because the source computer
+      remains offline. Staged materials were re-verified
+      intact; nothing was added.
+    begin: 2026-11-14 10:47:00
+    duration: { minutes: 25 }
+
+  - summary: "Remote laptop access recovered during the day; checks succeeded unchanged"
+    description: |
+      The remote laptop was unreachable on most hourly
+      watch runs through the morning, failing before
+      authentication, and no watch state was advanced on
+      any failed run. From late morning onward checks
+      succeeded and verified their files unchanged
+      against their watermarks. Earlier delivered rounds
+      stand and the watches' purposes were already
+      complete.
+    begin: 2026-11-14 14:05:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening pivots failed its gate; no delivery"
+    description: |
+      The evening Bitcoin production succeeded as a run
+      but produced no new session: it re-anchored on the
+      previous day's session and re-titled that block,
+      so verification failed on freshness and nothing
+      was delivered. This is the third occurrence of the
+      same Saturday stale re-emission. A diagnostic
+      against the previous day's own anchor passed fully.
+    begin: 2026-11-14 17:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Planned: complimentary audio programme activation deadline"
+    description: |
+      The complimentary audio programme accepted this
+      week must be activated by this evening or the free
+      year lapses, with no reissue route stated. Activation
+      is the owner's step, following the recorded order:
+      free account first, then the redemption link from
+      the acceptance email, on a monthly plan.
+    begin: 2026-11-20 12:00:00
+    duration: { minutes: 30 }
