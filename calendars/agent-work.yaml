@@ -9560,3 +9560,128 @@ events:
       the acceptance email, on a monthly plan.
     begin: 2026-11-20 12:00:00
     duration: { minutes: 30 }
+
+  - summary: "Bitcoin evening gap failed its gate; no delivery"
+    description: |
+      The evening Bitcoin gap run for the previous day
+      also failed: it re-printed the prior session's gap,
+      so verification failed on freshness and nothing was
+      delivered. The cause was the same Saturday weekend-
+      session issue that failed that day's pivots run.
+    begin: 2026-11-14 18:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Nightly chat archive failed again; backlog now fifteen days"
+    description: |
+      The nightly chat archive failed again because the
+      source computer was unreachable on every spaced
+      attempt. No file was produced and no counts were
+      invented. Fifteen days are now outstanding.
+    begin: 2026-11-15 00:53:00
+    duration: { minutes: 25 }
+
+  - summary: "Morning investigation: sessions signed out a third day; research blocked"
+    description: |
+      The Sunday investigation was completed read-only.
+      The mail sweep was clean, but all six browser
+      sessions were signed out for a third straight day,
+      so the search, analytics, ads, and AI research
+      surfaces were not read and their baselines were
+      carried unverified. An owner re-sign-in of the
+      main and research accounts is the single unblock.
+    begin: 2026-11-15 06:30:00
+    duration: { minutes: 60 }
+
+  - summary: "Search Console indexing blocked on a two-step prompt; no requests made"
+    description: |
+      The indexing run was blocked at the main account
+      two-step phone prompt for a third consecutive day.
+      No inspections or requests were made and the quota
+      was not reached. The remaining unindexed URLs stand
+      as last verified.
+    begin: 2026-11-15 06:30:00
+    duration: { minutes: 25 }
+
+  - summary: "Family travel: document name check raised, pending confirmation"
+    description: |
+      A proactive check raised an open question about
+      whether the name on a family member's upcoming
+      flight ticket matches their travel document
+      exactly. The question was put to the owner with
+      the two possible outcomes; no answer is recorded
+      yet and no carrier or agent was contacted.
+      Resolution is needed well before online check-in
+      opens in late November.
+    begin: 2026-11-15 07:22:00
+    duration: { minutes: 15 }
+
+  - summary: "Doctoral grant route closed on a verified reply"
+    description: |
+      A funding body's verified reply confirmed that
+      the doctoral grant route discussed this autumn is
+      closed for the current competition, with no late
+      or exceptional route available. The item is closed
+      on that ground; no reply is owed and the
+      preparation notes carry forward to a future
+      competition pack.
+    begin: 2026-11-15 09:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Video package monitor blocked again; two videos still pending"
+    description: |
+      A fresh enumeration confirmed the channel catalogue
+      was unchanged and no newer upload exists. Two
+      recent videos remain pending full treatment
+      because the transcript route through the source
+      computers failed on every attempt. Staged
+      materials were re-verified intact; nothing was
+      added.
+    begin: 2026-11-15 10:47:00
+    duration: { minutes: 25 }
+
+  - summary: "Research residency application: filing decision put to the owner, undecided"
+    description: |
+      A prepared research residency application package
+      was put to the owner for a filing decision. Nothing
+      was submitted. The decisions named were a standalone
+      go-ahead to file, a live read of the application
+      form before filing, and how to handle a possible
+      technical assessment stage. A filing sitting several
+      days before the deadline was suggested.
+    begin: 2026-11-15 11:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Remote laptop access unreachable all day; watch states unverified"
+    description: |
+      The remote laptop was unreachable on every hourly
+      watch run today, failing before authentication,
+      and no watch state or watermark was advanced on
+      any failed run. Earlier delivered rounds stand and
+      the watches' purposes were already complete; the
+      previous day's recovery is now understood to be
+      intermittent rather than durable.
+    begin: 2026-11-15 15:05:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening pivots delivered for the next session"
+    description: |
+      The evening Bitcoin pivots production passed its
+      verification fully, and the script-emitted block
+      for the next session was delivered in the main
+      chat. The anchor was a constructed weekend session,
+      labelled as such in the block, resolving the
+      previous day's stale re-emission in the forward
+      direction.
+    begin: 2026-11-15 17:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Planned: research residency application deadline"
+    description: |
+      The prepared research residency application closes
+      late this evening Pacific time. A filing decision
+      is still undecided; filing requires the owner's
+      standalone go-ahead and a live read of the form
+      first. If no decision is made, the package does
+      not get submitted.
+    begin: 2026-11-22 12:00:00
+    duration: { minutes: 30 }
