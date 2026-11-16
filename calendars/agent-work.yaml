@@ -9685,3 +9685,243 @@ events:
       not get submitted.
     begin: 2026-11-22 12:00:00
     duration: { minutes: 30 }
+
+  - summary: "Nightly chat archive failed again; backlog now sixteen days"
+    description: |
+      The nightly chat archive failed again because the
+      source computer was unreachable on every spaced
+      attempt. No file was produced and no counts were
+      invented. Sixteen days are now outstanding.
+    begin: 2026-11-16 00:53:00
+    duration: { minutes: 25 }
+
+  - summary: "Premarket pivots delivered and posted on all live channels"
+    description: |
+      The morning pivots production passed its verification
+      in full and was posted on all live channels, with
+      read-back and timed re-checks confirming each post
+      matched the emitted files. One channel remains held
+      under its standing restriction.
+    begin: 2026-11-16 06:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Morning investigation blocked; sessions signed out a fourth day"
+    description: |
+      The Monday investigation was blocked at the start of
+      the day: all browser sessions were signed out for a
+      fourth straight day, so the search, analytics, ads,
+      and AI research surfaces were not read and their
+      baselines were carried unverified. The mail sweep
+      was clean.
+    begin: 2026-11-16 06:30:00
+    duration: { minutes: 60 }
+
+  - summary: "Search Console indexing blocked on a two-step prompt; no requests made"
+    description: |
+      The indexing run was blocked at the main account
+      two-step phone prompt for a fourth consecutive day.
+      No inspections or requests were made and the quota
+      was not reached. The remaining unindexed URLs stand
+      as last verified.
+    begin: 2026-11-16 06:30:00
+    duration: { minutes: 25 }
+
+  - summary: "Payment and domain notices surfaced; no payment made"
+    description: |
+      New notices were surfaced to the owner: two domain
+      renewals failed because a linked account is suspended,
+      with the registrations expiring in mid-December, and
+      a software services account warned of suspension in
+      about a week if a small overdue invoice stays unpaid.
+      An earlier telecom bill also remains open ahead of a
+      late-November deadline. Nothing was paid or changed
+      by the agent; closing any item requires verification
+      in the payer's own record.
+    begin: 2026-11-16 08:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Sign-in block cleared; owner signed in to all accounts"
+    description: |
+      The owner signed in to all browser accounts, ending
+      the four-day period in which the search, analytics,
+      ads, and research surfaces were blocked. A session
+      check confirmed the accounts live, and the owner
+      approved doing all of the presented catch-up work.
+    begin: 2026-11-16 08:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing catch-up completed after re-sign-in"
+    description: |
+      The indexing catch-up run completed after the
+      sign-in was restored: several indexing requests were
+      confirmed, a set of file-hosted URLs was rejected
+      again under the site's robots rules, and the
+      remaining list narrowed. The quota was not hit.
+    begin: 2026-11-16 08:32:00
+    duration: { minutes: 45 }
+
+  - summary: "Ads read-only export round completed; next round awaiting go-ahead"
+    description: |
+      The read-only first round of a contractor's ads plan
+      was completed and its full return delivered, with
+      nothing changed in any account. Headline findings
+      and the conditions for the next round were recorded;
+      the next round awaits the owner's go-ahead.
+    begin: 2026-11-16 09:06:00
+    duration: { minutes: 60 }
+
+  - summary: "Rotation review missed a fourth week; interim data read reported"
+    description: |
+      The weekly rotation service produced no brief for a
+      fourth straight Monday: its project exists but holds
+      no runs, so no swaps were made. An interim data read
+      from the ads side was reported to the owner instead;
+      the actual swap decision still awaits the analytics
+      page ranking.
+    begin: 2026-11-16 09:10:00
+    duration: { minutes: 30 }
+
+  - summary: "Research catch-up: weekly visibility run and horizon refresh completed"
+    description: |
+      The weekly visibility run completed all of its
+      observations across four research surfaces: branded
+      prompts were recognised and cited throughout, while
+      unbranded presence remained at source-list level only.
+      A horizon refresh covering the next three months was
+      also completed and delivered.
+    begin: 2026-11-16 09:22:00
+    duration: { minutes: 45 }
+
+  - summary: "Newsletter archive: resumption decision presented; progress sheet shared"
+    description: |
+      A resumption plan for a large newsletter text-
+      extraction archive was presented and awaits the
+      owner's go or no-go, with a warning to confirm the
+      billing route before any spending. The archive's
+      progress sheet was also identified at the owner's
+      direction and shared with his second account.
+    begin: 2026-11-16 09:23:00
+    duration: { minutes: 30 }
+
+  - summary: "Opening gap delivered and posted on all live channels"
+    description: |
+      The market-open gap production passed its verification
+      in full and was posted on all live channels, with
+      read-back and timed re-checks confirming the posts.
+      One channel remains held under its standing
+      restriction.
+    begin: 2026-11-16 09:45:00
+    duration: { minutes: 45 }
+
+  - summary: "Video package monitor blocked again; two videos still pending"
+    description: |
+      A fresh enumeration confirmed the channel catalogue
+      was unchanged and no newer upload exists. Two recent
+      videos remain pending full treatment because the
+      source computer remains unreachable. Staged materials
+      were re-verified intact; nothing was added.
+    begin: 2026-11-16 10:47:00
+    duration: { minutes: 25 }
+
+  - summary: "Mail domain rebuild reopened; not started, needs a joint sitting"
+    description: |
+      The owner reopened the question of rebuilding a
+      mail domain's DNS on an alternative provider after
+      re-checking that its current DNS is still dark. The
+      rebuild was not started: it needs a short joint
+      sitting for sign-ins only the owner can do, and his
+      answer on whether the domain points at anything
+      besides mail, since anything not rebuilt would stop
+      resolving after a switch.
+    begin: 2026-11-16 11:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Morning investigation catch-up completed; analytics contradiction resolved"
+    description: |
+      The investigation catch-up re-run completed read-only
+      with sessions restored. The analytics surface loaded
+      again and a standing contradiction was resolved first-
+      hand: one key event is firing while another reported
+      event is absent. The search read was the first full
+      one in a week. Nothing was changed in any account.
+    begin: 2026-11-16 11:17:00
+    duration: { minutes: 60 }
+
+  - summary: "Doctoral replies sent: co-supervision accepted, meeting slot selected"
+    description: |
+      Two doctoral replies were sent on the owner's
+      standalone approval and verified on the sent copies.
+      One accepts a co-supervision and committee offer
+      while noting a primary supervisor is still needed;
+      the other selects an online pathway meeting slot
+      later this month and summarises the supervisor
+      status. Confirmation of the meeting is awaited.
+    begin: 2026-11-16 12:34:00
+    duration: { minutes: 20 }
+
+  - summary: "Main chat archives backfill completed; daily archive job re-enabled"
+    description: |
+      The main chat archive backfill was completed: all
+      missing days since late October were exported,
+      committed to its repository, and copied to the shared
+      drive folder, with no day missing or empty. The
+      daily archive job behind it was found disabled and
+      was re-enabled at the owner's direction, so the
+      archive updates daily again. A separate archive
+      backlog on the source computer remains untouched.
+    begin: 2026-11-16 14:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Remote laptop access intermittent; brief recovery, then unreachable again"
+    description: |
+      The remote laptop was unreachable on most hourly
+      watch runs today, failing before authentication, and
+      no watch state was advanced on failed runs. Two
+      midday checks succeeded and verified their files
+      unchanged; access failed again afterwards, at the
+      shared tunnel layer. Earlier delivered rounds stand
+      and the watches' purposes were already complete.
+    begin: 2026-11-16 15:05:00
+    duration: { minutes: 15 }
+
+  - summary: "Appraisal replies watch: no new replies"
+    description: |
+      The appraisal replies watch checked the mailbox for
+      new replies from the auction and expertise contacts.
+      No new replies arrived; the standing positions are
+      unchanged, with one decline, one acknowledgement,
+      and two contacts still silent.
+    begin: 2026-11-16 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening pivots delivered for the next session; one channel held"
+    description: |
+      The evening Bitcoin pivots production passed its
+      verification in full and the block for the next
+      session was delivered. On the owner's instruction
+      two social channels were posted and verified; a
+      third channel post was held pending his explicit
+      word.
+    begin: 2026-11-16 17:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Freelance audit bid submitted after final review"
+    description: |
+      A freelance audit bid was prepared with the coding
+      agent, audited claim by claim against the record,
+      finalised, and submitted on the owner's standalone
+      approval. The submitted version, terms, and record
+      were filed; whether the proposal is opened will be
+      checked in future manual checks.
+    begin: 2026-11-16 17:46:00
+    duration: { minutes: 30 }
+
+  - summary: "Planned: doctoral pathway meeting, online"
+    description: |
+      A pathway-options meeting with a programme director
+      is selected for this afternoon, online, following
+      the reply sent on Nov 16. The other side's
+      confirmation of the time is still awaited; if it
+      does not arrive, the slot is not confirmed.
+    begin: 2026-11-25 14:00:00
+    duration: { minutes: 30 }
