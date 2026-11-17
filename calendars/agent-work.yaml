@@ -9925,3 +9925,293 @@ events:
       does not arrive, the slot is not confirmed.
     begin: 2026-11-25 14:00:00
     duration: { minutes: 30 }
+
+  - summary: "Daily chat archive finalised for the previous day"
+    description: |
+      The previous day's chat archive was finalised with a
+      full re-fetch: the complete day was rendered, pushed
+      to the archive repo, and the Drive copy was updated
+      in place with no duplicate.
+    begin: 2026-11-17 00:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Nightly chat archive failed again; backlog now seventeen days"
+    description: |
+      The nightly archive for the other agent's chats
+      failed again: the remote host was unreachable on
+      all attempts, so no archive was produced. The
+      backlog now stands at seventeen days, and the
+      sessions remain unknown, not a zero day.
+    begin: 2026-11-17 01:12:00
+    duration: { minutes: 30 }
+
+  - summary: "Premarket pivots delivered and posted on all live channels"
+    description: |
+      The premarket pivots production passed its
+      verification in full. The group post went first,
+      then, on the owner's word, the set was posted on
+      the remaining live channels and verified at the
+      plus-five and plus-ten minute checks. One channel
+      stays held under its standing restriction.
+    begin: 2026-11-17 06:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Search Console indexing completed; quota not hit"
+    description: |
+      The indexing run completed in a live session with
+      no sign-in prompt. Two requests were confirmed and
+      four pages were verified as already indexed.
+      Several file-hosted URLs were rejected again under
+      robots rules and owner-excluded URLs were skipped.
+      The daily quota was not hit.
+    begin: 2026-11-17 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Morning investigation completed; analytics contradiction settled"
+    description: |
+      The morning investigation completed. A longer-
+      window check settled the analytics contradiction:
+      a short burst in an earlier window explained both
+      readings. New flags were noted for unassigned
+      traffic and a bot-traffic segment, and the
+      anticipation file stays on its labelled fallback
+      while a deep-research run remains hung.
+    begin: 2026-11-17 06:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Payment notices surfaced; no payment made"
+    description: |
+      A proactive billing escalation surfaced three
+      notices on the same payment pattern: a cloud
+      billing past-due flag, a telecom retry failure
+      with a deadline later this month, and a new cloud
+      invoice whose account is not yet identified. No
+      payment was made or authorised; each item must be
+      verified in the payer's own record before closing.
+    begin: 2026-11-17 07:18:00
+    duration: { minutes: 30 }
+
+  - summary: "Team workspace credit confusion resolved"
+    description: |
+      A read-only workspace investigation resolved a
+      credit confusion: a per-user spend limit is a cap,
+      not a balance; access past plan limits is gated by
+      the shared usage-credit balance, and the nonprofit
+      API credits are a separate pot. The owner later
+      topped up the usage balance, clearing a prior
+      negative balance first. A separate model cap was
+      noted with its reset date.
+    begin: 2026-11-17 08:04:00
+    duration: { minutes: 45 }
+
+  - summary: "Billing console verified: no amount owed"
+    description: |
+      The cloud billing console was verified in the
+      owner's session: the balance is zero, there is no
+      balance due, and there were no transactions in the
+      last three months. The renewed past-due flag is a
+      payment method marked declined on the provider's
+      side. The remaining fix is the payment page step,
+      which is the owner's to do in their session.
+    begin: 2026-11-17 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Opening gap delivered and posted on all live channels"
+    description: |
+      The opening gap production passed its verification
+      in full. On the owner's word the set was posted on
+      all live channels and verified; one channel could
+      not be independently re-checked afterwards due to
+      a tool policy block and stands verified at post
+      time only. One channel stays held under its
+      standing restriction.
+    begin: 2026-11-17 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Video package monitor blocked again; two videos still pending"
+    description: |
+      The video channel monitor enumerated the full
+      channel with no new uploads. Two videos remain
+      pending the full treatment because the remote
+      route for transcripts failed again. Nothing was
+      added and the staged downloads were re-verified
+      intact.
+    begin: 2026-11-17 10:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote access intermittent all day; brief recoveries verified"
+    description: |
+      The remote mailbox watches were unreachable for
+      most of the day at the shared tunnel layer, with
+      brief recoveries in which the watched files were
+      verified unchanged. Earlier delivered rounds stand
+      and the watches' purposes were already complete.
+      Unverified runs are recorded as alerts, not as
+      verified no-change.
+    begin: 2026-11-17 15:05:00
+    duration: { minutes: 15 }
+
+  - summary: "Ads merged run: first attempt failed at sign-in verification"
+    description: |
+      A merged ads run was verified against the earlier
+      export, corrected on three points, and given the
+      go-ahead exactly as written. Its first attempt
+      failed at a sign-in verification prompt that was
+      never confirmed, producing no return. A relaunch
+      rule was recorded: state check first, never
+      relaunch blind, with the owner standing by.
+    begin: 2026-11-17 10:17:00
+    duration: { minutes: 45 }
+
+  - summary: "Course branch merged; archive repo forked privately"
+    description: |
+      A course branch in the chat archives repo was
+      merged to main with no conflicts, the course
+      folder now live. The repo was then forked to a
+      second account as a private fork; two forking
+      settings were turned on to allow it and left on,
+      with reversal offered and not directed.
+    begin: 2026-11-17 10:54:00
+    duration: { minutes: 30 }
+
+  - summary: "Workspace remote device control enabled"
+    description: |
+      Remote device control was enabled workspace-wide
+      in a business workspace at the owner's request,
+      removing a remote-control block for a member
+      account. The setting is offered only workspace-
+      wide, so it applies to all members, and it was
+      verified as persisted after reload.
+    begin: 2026-11-17 11:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Library course: archive mining completed, quotes verified"
+    description: |
+      An archive mining run over the full chat history
+      for the library course deck completed on the
+      strongest available model, after the owner asked
+      for a named model that the tool does not offer.
+      Nine key quotes were spot-checked against the
+      archive and all matched word for word. Social
+      counts found in old dashboard reads were kept out
+      of the decks as unverified and ad-driven.
+    begin: 2026-11-17 11:19:00
+    duration: { minutes: 45 }
+
+  - summary: "Library course: instructor addendum and pitch decks built"
+    description: |
+      The library course instructor addendum was built
+      as a short deck with detailed speaker notes, and
+      a general pitch deck for the six-month beginners'
+      course followed. A notes file matching the deck
+      exactly was delivered for the collaborating
+      designer, with standing cautions on unverified
+      figures.
+    begin: 2026-11-17 12:08:00
+    duration: { minutes: 45 }
+
+  - summary: "Library course: five verified finds folded into the addendum"
+    description: |
+      On the owner's approval, five verified finds from
+      the archive mining were folded into the instructor
+      addendum: a safety feedback card, a mission line,
+      operational growth figures in the notes only, a
+      sharpened publishing workflow, and a teaching
+      quote in the notes only. The deck and notes were
+      regenerated to match, with no follower or view
+      counts added anywhere.
+    begin: 2026-11-17 12:37:00
+    duration: { minutes: 30 }
+
+  - summary: "Library pitch tailored for a named public library"
+    description: |
+      Research into how a named public library runs its
+      classes was verified from its own listings and a
+      tailored proposal deck was built: a free evening
+      taster lecture, then a short workshop pilot, then
+      the full series only if agreed. Claims from a
+      draft that could not be verified were excluded;
+      the verified makerspace is the technology hook.
+    begin: 2026-11-17 13:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Condo visibility plan filed; review pending, nothing sent"
+    description: |
+      A new condo visibility avenue was taken in: a
+      ranked set of for-sale candidates was verified,
+      overlaps with an earlier campaign were flagged
+      before any pitch, and a plan was filed adding an
+      authority-features audit layer. A coding-agent
+      review was briefed and is still pending. Nothing
+      was contacted or sent; sender and landing page
+      decisions remain open.
+    begin: 2026-11-17 13:53:00
+    duration: { minutes: 45 }
+
+  - summary: "Daily chat archive for today archived as a partial"
+    description: |
+      The daily chat archive run fired while the local
+      day was still in progress, so it archived only a
+      partial day to the repo and Drive. The next run
+      must finalise the day with a full re-fetch,
+      overwriting the partial files and updating the
+      same Drive copy in place.
+    begin: 2026-11-17 14:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Ads merged run relaunched and completed"
+    description: |
+      The merged ads run was relaunched with a state
+      check first, which found nothing from the first
+      attempt had executed, so the full file ran with
+      no duplicates. All parts completed: a new giving
+      campaign is live and enabled, budgets were reset
+      as filed, fixes and pauses were applied, and a
+      read-only diagnosis found a dark campaign is
+      dark from rank, not budget. One auto-created
+      sitelink is disapproved and left for the owner's
+      decision. A seven-day check is owner-sent and
+      was not self-run.
+    begin: 2026-11-17 13:59:00
+    duration: { minutes: 84 }
+
+  - summary: "Appraisal replies watch: no new replies"
+    description: |
+      The appraisal replies watch checked the mailbox
+      for new replies from the auction and expertise
+      contacts. No new substantive replies arrived; the
+      standing positions are unchanged and the watch
+      remains open.
+    begin: 2026-11-17 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening pivots delivered for the next session"
+    description: |
+      The evening Bitcoin pivots production passed its
+      verification in full and the block for the next
+      session was delivered in the main chat.
+    begin: 2026-11-17 17:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Library course PDFs: light copies made after phone-open failure"
+    description: |
+      The library course PDFs would not open on the
+      owner's phone. All three were verified valid; the
+      failure was file size, not corruption. Light
+      viewing copies under two megabytes were created
+      alongside the originals, which remain the full-
+      quality masters.
+    begin: 2026-11-17 13:33:00
+    duration: { minutes: 30 }
+
+  - summary: "Course-design run failed on quota; relaunch launched after reset"
+    description: |
+      A course-design run by the CLI agent failed on
+      its individual quota and produced nothing. The
+      owner chose a relaunch after the quota reset,
+      leading with the owner's own course direction.
+      The relaunch launched successfully after the
+      reset and was reading the course files with no
+      quota error; its return is still pending.
+    begin: 2026-11-17 17:45:00
+    duration: { minutes: 30 }
