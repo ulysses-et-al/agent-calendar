@@ -10215,3 +10215,177 @@ events:
       quota error; its return is still pending.
     begin: 2026-11-17 17:45:00
     duration: { minutes: 30 }
+
+  - summary: "Daily chat archive finalised for the previous day"
+    description: |
+      The daily chat archive was finalised with a full
+      re-fetch, overwriting the earlier partial capture.
+      The repo copy and the Drive copy were both updated
+      and verified, with no duplicate created.
+    begin: 2026-11-18 00:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Nightly chat archive failed again; backlog grew"
+    description: |
+      The nightly archive for a second agent failed on
+      all attempts because the host machine was
+      unreachable at the shared tunnel layer. No archive
+      was produced; the outstanding backlog now spans
+      eighteen days and remains open.
+    begin: 2026-11-18 01:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Premarket pivots delivered; social posts staged after approval timeouts"
+    description: |
+      The premarket pivots production passed its
+      verification in full and the community channel post
+      is live. The social posting sequence was stopped
+      whole when the first approval cards timed out
+      unanswered; nothing was pushed through on the
+      remaining channels. All texts and the card remain
+      staged, ready to run in one pass on a fresh word.
+    begin: 2026-11-18 06:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing completed; queue effectively clear"
+    description: |
+      The daily indexing run confirmed one new request
+      and verified several more pages already indexed
+      without spending quota. The daily quota was not
+      hit and the submittable queue is effectively
+      clear; the remaining entries are blocked or
+      owner-excluded by standing rule.
+    begin: 2026-11-18 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Morning investigation completed; analytics read blocked"
+    description: |
+      The morning investigation completed its page-speed
+      deep dive. Account sessions had regressed to one
+      of six live, and the analytics sweep could not be
+      read at all on a permissions error, so no analytics
+      numbers were taken. A known disapproved auto-created
+      sitelink was re-identified as the open policy item;
+      its removal remains the owner's decision and
+      nothing was applied.
+    begin: 2026-11-18 06:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Closing-day role decision surfaced with gaps stated"
+    description: |
+      A role closing today was put to the owner with its
+      preparation brief ready and its fit gaps stated
+      plainly, including a pay-band gap against the
+      standing floor. Nothing was built and no go was
+      recorded, so the posting lapses tonight.
+    begin: 2026-11-18 07:20:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin posts remain staged; sequence stopped on approval timeout"
+    description: |
+      Both Bitcoin productions for today's session were
+      prepared, re-verified and rendered, but the first
+      approval card timed out unanswered, so the whole
+      six-post sequence was halted and nothing is live
+      on any channel. The posts remain staged and ready
+      to run in one pass when the owner can tap the
+      approval cards.
+    begin: 2026-11-18 08:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Referee clarification sent and verified"
+    description: |
+      A referee replied closing one ask while leaving a
+      second, separate ask genuinely ambiguous. On the
+      owner's standalone approval, a clarification was
+      sent and verified in the original thread, taking
+      the first ask as closed and asking only whether
+      the second is also closed. The backup referee was
+      not triggered.
+    begin: 2026-11-18 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Opening gap delivered and posted live on all channels"
+    description: |
+      The opening gap production passed its verification
+      in full and the community channel post is live.
+      The social posts were first staged, then on the
+      owner's later word went live on all four social
+      channels and were verified at post time, with the
+      scheduled read-backs passing where checkable.
+    begin: 2026-11-18 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Video package completed: two pending videos added"
+    description: |
+      The two long-pending videos were added to the
+      lecture video package with full transcripts,
+      bringing the package to its new total, committed
+      and pushed. The usual remote route remains
+      unreachable, so the pull ran through the fallback
+      machine instead.
+    begin: 2026-11-18 10:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote access intermittent; recoveries verified no change"
+    description: |
+      The remote mailbox watches were unreachable for
+      stretches of the day at the shared tunnel layer,
+      with recoveries in which the watched files were
+      verified unchanged. Earlier delivered rounds stand
+      and both watches' purposes were already complete.
+      Unverified runs are recorded as alerts, not as
+      verified no-change.
+    begin: 2026-11-18 12:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Family mailbox reminder re-checked; options presented"
+    description: |
+      A recurring payment reminder in a family mailbox
+      was re-checked live: it is the newest of its kind,
+      names no amount, and no payment confirmation is on
+      record. Options were presented to the owner and
+      the decision is pending; nothing was sent or paid.
+    begin: 2026-11-18 12:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Master configuration sent to remote coding agent for merge"
+    description: |
+      The master configuration file was sent to a remote
+      coding agent's inbox as a file-to-file transfer
+      with a matching checksum and owner-only
+      permissions, together with a merge instruction.
+      The agent's report back is still pending; no
+      values were printed or logged.
+    begin: 2026-11-18 11:54:00
+    duration: { minutes: 15 }
+
+  - summary: "Flight status and fare checks completed; itinerary unchanged"
+    description: |
+      Both daily checks on a booked long-haul return
+      itinerary completed. All legs were verified
+      unchanged against the booked baseline. The single
+      comparable search result was recorded as
+      non-comparable on its stated basis, so no alert
+      was raised and nothing was changed.
+    begin: 2026-11-18 15:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Appraisal replies watch: no new replies"
+    description: |
+      The appraisal replies watch checked the mailbox
+      for new replies from the auction and expertise
+      contacts. No new replies arrived; the standing
+      positions are unchanged and the watch remains
+      open.
+    begin: 2026-11-18 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening pivots delivered for the next session"
+    description: |
+      The evening Bitcoin pivots production passed its
+      verification in full and the block for the next
+      session was delivered in the main chat. Nothing
+      was posted elsewhere.
+    begin: 2026-11-18 17:15:00
+    duration: { minutes: 30 }
