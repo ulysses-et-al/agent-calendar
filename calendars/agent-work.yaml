@@ -10389,3 +10389,273 @@ events:
       was posted elsewhere.
     begin: 2026-11-18 17:15:00
     duration: { minutes: 30 }
+
+  - summary: "Daily chat archive finalised for the previous day"
+    description: |
+      The daily chat archive was finalised with a full
+      re-fetch for the previous day. The repo copy and
+      the Drive copy were both created and verified,
+      with message counts cross-checked before
+      conversion.
+    begin: 2026-11-19 00:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Nightly chat archive failed again; backlog now nineteen days"
+    description: |
+      The nightly archive for a second agent failed on
+      all attempts because the host machine was
+      unreachable at the shared tunnel layer. No archive
+      was produced; the outstanding backlog now spans
+      nineteen days and remains open.
+    begin: 2026-11-19 01:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Previous session Bitcoin posts completed and verified live"
+    description: |
+      On the owner's separate words, the previous
+      session's Bitcoin pivots and gap productions were
+      posted live on all their channels. The scheduled
+      read-back checks passed at both intervals on the
+      checkable channels, with token lines intact and
+      no edits or anomalies.
+    begin: 2026-11-19 04:07:00
+    duration: { minutes: 45 }
+
+  - summary: "Research account session restored by the owner"
+    description: |
+      A stale research account session was restored by
+      the owner himself via browser takeover after the
+      agent prepared the sign-in prompt. No password was
+      entered by the agent. A device verification step
+      appeared during the sign-in and was flagged to
+      the owner in the moment.
+    begin: 2026-11-19 04:11:00
+    duration: { minutes: 15 }
+
+  - summary: "External audit tool tested on both public sites; audits completed"
+    description: |
+      On the owner's direction, an external audit tool
+      was tested on both public sites before any
+      decision on its place in the operation. After a
+      credit purchase made only on the owner's
+      standalone instruction, both audits completed.
+      Headline findings included a broken booking path
+      on one site and structural and page-weight issues
+      on the other. No external account was connected.
+    begin: 2026-11-19 04:57:00
+    duration: { minutes: 45 }
+
+  - summary: "Audit tool recorded as a new inspection resource; methodology adopted"
+    description: |
+      From the test experience, the audit tool was
+      recorded as a new inspection resource inside the
+      existing domains, not a new domain, and its
+      whole-site crawl methodology was built into a
+      local equivalent so the same audit can be run
+      without spending credits. The remaining purchased
+      credits stay in reserve for outside cross-checks.
+    begin: 2026-11-19 05:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Local crawl audit baseline completed; findings reproduced"
+    description: |
+      The new local crawl audit ran a full baseline over
+      both public properties at no cost and reproduced
+      every external audit finding exactly. The baseline
+      was filed as the pre-fix record; all findings
+      remain live until the prepared fixes are merged.
+    begin: 2026-11-19 05:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Featured pages fix prepared for review; nothing live"
+    description: |
+      On the owner's decision to keep three featured
+      pages listed and fix them, a fix was prepared that
+      adds real server-rendered title, citation and
+      summary content below the untouched reader. It was
+      verified locally and delivered as a reviewable
+      change for the owner's merge decision; nothing
+      has gone live.
+    begin: 2026-11-19 05:50:00
+    duration: { minutes: 30 }
+
+  - summary: "Site audit leftover fixes prepared for review; nothing live"
+    description: |
+      The remaining audit fixes for the larger site were
+      prepared as a reviewable change: a missing page
+      canonical added, a duplicate viewport declaration
+      removed, and a missing trailing slash fixed in the
+      single link construction behind the redirect hops.
+      Verified locally; awaiting the owner's merge
+      decision.
+    begin: 2026-11-19 05:55:00
+    duration: { minutes: 30 }
+
+  - summary: "Public site canonical, social and booking fixes prepared; nothing live"
+    description: |
+      Fixes for the smaller public site were prepared as
+      a reviewable change: each page gains its own
+      canonical and social preview, and the contact
+      booking embed is pointed at the live booking page
+      after the service moved its routes. A full build
+      limitation was stated in the change; awaiting the
+      owner's merge decision.
+    begin: 2026-11-19 05:58:00
+    duration: { minutes: 30 }
+
+  - summary: "Heavy page fix scoped; owner choice pending"
+    description: |
+      The heavy discovery page was scoped in writing:
+      its weight comes from serialising the full
+      catalogue into the first load and preloading every
+      image. A real fix needs feed windowing and preload
+      discipline as its own change. Two fix sizes and a
+      leave-for-now option were put to the owner; no
+      choice is recorded yet.
+    begin: 2026-11-19 06:02:00
+    duration: { minutes: 15 }
+
+  - summary: "Premarket pivots delivered and posted live on all channels"
+    description: |
+      The premarket pivots production passed its
+      verification in full and, on the owner's word with
+      approval cards tapped, went live on all channels
+      including the community channel. The scheduled
+      read-back checks passed on the checkable channels.
+    begin: 2026-11-19 06:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing completed; two requests confirmed"
+    description: |
+      The daily indexing run confirmed two requests,
+      verified another page already indexed, and recorded
+      the rejected and owner-excluded entries by standing
+      rule. The indexed total advanced and the daily
+      quota was not hit.
+    begin: 2026-11-19 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Morning investigation completed; analytics error resolved"
+    description: |
+      The morning investigation completed its ads deep
+      dive. The previous day's analytics permissions
+      error was verified resolved live. Sessions stood
+      at two of six live. A known disapproved sitelink
+      remains disapproved and its removal remains the
+      owner's decision; nothing was applied.
+    begin: 2026-11-19 06:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Upcoming decision cluster presented separately; no decisions recorded"
+    description: |
+      Three upcoming items were presented once, each as
+      its own separate decision with its deadline and
+      what happens if nothing is done: an expiring
+      complimentary programme activation, a writing
+      sample day, and a closing application window that
+      needs its own standalone go-ahead. No decision on
+      any of the three was recorded.
+    begin: 2026-11-19 07:20:00
+    duration: { minutes: 15 }
+
+  - summary: "Job sweep completed; one new match in one track"
+    description: |
+      The daily multi-track job sweep completed in the
+      standing rank order. One net-new match was found
+      in the health and quality track, reported with its
+      fit rating and its honest experience gap stated.
+      Near-misses were logged with their exact fail
+      reasons. Nothing was applied to.
+    begin: 2026-11-19 08:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Security alert surfaced for a work account; owner asked to check activity"
+    description: |
+      A critical security alert for a work account,
+      reporting a blocked sign-in attempt, was surfaced
+      to the owner in the moment under the standing rule,
+      with the possible link to that morning's sign-in
+      round presented as unsettled. The owner was asked
+      to check the activity details himself. Nothing was
+      clicked, changed or reset.
+    begin: 2026-11-19 08:48:00
+    duration: { minutes: 15 }
+
+  - summary: "Opening gap delivered and later posted live on all social channels"
+    description: |
+      The opening gap production passed its verification
+      in full and the community channel post went live.
+      The social posts were first staged, an early
+      sequence stopped whole when an approval card timed
+      out, and on the owner's later word the posts went
+      live on all four social channels. One restricted
+      channel was held under its standing restriction.
+    begin: 2026-11-19 09:45:00
+    duration: { minutes: 45 }
+
+  - summary: "Video monitor found one new video; download blocked on unreachable hosts"
+    description: |
+      The lecture video monitor found one new video that
+      belongs in no course package. Both remote download
+      routes failed at the shared tunnel layer through
+      the final spaced retry, so the video was left
+      pending and the package is unchanged.
+    begin: 2026-11-19 10:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote access intermittent; recoveries verified no change"
+    description: |
+      The remote mailbox watches were unreachable for
+      most of the day at the shared tunnel layer, with
+      brief recoveries in the afternoon in which the
+      watched files were verified unchanged. Earlier
+      delivered rounds stand and both watches' purposes
+      were already complete. Unverified runs are recorded
+      as unknown, not as verified no-change.
+    begin: 2026-11-19 12:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Flight status and fare checks completed; itinerary unchanged"
+    description: |
+      Both daily checks on a booked long-haul return
+      itinerary completed. All legs were verified
+      unchanged against the booked baseline. The single
+      search result was recorded as non-comparable on
+      its stated basis, so no alert was raised and
+      nothing was changed.
+    begin: 2026-11-19 15:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Tax account investigation completed; brief and follow-up package prepared"
+    description: |
+      At the owner's request, a read-only investigation
+      of a corporate tax account was completed after the
+      owner signed in himself. Earlier submissions were
+      confirmed as received in the account record, the
+      arbitrary assessments were reconciled against the
+      filed returns, and no processing entry was found
+      since submission. A call brief for the owner's
+      next-day call was prepared and a follow-up package
+      was built but not submitted; nothing was submitted,
+      paid or changed in the account.
+    begin: 2026-11-19 16:10:00
+    duration: { minutes: 45 }
+
+  - summary: "Appraisal replies watch: no new replies"
+    description: |
+      The appraisal replies watch checked the mailbox
+      for new replies from the auction and expertise
+      contacts. No new replies arrived beyond those
+      already reported; the standing positions are
+      unchanged and the watch remains open.
+    begin: 2026-11-19 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening pivots delivered for the next session"
+    description: |
+      The evening Bitcoin pivots production passed its
+      verification in full and the block for the next
+      session was delivered in the main chat. Nothing
+      was posted elsewhere.
+    begin: 2026-11-19 17:15:00
+    duration: { minutes: 30 }
