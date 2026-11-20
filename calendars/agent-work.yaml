@@ -10659,3 +10659,416 @@ events:
       was posted elsewhere.
     begin: 2026-11-19 17:15:00
     duration: { minutes: 30 }
+
+  - summary: "Disapproved sitelink removed and verified gone"
+    description: |
+      On the owner's direction, a disapproved sitelink was
+      removed from a giving campaign. It was verified
+      beforehand as the only association, at campaign
+      level only, and verified gone afterwards. The
+      remaining disapproved assets were left untouched
+      under a standing rule. No budgets, statuses or other
+      assets were changed.
+    begin: 2026-11-20 00:43:00
+    duration: { minutes: 15 }
+
+  - summary: "Daily chat archive finalised for the previous day"
+    description: |
+      The daily chat archive was finalised for the
+      previous day with a full fetch. The repo copy and
+      the Drive copy were both created and verified, with
+      message counts and spot checks cross-checked before
+      conversion.
+    begin: 2026-11-20 00:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Nightly chat archive failed again; backlog now twenty days"
+    description: |
+      The nightly archive for a second agent failed on all
+      spaced attempts because the host machine was
+      unreachable. No archive was produced and no counts
+      were invented. The outstanding backlog now spans
+      twenty days and remains open; the host later became
+      reachable the same morning and a catch-up was
+      offered, not run.
+    begin: 2026-11-20 01:12:00
+    duration: { minutes: 15 }
+
+  - summary: "Unused cloud workspace left to expire; productions already run elsewhere"
+    description: |
+      Backfill for the previous evening: the owner decided
+      to let an unused cloud workspace expire on its
+      retention schedule rather than open it to reset the
+      clock, after it was confirmed the notebook
+      productions have run through automated workflows for
+      weeks and the repo itself is not at risk.
+    begin: 2026-11-19 22:54:00
+    duration: { minutes: 15 }
+
+  - summary: "Premarket pivots delivered and posted live on all channels"
+    description: |
+      The premarket pivots production passed its
+      verification in full. The community channel post
+      went live first; on the owner's later standalone
+      word the social posts went live on all four social
+      channels and passed their scheduled read-back
+      checks. One restricted channel was held under its
+      standing restriction.
+    begin: 2026-11-20 06:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Search Console indexing completed; one request confirmed"
+    description: |
+      The daily indexing run confirmed one new request,
+      verified two pages already indexed, and recorded the
+      rejected and owner-excluded entries by standing
+      rule. The indexed total stands as last verified and
+      the daily quota was not hit.
+    begin: 2026-11-20 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Morning investigation completed; trends deep dive"
+    description: |
+      The morning investigation completed read-only on its
+      trends day, with a full notifications sweep and a
+      session check showing two of six sessions live.
+      Several topics were assessed as heating, decaying or
+      flat from the search-interest data, and new
+      interface surfaces were marked for a dated re-audit.
+      A known removed asset was verified removed in the
+      ads view.
+    begin: 2026-11-20 06:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Company cloud payment notice surfaced; no payment made"
+    description: |
+      An overnight payment notice for a company cloud
+      account was surfaced to the owner in the morning,
+      with the note that the account hosts a live public
+      booking scheduler, so a suspension would affect that
+      service. Nothing was paid or attempted by the agent;
+      the fix is the owner's alone in that account's
+      billing console, and the item closes only when the
+      payments page shows it settled.
+    begin: 2026-11-20 07:21:00
+    duration: { minutes: 15 }
+
+  - summary: "Remote host reachable again; fragile-machine caution recorded"
+    description: |
+      A remote host that had been unreachable for twenty
+      days answered a live access test again. The owner
+      set a standing caution for that machine: it is old
+      and fragile, its operating system is at its ceiling,
+      and nothing on it is to be upgraded by default as a
+      fix; diagnosis first, minimal change only. The
+      caution was recorded in the local tooling notes.
+    begin: 2026-11-20 08:15:00
+    duration: { minutes: 15 }
+
+  - summary: "Job sweep completed; no net-new strong matches"
+    description: |
+      The daily multi-track job sweep completed in the
+      standing rank order. No net-new strong matches were
+      found. Near-misses were logged with their exact fail
+      reasons and nothing was applied to.
+    begin: 2026-11-20 08:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote tools inspection completed; preserved working versions found"
+    description: |
+      A read-only inspection of the fragile remote host
+      mapped its separate runtime spaces and tool
+      versions. One broken coding tool's preserved earlier
+      install was found complete on disk, where it had
+      also been blocking reinstalls; the other tool had no
+      older copy on disk, so its last compatible version
+      was identified from the vendor registry instead.
+      Nothing was changed during the inspection.
+    begin: 2026-11-20 08:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote coding tool reverted to preserved working version and verified"
+    description: |
+      On the owner's approval, the broken coding tool on
+      the remote host was reverted by rename only to its
+      preserved working version and launch-tested
+      successfully. The broken version was kept aside, not
+      deleted, and the reinstall blocker cleared as a side
+      effect. All changes remain reversible.
+    begin: 2026-11-20 08:40:00
+    duration: { minutes: 20 }
+
+  - summary: "Remote assistant tool restored to last compatible version; update pinned off"
+    description: |
+      The second tool on the remote host was restored to
+      the last version compatible with that machine,
+      identified from the vendor registry boundary, and
+      launch-tested successfully. The broken version was
+      kept aside, not deleted, and automatic updating was
+      pinned off so the machine cannot update itself back
+      into the broken state.
+    begin: 2026-11-20 08:50:00
+    duration: { minutes: 20 }
+
+  - summary: "New remote mailbox created for tool installations; first letter delivered"
+    description: |
+      A new mailbox was created on the remote host for a
+      tool-installations channel, mirroring an existing
+      mailbox layout on another host. Its first letter was
+      written to the host's coding agent covering the
+      owner's ideas and concerns, what happened in the
+      breakage, what was done to restore the tools, and
+      the agent's assessment. No automatic watch was set
+      up for this mailbox.
+    begin: 2026-11-20 08:55:00
+    duration: { minutes: 20 }
+
+  - summary: "Remote coding tool update check pinned off"
+    description: |
+      The reverted coding tool's startup update check was
+      pinned off in its own configuration, with its
+      existing settings preserved, after the setting name
+      was verified against the installed version. The
+      owner was advised at the keyboard prompts to run
+      without the background server and to skip the
+      offered update.
+    begin: 2026-11-20 09:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Remote assistant tool broken again by an unversioned install; restored a second time"
+    description: |
+      Later the same morning the restored assistant tool
+      was found broken again by an unversioned install
+      that was verified to be neither the agent's work nor
+      the tool's own updater; its origin remains
+      unconfirmed. On the owner's direction it was
+      restored a second time to the same compatible
+      version, launch-tested, with both broken versions
+      preserved aside and its settings left exactly as
+      found.
+    begin: 2026-11-20 09:19:00
+    duration: { minutes: 20 }
+
+  - summary: "Remote coding agent reply received; reply and reference note sent"
+    description: |
+      The remote host's coding agent replied in the new
+      mailbox, reporting it had changed nothing itself and
+      had found a bundled current binary that does run on
+      the machine. A reply was written answering its
+      questions and relaying the owner's direction to keep
+      searching for a route to a smarter model while
+      preserving all rollback copies, and a short
+      reference note on current top models was shared to
+      the same mailbox at the owner's word.
+    begin: 2026-11-20 09:30:00
+    duration: { minutes: 20 }
+
+  - summary: "Device messaging system verified on both remote hosts"
+    description: |
+      At the owner's request, a device-to-device messaging
+      system was verified present on both remote hosts and
+      confirmed as the only such system on the first host.
+      Its registry, relay structure and difference from
+      the separate mailbox channel were read and recorded
+      from structure only; no message contents were read
+      and no standing role in that system was taken.
+    begin: 2026-11-20 10:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Opening gap delivered and posted live on all channels"
+    description: |
+      The opening gap production passed its verification
+      in full and the community channel post went live. On
+      the owner's word the social posts were completed on
+      all four social channels, with the read-back checks
+      passing. One restricted channel was held under its
+      standing restriction.
+    begin: 2026-11-20 09:45:00
+    duration: { minutes: 45 }
+
+  - summary: "Research services signed in via single sign-on"
+    description: |
+      Two research services were signed in via single
+      sign-on at the owner's request, with no password or
+      second step encountered. One service's plan reading
+      conflicted between two views and was left explicitly
+      unresolved rather than relied on. A standing rule
+      was recorded for the second service: read on screen
+      only, never download, because downloads can get the
+      account blocked.
+    begin: 2026-11-20 10:34:00
+    duration: { minutes: 20 }
+
+  - summary: "Complimentary audio programme activated and verified before its deadline"
+    description: |
+      The complimentary audio programme whose activation
+      deadline was today was activated on the owner's
+      standalone go-ahead, ahead of its evening expiry.
+      The monthly plan was verified as the current plan on
+      the subscription page, with the full credit
+      allowance shown and no amount due today. A separate
+      reminder was tracked to cancel before the first paid
+      month after the complimentary year.
+    begin: 2026-11-20 10:27:00
+    duration: { minutes: 30 }
+
+  - summary: "Lecture video package updated; two new videos added with transcripts"
+    description: |
+      The lecture video monitor added two new videos
+      uploaded the previous day, with transcripts
+      retrieved for both, bringing the package to its new
+      total. One had been pending since the previous day's
+      run. No description-link downloads from the blocked
+      host type were attempted, per the standing rule.
+    begin: 2026-11-20 10:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Sign-in handover closed with no new sign-in completed"
+    description: |
+      A browser sign-in window handed to the owner closed
+      with no new sign-in completed: the requested
+      additional account sign-in did not happen and no
+      second step was reached. Only the main account
+      remains signed in, and the research account session
+      is still outstanding ahead of the weekend run; a
+      fresh window was offered.
+    begin: 2026-11-20 11:34:00
+    duration: { minutes: 15 }
+
+  - summary: "New daily stock feature launched; inaugural feature posted live on all channels"
+    description: |
+      A new daily stock feature was launched: one stock is
+      picked from the point-and-figure wall by the
+      freshest strong pattern, its chart image is prepared
+      by a settled export-and-convert pipeline, commentary
+      is drawn from research material without naming the
+      research platform, and nothing posts without the
+      owner's approval of the exact text. The inaugural
+      feature was posted live on all four channels on the
+      owner's word, read back verbatim, and passed its
+      scheduled verification checks. A rotation log was
+      created so picks do not repeat within a set window,
+      and a weekday preparation run was scheduled.
+    begin: 2026-11-20 11:04:00
+    duration: { minutes: 45 }
+
+  - summary: "New channel for daily feature considered; held off on owner's word"
+    description: |
+      Adding a further social channel to the new daily
+      stock feature was considered and held off on the
+      owner's word. The feature stays on its existing four
+      channels and the parked channel is not to be raised
+      again unless the owner raises it.
+    begin: 2026-11-20 11:31:00
+    duration: { minutes: 15 }
+
+  - summary: "Research library sweep completed for index targets and commentary"
+    description: |
+      A sweep of a research library for index commentary
+      was completed under the read-only, no-download rule.
+      It gathered the current-year index target ladder and
+      its revisions, the broader strategist outlook, and
+      an observed account of how that library's search
+      actually behaves. Findings were captured as text and
+      filed; nothing was downloaded.
+    begin: 2026-11-20 11:40:00
+    duration: { minutes: 45 }
+
+  - summary: "Index year-end targets commentary post posted live on all channels"
+    description: |
+      A separate index commentary post built from the
+      research sweep, with the index's own point-and-
+      figure chart attached, was shown in full layout
+      first and then posted live on all four channels on
+      the owner's standalone word. Each post was read back
+      and the scheduled verification pass closed with no
+      problems found. This post is distinct from the day's
+      stock feature.
+    begin: 2026-11-20 13:27:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote access intermittent; recoveries verified no change in watched files"
+    description: |
+      The remote mailbox watches were unreachable
+      overnight at the shared tunnel layer, with
+      recoveries later in the day in which the watched
+      files were verified unchanged against their
+      watermarks. No watermark or watch state was advanced
+      on any failed run. Earlier delivered rounds stand
+      and both watches' purposes were already complete.
+    begin: 2026-11-20 15:05:00
+    duration: { minutes: 15 }
+
+  - summary: "Flight status and fare checks completed; itinerary unchanged"
+    description: |
+      Both daily checks on a booked long-haul return
+      itinerary completed. All legs were verified
+      unchanged against the booked baseline. The single
+      search result was recorded as non-comparable on its
+      stated basis, so no alert was raised and nothing was
+      changed.
+    begin: 2026-11-20 15:14:00
+    duration: { minutes: 15 }
+
+  - summary: "New commentary data repo built; retrospective test completed, secret setup pending"
+    description: |
+      A new private repo was built with an automated
+      workflow that pulls analyst and news feeds plus
+      price snapshots for the day's feature stock and the
+      index into a commentary brief. A retrospective test
+      against the day's own posts answered on most feeds
+      and matched the day's index figures exactly; two
+      feed paths were fixed in the repo. The repo still
+      needs its own data key secret, which only the owner
+      can set or supply, and a combined model using the
+      automated feeds for selection and the research
+      library for argument was proposed, not yet adopted.
+    begin: 2026-11-20 16:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Video search for updated index targets completed"
+    description: |
+      A video search under a research sign-in for updated
+      index targets from well-known strategists was
+      completed after the owner handed the sign-in back.
+      Two current strategist targets with their reasoning
+      were reported, including a correction that one
+      widely titled figure belongs to the following year,
+      and no recent target interviews were found for the
+      other named strategists.
+    begin: 2026-11-20 16:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Appraisal replies watch closed after final check; no new replies"
+    description: |
+      The appraisal replies watch made its final check: no
+      new replies beyond those already reported, from any
+      of the auction or expertise contacts. Its closing
+      condition was met, so the watch schedule was
+      disabled and a stop entry was logged on its tracked
+      item.
+    begin: 2026-11-20 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Closing-print commentary pair posted on three channels; one channel still pending"
+    description: |
+      A new closing-print commentary design was presented
+      and, on the owner's word covering both posts, the
+      pair for the day — one for the index close and one
+      for a featured closing stock — was posted live on
+      three of four channels, each read back verbatim with
+      its chart image. The fourth channel's posts were
+      still in flight at last record and the scheduled
+      verification pass is still owed; the set is not
+      recorded as complete.
+    begin: 2026-11-20 17:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Bitcoin evening pivots delivered for the next session"
+    description: |
+      The evening Bitcoin pivots production passed its
+      verification in full and the script-emitted block
+      for the next session was delivered in the main chat.
+      Nothing was posted elsewhere by this run.
+    begin: 2026-11-20 17:15:00
+    duration: { minutes: 30 }
