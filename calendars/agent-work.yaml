@@ -11072,3 +11072,391 @@ events:
       Nothing was posted elsewhere by this run.
     begin: 2026-11-20 17:15:00
     duration: { minutes: 30 }
+
+  - summary: "Bitcoin Friday gap fix implemented and merged; weekend session now constructed"
+    description: |
+      The recurring Friday gap failure was resolved on
+      the owner's word. A no-reopen branch now
+      constructs the forming weekend session from spot
+      data using the existing weekend definitions,
+      with no settlement invented, and the fix was
+      merged to the main branch after a test run
+      passed its verification gates.
+    begin: 2026-11-20 18:19:00
+    duration: { minutes: 45 }
+
+  - summary: "Bitcoin pivots posting partial; two channels live verified, one outstanding"
+    description: |
+      The Bitcoin pivots for the next session were
+      posted live and read back exactly as emitted on
+      two channels. The third channel was not posted:
+      one attempt was cut off and a retry failed when
+      its approval expired, with no duplicate made.
+      That channel remains outstanding pending the
+      owner's go-ahead to re-fire.
+    begin: 2026-11-20 20:00:00
+    duration: { minutes: 30 }
+
+  - summary: "PhD supervisor follow-ups presented, not sent"
+    description: |
+      The one permitted follow-ups to three still-
+      silent supervisor asks were verified live (no
+      reply from any, and no follow-up already sent),
+      drafted, and presented in full for the owner's
+      separate per-recipient decisions. Nothing was
+      sent; each send stands alone and there will be
+      no second follow-up round.
+    begin: 2026-11-20 21:20:00
+    duration: { minutes: 30 }
+
+  - summary: "Evening priorities checkpoint delivered"
+    description: |
+      The evening checkpoint was delivered: a search-
+      trends surface change needing a method re-audit
+      was proposed, analytics and indexing figures
+      were updated, a still-undetected site tag was
+      noted as the owner's call, and a research-
+      account sign-out ahead of the Saturday run was
+      flagged. Nothing was changed by the checkpoint
+      itself.
+    begin: 2026-11-20 23:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Daily chat archive finalised for the previous day"
+    description: |
+      The previous day's main chat was archived in
+      full, pushed to the archive repo, and mirrored
+      to the shared drive folder, with the mirrored
+      copy verified as a single copy of the same size.
+    begin: 2026-11-21 00:47:00
+    duration: { minutes: 15 }
+
+  - summary: "Nightly chat archive failed again; backlog now twenty-one days"
+    description: |
+      The nightly archive for a remote host's chat
+      failed again after three properly spaced
+      attempts, with the host unreachable before
+      authentication. No archive file, commit, or
+      upload was made, and the outstanding backlog now
+      stands at twenty-one days. Session counts were
+      not invented for the missed day.
+    begin: 2026-11-21 01:13:00
+    duration: { minutes: 15 }
+
+  - summary: "Search trends re-audit completed; method re-spec written"
+    description: |
+      A live audit of the replacement search-trends
+      surface was completed on the owner's acceptance.
+      The surfaces disagree materially, so earlier
+      baselines stay labelled with the old surface and
+      new baselines start fresh. A re-spec was written
+      and filed; the existing playbook was left
+      unchanged pending the owner's adoption decision
+      at that point.
+    begin: 2026-11-21 02:44:00
+    duration: { minutes: 30 }
+
+  - summary: "Search trends re-spec adopted for the next Friday run; new surface only"
+    description: |
+      The owner adopted the trends re-spec for the
+      next Friday run, on the new surface only with no
+      shadow read alongside. The playbook section was
+      amended, fresh baselines and directional-only
+      verdicts apply for the first week, and verifying
+      custom date ranges with a term loaded is that
+      run's opening test.
+    begin: 2026-11-21 03:49:00
+    duration: { minutes: 15 }
+
+  - summary: "Search Console indexing blocked on session; quota not reached"
+    description: |
+      The indexing run was blocked at an account
+      verification prompt after the saved sign-in was
+      accepted, and was parked under the standing
+      rule. The indexing service was not reached, no
+      requests were made, and the quota was not hit.
+      The last verified indexing state stands
+      unchanged.
+    begin: 2026-11-21 06:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Morning investigation blocked on session; anticipation not refreshed"
+    description: |
+      The Saturday morning investigation ran but was
+      blocked: every checked account session was
+      signed out, so in-product surfaces were not
+      readable and the anticipation file was not
+      refreshed. The result was delivered to the
+      owner, with a catch-up re-run offered once the
+      needed sessions are restored.
+    begin: 2026-11-21 06:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote work interest form filled for review, not submitted; eligibility mismatch found"
+    description: |
+      On the owner's go-ahead, a time-limited interest
+      form was opened and filled for his review only.
+      Nothing was submitted or saved. The role's own
+      page showed eligibility conditions the owner
+      does not meet on two counts, a recommendation
+      not to submit was delivered, and the form was
+      left to close unsubmitted.
+    begin: 2026-11-21 08:12:00
+    duration: { minutes: 30 }
+
+  - summary: "Job sweep completed; no net-new strong matches"
+    description: |
+      The daily multi-domain job sweep completed as a
+      quiet day, with no net-new strong matches in any
+      track. A small number of near-misses were logged
+      with the exact reasons each failed.
+    begin: 2026-11-21 08:47:00
+    duration: { minutes: 15 }
+
+  - summary: "Research residency application reminder delivered; decision paused, nothing filed"
+    description: |
+      A reminder was delivered that a prepared
+      research residency application package faces its
+      deadline the next day, with that day framed as
+      the last practical day for a live filing
+      sitting. The owner paused to think; nothing was
+      filed and nothing was changed.
+    begin: 2026-11-21 09:01:00
+    duration: { minutes: 15 }
+
+  - summary: "Production data persistence built in version control; bundles backfilled and verified"
+    description: |
+      On the owner's direction that all production
+      data be saved in version control, a dedicated
+      branch was created, the production workflow now
+      commits every run's outputs there automatically,
+      and all locally held sealed bundles were
+      backfilled with the count verified matching the
+      local files exactly.
+    begin: 2026-11-21 09:20:00
+    duration: { minutes: 45 }
+
+  - summary: "Production data mirrored to shared drive and verified"
+    description: |
+      On the owner's direction, the production-data
+      record was mirrored to the shared drive: the
+      full set of bundle files was copied with zero
+      failures and verified matching the version-
+      control branch file for file. Going forward each
+      production's new bundles and run outputs are
+      mirrored as part of handling that production.
+    begin: 2026-11-21 10:54:00
+    duration: { minutes: 30 }
+
+  - summary: "Daily price history pulled, stored and mirrored; vendor data hole verified"
+    description: |
+      The full daily price history for the futures and
+      spot productions was pulled through the
+      automated workflow and stored in both version
+      control and the shared drive mirror, with sample
+      values verified exactly against the production
+      record. One futures series has a verified vendor
+      data hole across a long stretch and must never
+      be presented as continuous; the spot series
+      covering that period is complete.
+    begin: 2026-11-21 11:04:00
+    duration: { minutes: 45 }
+
+  - summary: "Sentiment index deep research completed; current reading and construction reported"
+    description: |
+      Deep research on a well-known market sentiment
+      index was completed and delivered: its origin,
+      seven components and scoring method, current
+      reading, historical extremes, criticisms, and
+      comparison with peer measures. The index
+      publisher provides no exact formula and no
+      official history or interface.
+    begin: 2026-11-21 12:07:00
+    duration: { minutes: 30 }
+
+  - summary: "Sentiment index starter materials read; existing files reconciled"
+    description: |
+      The owner's starter document and existing data
+      files for the sentiment index reconstruction
+      were read and assessed. One older file was kept
+      as a cross-check only and another was excluded
+      from fitting targets after reconciliation
+      against the publisher's own history showed
+      neither could serve as ground truth.
+    begin: 2026-11-21 12:24:00
+    duration: { minutes: 30 }
+
+  - summary: "Sentiment index component data-sourcing blueprint completed"
+    description: |
+      A second research report settled how each of the
+      index's seven components can be sourced,
+      including which parts need a paid market-data
+      feed, which have free sources, and where
+      structural publication lags make a same-day
+      reading with no stale parts impossible. One
+      urgent archiving risk for a credit series was
+      flagged.
+    begin: 2026-11-21 12:52:00
+    duration: { minutes: 30 }
+
+  - summary: "Sentiment index reconstruction build authorised and started; aligned dataset built"
+    description: |
+      The owner authorised the reconstruction build. A
+      strict data-alignment contract was recorded, the
+      publisher's own served history was captured and
+      empirically dated, and an aligned dataset
+      covering the full served window was built on one
+      trading-session grid with no gaps.
+    begin: 2026-11-21 13:19:00
+    duration: { minutes: 45 }
+
+  - summary: "Raw component pull succeeded on retry; most inputs identified, one leg still open"
+    description: |
+      After a first pull returned web pages instead of
+      data, working routes were found and the raw
+      component series were pulled. Several
+      components' inputs were identified exactly or
+      nearly so against the publisher's series; one
+      credit-related leg matches in level but not in
+      movement and remains unidentified, which does
+      not block fitting.
+    begin: 2026-11-21 13:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Archive harvest of historical component scores completed; definitive fit completed"
+    description: |
+      A harvest of archived publisher captures, using
+      the owner's lock-in method for closing values,
+      completed across its full session range, with
+      scores graded by capture quality. A definitive
+      fit on the highest grade alone was completed and
+      reported, superseding the earlier partial-
+      harvest baseline; one component remains the
+      clear problem child.
+    begin: 2026-11-21 14:04:00
+    duration: { minutes: 45 }
+
+  - summary: "Remote access intermittent; recoveries verified no change in watched files"
+    description: |
+      The remote mailbox watches were unreachable for
+      much of the day at the shared tunnel layer, with
+      intermittent recoveries in which the watched
+      files were verified unchanged against their
+      watermarks. No watermark or watch state was
+      advanced on any failed run, and earlier
+      delivered rounds stand.
+    begin: 2026-11-21 15:05:00
+    duration: { minutes: 15 }
+
+  - summary: "Flight status and fare checks completed; itinerary unchanged"
+    description: |
+      Both daily checks on a booked long-haul return
+      itinerary completed. All legs were verified
+      unchanged against the booked baseline. The
+      single search result was recorded as non-
+      comparable on its stated basis, so no alert was
+      raised and nothing was changed.
+    begin: 2026-11-21 15:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Sentiment index reproduction package published for the remote coding agent"
+    description: |
+      A complete reproduction package for the
+      sentiment index work was built and published to
+      a private repo and a shared drive folder: guide,
+      data, code, results, and commentary covering the
+      struggles, gaps, and advice for the remote
+      coding agent asked to reproduce it. The package
+      was refreshed as the final fit and benchmark
+      landed.
+    begin: 2026-11-21 15:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Black-box benchmark and closed-form search completed; structured fits stand"
+    description: |
+      A benchmark of black-box models and simple
+      closed-form curves against the structured per-
+      component fits was completed. The black box did
+      not beat the structured fits out of sample
+      overall, and no simple formula was found; the
+      strongest next lead is longer reference windows.
+    begin: 2026-11-21 16:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Pre-2020 extension routes checked; classic archive identified, publication floor established"
+    description: |
+      Routes for extending the sentiment index record
+      before its served window were checked. The
+      publisher's classic page was archived from the
+      index's first year and prints readings and
+      component facts in plain text, while nothing was
+      published before the index existed, so earlier
+      years could only ever be a reconstruction from
+      raw inputs.
+    begin: 2026-11-21 16:33:00
+    duration: { minutes: 30 }
+
+  - summary: "Classic-page harvest launched; leak watch completed, no formula ever published"
+    description: |
+      On the owner's go-ahead, a harvest of the
+      archived classic pages was launched with the
+      same time and alignment precautions as the
+      earlier harvest, and is still running. A
+      parallel leak watch over every distinct saved
+      methodology version found the identical
+      qualitative wording throughout: no formula,
+      thresholds, or window lengths were ever
+      published there.
+    begin: 2026-11-21 16:37:00
+    duration: { minutes: 30 }
+
+  - summary: "Sentiment index creator identified; literature and testable leads recorded"
+    description: |
+      The index's creator was identified from his own
+      writings and a podcast discussion, along with
+      his published paper on sentiment normalisation.
+      His accounts supply testable construction leads,
+      screened candidates, and a note that the current
+      credit component may have drifted from his
+      original, none of which was assumed without
+      testing.
+    begin: 2026-11-21 16:55:00
+    duration: { minutes: 30 }
+
+  - summary: "Two-stage normalisation breakthrough; rebuilt composite error halved"
+    description: |
+      Implementing the creator's stated two-stage
+      normalisation literally, on the same fit and
+      validation split, sharply improved most
+      components and halved the rebuilt composite's
+      error against the earlier definitive fit. One
+      component's exact stage construction remains
+      open, as does whether the stage windows are
+      identical for every component.
+    begin: 2026-11-21 17:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Credit component identified to an exchange-traded yield-spread family"
+    description: |
+      A free proxy test of the creator's exchange-
+      traded-funds lead identified the unidentified
+      credit component's raw series to a yield-spread
+      family from that fund complex, matching the
+      publisher's level and range closely, though the
+      proxy lacks the true series' daily movement. The
+      publisher's own series remains the fitting
+      input.
+    begin: 2026-11-21 17:05:00
+    duration: { minutes: 30 }
+
+  - summary: "Bitcoin evening pivots delivered for the next session; stale-session pattern noted"
+    description: |
+      The evening Bitcoin pivots production passed its
+      verification and the script-emitted block was
+      delivered in the main chat. The run shows the
+      known Saturday stale-session pattern: it re-
+      anchors on the prior session with identical
+      levels and an updated expected move, a fix
+      decision rather than a posting decision.
+    begin: 2026-11-21 17:15:00
+    duration: { minutes: 30 }
