@@ -92,6 +92,14 @@ events:
       interval: { days: 1 }
       until: 2028-01-01 00:00:00
 
+  - summary: "Queue: sentiment index daily payload save (19:05)"
+    description: "Daily 19:05 ET save of the sentiment index's final payload, with a diff of the provider's whole served history against the previous day's to log restatements; the saved feed also updates the rebuilt index chart. Series added 2026-11-22 to close a record gap: the queue previously had no recurring event."
+    begin: 2026-11-22 19:05:00
+    duration: { minutes: 15 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
   - summary: "Queue: MapleScholar morning investigation (06:30)"
     description: "Daily 06:30 investigation phase across the MapleScholar resources (notifications sweep plus one resource deep dive on rotation; Thursday is Google Ads). Read-only unless the owner approves a specific fix. Series added 2026-10-22 to close a record gap."
     begin: 2026-10-12 06:30:00
@@ -4187,17 +4195,17 @@ events:
     begin: 2026-10-21 20:15:00
     duration: { minutes: 45 }
 
-  - summary: "Queue: flight fare check, London-Bulawayo return (09:47)"
-    description: "Daily fare check for the booked London-Bulawayo return itinerary against the tracking baseline; silent unless a fare movement or a source failure needs reporting. Series added 2026-10-22 to close a record gap: the queue previously had no recurring event."
-    begin: 2026-10-22 09:47:00
+  - summary: "Queue: flight fare check, London-Bulawayo return (15:14)"
+    description: "Daily fare check for the booked London-Bulawayo return itinerary against the tracking baseline; silent unless a fare movement or a source failure needs reporting. Series added 2026-10-22 to close a record gap: the queue previously had no recurring event. Moved from 09:47 to 15:14 on 2026-11-22 to match the live schedule."
+    begin: 2026-10-22 15:14:00
     duration: { minutes: 15 }
     repeat:
       interval: { days: 1 }
       until: 2028-01-01 00:00:00
 
-  - summary: "Queue: flight status check, London-Bulawayo return (10:47)"
-    description: "Daily status check of all legs of the booked London-Bulawayo return itinerary against the booked baseline; an alert is sent only on a schedule change, cancellation, diversion or connection risk. Series added 2026-10-22 to close a record gap: the queue previously had no recurring event."
-    begin: 2026-10-22 10:47:00
+  - summary: "Queue: flight status check, London-Bulawayo return (15:14)"
+    description: "Daily status check of all legs of the booked London-Bulawayo return itinerary against the booked baseline; an alert is sent only on a schedule change, cancellation, diversion or connection risk. Series added 2026-10-22 to close a record gap: the queue previously had no recurring event. Moved from 10:47 to 15:14 on 2026-11-22 to match the live schedule."
+    begin: 2026-10-22 15:14:00
     duration: { minutes: 15 }
     repeat:
       interval: { days: 1 }
@@ -11503,3 +11511,139 @@ events:
       payload now runs at 19:05 ET.
     begin: 2026-11-21 20:31:00
     duration: { minutes: 20 }
+
+  - summary: "Sentiment reconstruction: volatility leg fully closed"
+    description: |
+      The volatility component's fear-day ranking puzzle
+      closed end to end. A flat ranking step for
+      high-volatility sessions was confirmed out of
+      sample and adopted by all three workers; the
+      March residual was traced to a single session
+      present in the live window but absent from the
+      published grid, and the count residual closed
+      as one-off grid and timing quirks. The served
+      history was found to have been silently rewritten
+      to match the grid between late April and early
+      May. The component is now closed on membership,
+      ranking, calendar, and count.
+    begin: 2026-11-22 00:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Daily chat archive finalised for the previous day"
+    description: |
+      The previous day's main chat was archived in
+      full, pushed to the archive repo, and mirrored
+      to the shared drive folder, with the mirrored
+      copy verified as a single copy of the same size.
+    begin: 2026-11-22 00:47:00
+    duration: { minutes: 15 }
+
+  - summary: "Safe haven verdict: construction change ruled out; noisy vintage stands"
+    description: |
+      The 2022 stretch of the safe haven component was
+      settled against a construction change: the
+      published definition is unchanged across a
+      decade of sources, implied bond duration is
+      stable across eras, and no alternative bond leg
+      fits the bad window. A direct check of the
+      market-data provider found no total-return
+      index for the period, and a rebuild from its own
+      bars agrees with the existing build. The
+      mismatch sits on the provider's side as a noisy
+      vintage. The research library was also searched
+      and holds no material on the index methodology.
+    begin: 2026-11-22 00:50:00
+    duration: { minutes: 30 }
+
+  - summary: "Nightly chat archive failed again; backlog now twenty-two days"
+    description: |
+      The nightly archive for a remote host's chat
+      failed again after three properly spaced
+      attempts, with the host unreachable before
+      authentication. No archive file, commit, or
+      upload was made, and the outstanding backlog now
+      stands at twenty-two days. Session counts were
+      not invented for the missed day.
+    begin: 2026-11-22 01:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Membership fee escalation delivered; deadline Monday morning"
+    description: |
+      A membership body sent two reminders stepping up
+      from a suspension warning to termination
+      language, with a 72-hour clock running to
+      Monday morning. No amount was named in either
+      reminder. A draft asking for the full itemised
+      total already exists; nothing was sent and
+      nothing was paid. The update was delivered with
+      the options to send that draft or settle it
+      directly, and a decision is awaited. Two earlier
+      deadlines of the same kind closed with no
+      termination ever confirmed.
+    begin: 2026-11-22 06:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Security alert delivered: third-party provider exposure"
+    description: |
+      A service provider reported that an attacker
+      accessed an internal system holding recent
+      request content, and the account had sent
+      requests to that provider inside the exposure
+      window. The advice delivered was to treat that
+      request content as read and rotate any keys,
+      passwords, tokens, or signed links that appeared
+      in it, most privileged first. Nothing is rotated
+      without approval on each item, and an audit of
+      the affected period was offered.
+    begin: 2026-11-22 07:22:00
+    duration: { minutes: 15 }
+
+  - summary: "Meeting time discrepancy flagged; confirmation options given"
+    description: |
+      The confirmed invite for a doctoral pathway
+      meeting shows 4:00 pm where 2:00 pm had been
+      requested, on Wednesday rather than Tuesday.
+      The later time fits inside the window offered,
+      so it may be the chosen time rather than an
+      error, and the calendar event was not moved.
+      The finding was delivered with the options to
+      send a one-line confirmation or leave it, and
+      a decision is awaited.
+    begin: 2026-11-22 09:02:00
+    duration: { minutes: 15 }
+
+  - summary: "Flight status and fare checks completed; itinerary unchanged"
+    description: |
+      Both daily checks on a booked long-haul return
+      itinerary completed. All legs were verified
+      unchanged against the booked baseline. The single
+      search result was recorded as non-comparable on its
+      stated basis, so no alert was raised and nothing was
+      changed.
+    begin: 2026-11-22 15:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening pivots: first Sunday constructed session"
+    description: |
+      The evening pivots production succeeded and the
+      script-emitted block was delivered in the main
+      chat. The run anchored on a weekend session
+      constructed from spot data rather than the
+      prior session, breaking the known Saturday
+      stale-session pattern. The verification gate
+      passed.
+    begin: 2026-11-22 17:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote laptop access unreachable all day; letters pending delivery"
+    description: |
+      The remote laptop was unreachable on every check
+      since just after midnight, with the tunnel
+      connecting and the remote end closing before
+      authentication. Three letters to the MacBook
+      collaborator remain queued undelivered in the
+      repo, and no watermark or watch state was
+      advanced on any failed run. The checks are
+      inconclusive, not evidence of no new entries.
+    begin: 2026-11-22 17:40:00
+    duration: { minutes: 15 }
