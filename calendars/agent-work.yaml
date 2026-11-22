@@ -11460,3 +11460,46 @@ events:
       decision rather than a posting decision.
     begin: 2026-11-21 17:15:00
     duration: { minutes: 30 }
+
+  - summary: "Sentiment index scoring formula recovered and independently verified"
+    description: |
+      The exact scoring rule behind the sentiment
+      index was recovered from archived intraday
+      payloads by the MacBook collaborator and
+      verified independently here: composite error
+      0.55 points on average over 975 sessions
+      (2023-2026), with six of seven components
+      matching the published scores exactly on the
+      latest close. The second research engine
+      reached the same architecture independently.
+      The volatility component's fear-day reference
+      set remains the one open puzzle.
+    begin: 2026-11-21 20:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Classic-page harvest completed: 1,333 captures, 2012-2022"
+    description: |
+      The archive harvest of the classic sentiment
+      pages finished: 1,333 capture-days from
+      2012-05-24 to 2022-04-21, each with the
+      composite value and all seven rating labels.
+      Across every capture, the volatility component
+      is never rated above Neutral, establishing
+      that its ceiling behaviour is original design
+      rather than a later change.
+    begin: 2026-11-21 20:26:00
+    duration: { minutes: 15 }
+
+  - summary: "Owner confirmed the sentiment reconstruction work order; daily payload save scheduled"
+    description: |
+      The owner confirmed the three-part work order
+      (volatility fear days, then the late-2022
+      failure, then rebuilding the readings from
+      market data) and it was delegated to the
+      MacBook collaborator with full data access
+      through the project repository. The second
+      research engine received the same datasets by
+      upload. A daily save of the index's final
+      payload now runs at 19:05 ET.
+    begin: 2026-11-21 20:31:00
+    duration: { minutes: 20 }
