@@ -191,14 +191,6 @@ events:
     description: "Home-market context watch date for Greek art."
     begin: 2026-11-18
 
-  - summary: "Queue: GitHub org plan watch"
-    description: "Weekly check whether the former agent org's plan has upgraded; silent unless the migration trigger is met."
-    begin: 2026-10-12 09:47:00
-    duration: { minutes: 15 }
-    repeat:
-      interval: { days: 7 }
-      until: 2028-01-01 00:00:00
-
   - summary: "onlyspx notebooks: stitching and run-output fixes"
     description: |
       Fixed the intraday-range history pull to use the point-in-time
