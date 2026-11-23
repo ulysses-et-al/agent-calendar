@@ -11639,3 +11639,194 @@ events:
       inconclusive, not evidence of no new entries.
     begin: 2026-11-22 17:40:00
     duration: { minutes: 15 }
+
+  - summary: "Research residency application closed by owner decision"
+    description: |
+      A live application form was read end to end and
+      found to require an essay and references at
+      application stage, neither of which was in the
+      prepared package. The owner decided not to apply.
+      The package stays on file unsubmitted and the
+      posting is not to be raised again.
+    begin: 2026-11-23 00:01:00
+    duration: { minutes: 15 }
+
+  - summary: "Daily chat archive completed for 2026-11-22"
+    description: |
+      Archived the prior day's chat (54 messages),
+      verified against the source, committed to the
+      archive repo and mirrored to the shared drive
+      folder. Exit interview filed.
+    begin: 2026-11-23 00:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Nightly chat archive failed again; backlog now twenty-three days"
+    description: |
+      The nightly archive for a remote host's chat
+      failed again after three properly spaced
+      attempts, with the host unreachable before
+      authentication. No archive file, commit, or
+      upload was made, and the outstanding backlog now
+      stands at twenty-three days. Session counts were
+      not invented for the missed day.
+    begin: 2026-11-23 01:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Security alert delivered: login from an unfamiliar location"
+    description: |
+      A login alert flagged a new sign-in in the early
+      morning from near Berlin on a machine matching
+      the user's older desktop, with no agent work
+      logged at that hour. It is unresolved whether it
+      was the user or unauthorized. The owner was
+      asked to confirm and, if it was not him, to
+      change the password and turn on two-factor
+      authentication the same day.
+    begin: 2026-11-23 05:23:00
+    duration: { minutes: 15 }
+
+  - summary: "ES pivots posted and verified; duplicate run flagged"
+    description: |
+      The morning pivots production passed its
+      verification gate and was posted to the image,
+      text, and video channels plus the trading group,
+      with read-back verification and a two-round post
+      check passed. A second, duplicate production run
+      completed with identical levels and was not
+      posted from; its emitted text carried the wrong
+      timezone label, which was flagged plainly.
+    begin: 2026-11-23 06:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Morning investigation and indexing run completed"
+    description: |
+      Read-only investigation completed: sessions
+      recovered to four of six live, analytics access
+      recovered, and the indexed page count rose to
+      321 with two more pages verified indexed and one
+      indexing request accepted. A long-standing
+      tag-install gap and a rising redundant-keyword
+      count remain open decisions. Nothing was changed
+      in any account.
+    begin: 2026-11-23 06:30:00
+    duration: { minutes: 60 }
+
+  - summary: "Monday rotation review missing for a fifth straight week"
+    description: |
+      The weekly rotation review produced no brief
+      again: the review project holds no runs at all,
+      so there were no swaps and nothing to approve.
+      The hosting service and its Monday schedule plus
+      the review project need checking. Nothing was
+      applied to ads.
+    begin: 2026-11-23 07:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Membership fee draft presented; decision awaited"
+    description: |
+      An updated draft asking a membership body for the
+      full itemised total before its stated
+      termination deadline was presented exactly as it
+      would go. The deadline named no amount, so the
+      draft asks for the total rather than paying on
+      known components. Nothing has been sent and
+      nothing paid; a decision is awaited.
+    begin: 2026-11-23 08:18:00
+    duration: { minutes: 15 }
+
+  - summary: "Phishing email identified; user advised not to open it"
+    description: |
+      An email impersonating a platform brand and aimed
+      at a trading page was identified as a phishing
+      attempt: the sender was an unrelated personal
+      address and the link was a shared form, not a
+      real platform notice. The owner was advised not
+      to open the form or enter anything and to delete
+      or report it.
+    begin: 2026-11-23 08:54:00
+    duration: { minutes: 15 }
+
+  - summary: "Desktop app sign-in decision re-presented; deletion due Thursday"
+    description: |
+      Re-presented a pending decision: an unused
+      sign-in client for a desktop app will be deleted
+      on Thursday unless used once before then, and
+      only the owner can do that through the app
+      itself. Deletion is probably harmless but was
+      never confirmed against the app's stored client.
+      Doing nothing lets the deletion happen.
+    begin: 2026-11-23 09:19:00
+    duration: { minutes: 15 }
+
+  - summary: "ES gap posted under a one-off waiver; verified"
+    description: |
+      The market-open gap run was first blocked at its
+      verification gate on a small cross-source open
+      difference, then posted under a one-off
+      owner-directed waiver after the second source's
+      print revised to match. The gap posted to all
+      channels and the trading group, and the two-round
+      post check passed. The standing gate was left
+      untouched.
+    begin: 2026-11-23 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Flight status and fare checks completed; itinerary unchanged"
+    description: |
+      Both daily checks on a booked long-haul return
+      itinerary completed. All legs were verified
+      unchanged against the booked baseline. The single
+      search result was recorded as non-comparable on
+      its stated basis, so no alert was raised and
+      nothing was changed.
+    begin: 2026-11-23 15:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Collaborator letters received and answered; formula updated"
+    description: |
+      Two letters from the remote collaborator were
+      received after the laptop route recovered: one
+      adopting the revised formula and recalculating
+      the chart history to match the published value
+      exactly, one confirming the daily feed merged.
+      Three queued letters were delivered and
+      hash-verified, the comparison tool was switched
+      to the new formula and re-run, and a reply letter
+      was delivered. Two items remain open: tonight's
+      feed file and a source for the one unidentified
+      leg.
+    begin: 2026-11-23 15:52:00
+    duration: { minutes: 30 }
+
+  - summary: "Stock of the Day pick posted and verified"
+    description: |
+      The day's feature pick was posted on the owner's
+      direction in the afternoon, after the usual noon
+      slot had passed, to the image, text, and video
+      channels. The two-round post check passed on all
+      channels.
+    begin: 2026-11-23 15:53:00
+    duration: { minutes: 30 }
+
+  - summary: "Bitcoin evening pivots delivered"
+    description: |
+      The evening pivots production succeeded and the
+      script-emitted block was delivered in the main
+      chat. The verification gate passed. The gap run
+      follows at 18:15.
+    begin: 2026-11-23 17:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote laptop route down most of the day, then recovered"
+    description: |
+      The remote laptop was unreachable on most checks
+      through the morning and early afternoon, with the
+      tunnel connecting and the remote end closing
+      before authentication. The route recovered
+      mid-afternoon, long enough for the collaborator
+      letters to be exchanged, then grew flaky again in
+      the evening. No watermark or watch state was
+      advanced on any failed run; the checks are
+      inconclusive, not evidence of no new entries.
+    begin: 2026-11-23 17:40:00
+    duration: { minutes: 15 }
