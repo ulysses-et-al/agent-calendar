@@ -11830,3 +11830,176 @@ events:
       inconclusive, not evidence of no new entries.
     begin: 2026-11-23 17:40:00
     duration: { minutes: 15 }
+
+  - summary: "Bulk data pull ruled a violation; pulled data saved"
+    description: |
+      A bulk history pull run the previous evening was
+      ruled a violation of the standing rule that
+      history comes from outside the market-data
+      vendor; a relayed approval did not settle the
+      rule. The pulled data was kept at the owner's
+      direction and saved to the shared drive, with
+      access left open for now so the remote
+      collaborator can read it and not to be shared
+      further. The standing rule was restated: updates
+      on held history only, small routine use only,
+      no bulk history and no one-time exceptions.
+    begin: 2026-11-23 22:43:00
+    duration: { minutes: 30 }
+
+  - summary: "Daily chat archive completed for 2026-11-23"
+    description: |
+      Archived the prior day's chat (159 messages),
+      verified against the source, committed to the
+      archive repo and mirrored to the shared drive
+      folder. Exit interview filed.
+    begin: 2026-11-24 00:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote-host chat archive backlog cleared after twenty-three days"
+    description: |
+      The remote host was reachable again on the first
+      attempt after twenty-three straight failed days.
+      All twenty-three outstanding days were exported,
+      committed individually and mirrored to the
+      shared drive; only one day held any content.
+      No days remain outstanding.
+    begin: 2026-11-24 00:53:00
+    duration: { minutes: 30 }
+
+  - summary: "ES pivots posted and verified"
+    description: |
+      The morning pivots production passed its
+      verification gate and was posted to the image,
+      text, and video channels plus the trading group,
+      with read-back verification and a two-round post
+      check passed.
+    begin: 2026-11-24 06:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Morning investigation partial; indexing run completed"
+    description: |
+      Read-only investigation completed in part:
+      analytics was unreadable on repeated attempts
+      (internal error), while sessions held at four
+      of six live. Indexing run: one request
+      accepted, two pages verified indexed, five
+      rejected as blocked by the robots file; the
+      indexed page count stands unchanged. Nothing
+      was changed in any account.
+    begin: 2026-11-24 06:30:00
+    duration: { minutes: 60 }
+
+  - summary: "Meeting confirmation sent; time confirmed for Wednesday"
+    description: |
+      A confirmation email about the pathway-options
+      meeting was sent to the university contact on
+      the owner's approval. The reply confirmed the
+      meeting for Wednesday 4:00-4:30 pm Toronto time
+      via the link in the calendar invite. A one-page
+      brief for the meeting was prepared and delivered.
+    begin: 2026-11-24 09:12:00
+    duration: { minutes: 30 }
+
+  - summary: "Workspace subscription cancelled; owner says it was not him"
+    description: |
+      A cancellation notice for the office workspace
+      subscription arrived overnight. The owner
+      confirmed he did not cancel it; the cause is
+      unconfirmed and forced cancellation for
+      non-payment is only a possibility. Resubscribing
+      is his step in the admin center. A possible
+      effect on mailbox access was flagged and is
+      unverified.
+    begin: 2026-11-24 09:13:00
+    duration: { minutes: 15 }
+
+  - summary: "ES gap posted and verified"
+    description: |
+      The market-open gap run passed its verification
+      gate and was posted to the image, text, and
+      video channels plus the trading group, with
+      read-back verification and a two-round post
+      check passed.
+    begin: 2026-11-24 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Stock of the Day pick drafted; price corrected, awaiting approval"
+    description: |
+      The day's feature pick was selected on its chart
+      signal. The prep run caught a wrong prior-day
+      close in the draft and corrected it, with the
+      superlative also withdrawn. The corrected draft
+      and a re-cut image were delivered; the feature
+      is not posted and awaits the owner's standalone
+      approval.
+    begin: 2026-11-24 10:37:00
+    duration: { minutes: 30 }
+
+  - summary: "Collaborator letters received; strength leg confirmed, breadth gap open"
+    description: |
+      Three letters arrived from the remote
+      collaborator on the sentiment-index
+      reconstruction. The strength leg is now
+      confirmed on point-in-time checks (whole-exchange
+      universe, twenty-session mean); the breadth leg
+      is identified in form but a level gap remains,
+      worst in the current year. A reply letter was
+      delivered and hash-verified, and a reference
+      document's text and link were sent on, with the
+      document made public at the owner's direction.
+      A relayed approval for a further bulk pull was
+      flagged to the owner, not treated as settled.
+      The chart wall's outside refresh timer went
+      live today.
+    begin: 2026-11-24 12:16:00
+    duration: { minutes: 30 }
+
+  - summary: "Trading platform installed but blocked from its servers"
+    description: |
+      The requested trading platform was installed
+      from official sources and launches, but it
+      cannot reach the broker's servers: connections
+      from the app are reset below the permission
+      setting, which the owner flipped at the agent's
+      direction with no change. No allow option
+      exists, so this is a platform limitation, not
+      fixable from inside this machine. Options left:
+      leave it installed, run it on the owner's own
+      machine, or raise it with the platform team.
+    begin: 2026-11-24 15:04:00
+    duration: { minutes: 30 }
+
+  - summary: "Flight status and fare checks completed; itinerary unchanged"
+    description: |
+      Both daily checks on a booked long-haul return
+      itinerary completed. All legs were verified
+      unchanged against the booked baseline. The single
+      search result was recorded as non-comparable on
+      its stated basis, so no alert was raised and
+      nothing was changed.
+    begin: 2026-11-24 15:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Bitcoin evening pivots delivered"
+    description: |
+      The evening pivots production succeeded and the
+      script-emitted block was delivered in the main
+      chat. The verification gate passed. The gap run
+      follows at 18:15.
+    begin: 2026-11-24 17:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Remote laptop route flapping all day"
+    description: |
+      The remote laptop was unreachable on most hourly
+      checks through the morning and again in the late
+      afternoon, with the tunnel connecting and the
+      remote end closing before authentication. The
+      route recovered intermittently midday, long
+      enough for the collaborator letters to be
+      exchanged. No watermark or watch state was
+      advanced on any failed run; the checks are
+      inconclusive, not evidence of no new entries.
+    begin: 2026-11-24 17:40:00
+    duration: { minutes: 15 }
