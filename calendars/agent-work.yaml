@@ -116,6 +116,14 @@ events:
       interval: { days: 1 }
       until: 2028-01-01 00:00:00
 
+  - summary: "Queue: onlyspx Stock of the Day prep (11:57)"
+    description: "Weekday midday Stock of the Day prep: one pick from the point-and-figure wall, image and draft text presented for approval; nothing posts without the owner's Post. Series added 2026-11-25 to close a record gap: the queue previously had no recurring event."
+    begin: 2026-11-25 11:57:00
+    duration: { minutes: 30 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
   # --- Current items ---
   - summary: "Watch: Icarus estimate responses"
     description: |
@@ -9916,14 +9924,13 @@ events:
     begin: 2026-11-16 17:46:00
     duration: { minutes: 30 }
 
-  - summary: "Planned: doctoral pathway meeting, online"
+  - summary: "Doctoral pathway meeting, online (moved to Thu Nov 26)"
     description: |
-      A pathway-options meeting with a programme director
-      is selected for this afternoon, online, following
-      the reply sent on Nov 16. The other side's
-      confirmation of the time is still awaited; if it
-      does not arrive, the slot is not confirmed.
-    begin: 2026-11-25 14:00:00
+      Moved from Wed Nov 25 at the other side's request.
+      New time Thu Nov 26, 4:00-4:30 pm Toronto, online;
+      the confirming reply was sent and the meeting brief
+      was refreshed with seven questions.
+    begin: 2026-11-26 16:00:00
     duration: { minutes: 30 }
 
   - summary: "Daily chat archive finalised for the previous day"
@@ -12003,3 +12010,94 @@ events:
       inconclusive, not evidence of no new entries.
     begin: 2026-11-24 17:40:00
     duration: { minutes: 15 }
+
+  - summary: "Hermes chat archive failed; catch-up outstanding"
+    description: |
+      The chat archive for the previous day failed on all
+      attempts because the other machine was unreachable
+      overnight. Nothing was lost; the conversations remain
+      on that machine and a catch-up run is outstanding.
+    begin: 2026-11-25 00:53:00
+    duration: { minutes: 15 }
+
+  - summary: "Second opinion on evening priorities adopted"
+    description: |
+      A second opinion on four evening priorities was
+      obtained, verified, and adopted on the owner's word:
+      audit-first on the tracking tag, pattern-level
+      exclusion for blocked chat URLs, diagnose-first on
+      the missed weekly review, inspect-only on keyword
+      cleanup. The indexing job now skips blocked chat
+      URL patterns automatically.
+    begin: 2026-11-25 00:30:00
+    duration: { minutes: 30 }
+
+  - summary: "Rotation review root cause found: trial ended, service offline"
+    description: |
+      Read-only inspection found why the weekly rotation
+      review missed five straight weeks: the workspace
+      trial has ended and the service is offline with no
+      active deployment. The schedule is intact and the
+      tracing key is present in the service settings.
+      The fix is the owner's billing step, then one manual
+      run to prove the chain before the next scheduled run.
+    begin: 2026-11-25 00:54:00
+    duration: { minutes: 30 }
+
+  - summary: "Thinkorswim OnDemand matrix: three cases settled, rest blocked"
+    description: |
+      The OnDemand test matrix ran in the early hours: the
+      2014 index case and the 2014 stock case both resolve,
+      with the stock close showing both later splits
+      applied, and the delisted-name case does not resolve
+      at all. The remaining cases were blocked, first by a
+      replay session that never finished loading and then
+      by the provider's replay service being unavailable
+      while live data streamed normally. They remain
+      pending, not failed.
+    begin: 2026-11-25 02:23:00
+    duration: { minutes: 45 }
+
+  - summary: "Second unexplained login alert raised"
+    description: |
+      A second unexplained login alert in two days was
+      raised to the owner with the question whether it was
+      his. If not, the next step is his alone: change the
+      password and turn on two-factor. No reset was started.
+    begin: 2026-11-25 07:00:00
+    duration: { minutes: 15 }
+
+  - summary: "PhD dispatch day: letter confirmed, seven emails sent"
+    description: |
+      A letter of support was confirmed after a missed reply
+      was found by reading the live thread; the thank-you
+      reply with the topic reminder was sent. Three
+      supervisor follow-ups were sent, and four first-contact
+      emails went out (two primary-supervisor asks, two
+      committee asks) with CV and research statement
+      attached. The pathway-meeting brief was refreshed and
+      five further candidates were verified as current
+      faculty, with one ruled out.
+    begin: 2026-11-25 09:24:00
+    duration: { minutes: 90 }
+
+  - summary: "Market-open gap posted to trading group; social posting stalled"
+    description: |
+      The market-open gap was posted to the trading group
+      and verified. The social posting stalled when the
+      photo-channel approval timed out and the other
+      channels were not posted. It resumes only on the
+      owner's word.
+    begin: 2026-11-25 10:57:00
+    duration: { minutes: 30 }
+
+  - summary: "Billing deadlines flagged to the owner"
+    description: |
+      Billing deadlines were flagged: a cloud account
+      suspends tomorrow unless its invoice is settled, an
+      unclaimed transfer more than covers it, a subscription
+      charge failed again, and two domains expire in
+      mid-December because the account behind them is
+      inactive. Paying is the owner's step.
+    begin: 2026-11-25 11:54:00
+    duration: { minutes: 30 }
