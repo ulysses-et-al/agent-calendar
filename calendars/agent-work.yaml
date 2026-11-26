@@ -8766,7 +8766,9 @@ events:
       be deleted by the provider later this month if it
       stays unused. Whether to mark it for agentic use
       to keep it alive is the owner's choice; the other
-      clients remain deliberately unmarked.
+      clients remain deliberately unmarked. Flagged to the
+      owner in the morning deadline note; no decision was
+      recorded today, and doing nothing lets it delete.
     begin: 2026-11-26 09:00:00
     duration: { minutes: 15 }
 
@@ -9924,12 +9926,16 @@ events:
     begin: 2026-11-16 17:46:00
     duration: { minutes: 30 }
 
-  - summary: "Doctoral pathway meeting, online (moved to Thu Nov 26)"
+  - summary: "Doctoral pathway meeting missed; rebook needed"
     description: |
-      Moved from Wed Nov 25 at the other side's request.
-      New time Thu Nov 26, 4:00-4:30 pm Toronto, online;
-      the confirming reply was sent and the meeting brief
-      was refreshed with seven questions.
+      The meeting was in fact scheduled an hour earlier
+      than recorded: the owner joined the correct online
+      room at the recorded time, an hour late, and missed
+      the supervisor. The programme contact emailed that
+      the meeting must be rebooked, and rebooking runs
+      through her. A draft apology and rebook reply was
+      prepared but not sent; it needs the owner's word
+      before sending.
     begin: 2026-11-26 16:00:00
     duration: { minutes: 30 }
 
@@ -12101,3 +12107,116 @@ events:
       inactive. Paying is the owner's step.
     begin: 2026-11-25 11:54:00
     duration: { minutes: 30 }
+
+  - summary: "Hermes chat archive failed again; two days outstanding"
+    description: |
+      The nightly chat archive for the previous day failed
+      on all attempts because the other machine was
+      unreachable over the remote route. No archive file
+      was produced for the second straight day; two days
+      are now outstanding and await a catch-up run once
+      the route recovers. Nothing was lost; the
+      conversations remain on the source machine.
+    begin: 2026-11-26 00:53:00
+    duration: { minutes: 15 }
+
+  - summary: "Premarket pivots posted on all channels and verified"
+    description: |
+      The premarket pivot production passed verification
+      and, on the owner's word, was posted on all four
+      social channels and to the trading group, then read
+      back exact on every channel at the five- and
+      ten-minute checks. Markets were closed for the
+      holiday, so these levels carry to the next session.
+    begin: 2026-11-26 06:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Ads day investigation: new browser block found"
+    description: |
+      The morning investigation found the ad platform now
+      blocks this browser as an unauthorised automated
+      agent, so the planned read-only check of the recent
+      campaign changes could not be completed; nothing was
+      changed. The analytics side still reads fine and the
+      key-event fixes from the recent campaign work were
+      confirmed holding. Two routes for the missing tables
+      were put to the owner and await his choice.
+    begin: 2026-11-26 07:22:00
+    duration: { minutes: 60 }
+
+  - summary: "Thinkorswim replay root cause found and fixed; matrix cases settled"
+    description: |
+      The replay failures of the past two days were traced
+      to this machine's own local relay, which answered the
+      replay service's plain requests with an error the app
+      then reported as the provider being unavailable. The
+      relay was patched to forward those requests through
+      the laptop route, after which replay data flowed and
+      the control case reproduced exactly. Six matrix cases
+      were then settled, including the renamed social-media
+      ticker resolving with full pre-rename history and the
+      put-call index resolving for its 2020 leg. One early
+      computer-maker case is still open after the laptop
+      route dropped mid-case, and the collaborator letter
+      correcting the earlier outage verdict was delivered.
+    begin: 2026-11-26 09:05:00
+    duration: { minutes: 60 }
+
+  - summary: "Market-open gap correctly blocked; market closed for holiday"
+    description: |
+      The morning gap production completed but its
+      verification gate failed: the independent source had
+      no opening bar because the market was closed for the
+      holiday, while the single source claimed a gap that
+      could not be corroborated. Per the standing rule no
+      gap numbers were delivered or posted anywhere.
+    begin: 2026-11-26 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Overnight transfer and same-day deadlines flagged"
+    description: |
+      An overnight transfer from the company was confirmed
+      as received and covers the bills due in the coming
+      days. Three same-day clocks were flagged to the
+      owner: a cloud invoice that suspends today unless
+      settled, the doctoral pathway meeting, and the
+      dormant OAuth client decision. Paying is the owner's
+      step.
+    begin: 2026-11-26 10:06:00
+    duration: { minutes: 15 }
+
+  - summary: "Citestreak launch prep reconciled; knowledgebase and tiles built"
+    description: |
+      The developer side's launch pack was received and
+      reconciled against the earlier prep, superseding it
+      where they differ, and the owner's corrections in the
+      marketing chat were applied on top: the agent does
+      the engagement itself, account choices come from the
+      owner, and governance follows his direction there.
+      A source knowledgebase was built, the film library
+      was verified live with only two films approved for
+      posting, and profile tiles were built from the
+      received badges. No accounts were created, nothing
+      was posted, and no spend was made.
+    begin: 2026-11-26 11:00:00
+    duration: { minutes: 60 }
+
+  - summary: "Research associate application closed; position filled"
+    description: |
+      The university notified that the research associate
+      position applied for in mid-October has been filled.
+      The application is closed and was recorded in the job
+      tracker so it is no longer carried as open. The
+      doctoral track is unaffected.
+    begin: 2026-11-26 12:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Contract lead surfaced and closed as out of scope"
+    description: |
+      A remote contract lead for medical-expert AI training
+      work was checked live and surfaced to the owner with
+      a read: the posting requires licensed clinical
+      experience the owner does not hold, so it is not
+      worth an application. Nothing was applied for.
+    begin: 2026-11-26 14:19:00
+    duration: { minutes: 15 }
