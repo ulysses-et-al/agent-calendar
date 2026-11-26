@@ -116,9 +116,9 @@ events:
       interval: { days: 1 }
       until: 2028-01-01 00:00:00
 
-  - summary: "Queue: onlyspx Stock of the Day prep (11:57)"
-    description: "Weekday midday Stock of the Day prep: one pick from the point-and-figure wall, image and draft text presented for approval; nothing posts without the owner's Post. Series added 2026-11-25 to close a record gap: the queue previously had no recurring event."
-    begin: 2026-11-25 11:57:00
+  - summary: "Queue: onlyspx Stock of the Day prep (07:00)"
+    description: "Weekday morning Stock of the Day prep for the 7:30am feature: one pick from the point-and-figure wall, image and draft text presented for approval; nothing posts without the owner's Post. Moved from 11:57/noon to 07:00/7:30am on 2026-11-26 at the owner's direction. Series added 2026-11-25 to close a record gap: the queue previously had no recurring event."
+    begin: 2026-11-27 07:00:00
     duration: { minutes: 30 }
     repeat:
       interval: { days: 1 }
