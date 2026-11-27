@@ -12220,3 +12220,147 @@ events:
       worth an application. Nothing was applied for.
     begin: 2026-11-26 14:19:00
     duration: { minutes: 15 }
+
+  - summary: "Ad Grant compliance plan agreed; brand-defense flag emailed"
+    description: |
+      A compliance plan for the month-end account
+      performance floor was agreed with the research
+      model after four rounds of discussion, covering
+      what to protect before the month closes and what
+      to fix after the early-December review. A flag
+      about the brand campaigns running near the floor
+      was emailed to the contractor running them, asking
+      for a search-terms check and non-brand negatives
+      before the month ends.
+    begin: 2026-11-26 23:57:00
+    duration: { minutes: 15 }
+
+  - summary: "Chat archive failed third straight day; overnight tunnel outage"
+    description: |
+      The nightly chat archive failed again because the
+      source machine could not be reached, leaving three
+      days outstanding. The tunnel route to the home
+      machines was down all morning: fourteen consecutive
+      mailbox checks failed the same way before the
+      route recovered on its own around midday. Nothing
+      was lost; the conversations remain on the source
+      machine and the catch-up will pick up all three
+      days once the route is back.
+    begin: 2026-11-27 01:14:00
+    duration: { minutes: 15 }
+
+  - summary: "Premarket pivots blocked at verification gate; waiver pending"
+    description: |
+      The premarket pivot production completed and all
+      its own checks passed, but the verification gate
+      failed: the independent source carries no bar for
+      the holiday half-session, so the session high, low
+      and close could not be cross-checked. Per the
+      standing rule no levels were delivered or posted.
+      Whether to waive the failed cross-check or hold
+      with no post today was put to the owner and is
+      still pending.
+    begin: 2026-11-27 06:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Search Console indexing blocked at sign-in challenge; no requests"
+    description: |
+      The indexing run reached the sign-in challenge and
+      stopped before opening the property: no URLs were
+      inspected and no indexing requests were submitted,
+      so the usage quota was not touched. It needs the
+      owner to confirm the sign-in prompt on his phone
+      to resume; the challenge expires after a short
+      idle window, so a later run will likely need a
+      fresh sign-in.
+    begin: 2026-11-27 06:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Morning investigation blocked, then rerun complete"
+    description: |
+      All sessions in the browser profile had expired
+      overnight, so the morning investigation could not
+      read anything at first. The owner signed in
+      personally and the rerun completed read-only: all
+      six accounts verified live, the notifications
+      sweep read, and a trends deep dive run. The ad
+      platform block was confirmed even in the
+      owner-signed-in browser, so it targets the
+      browser rather than the session state; the only
+      routes to that data are now the owner's own
+      downloads or driving the interface himself.
+    begin: 2026-11-27 06:30:00
+    duration: { minutes: 90 }
+
+  - summary: "Stock of the Day posted on all four channels and verified"
+    description: |
+      The day's pick was a homebuilder breaking out of
+      an inverse head-and-shoulders pattern above its
+      support line, on a strong new-home-sales print.
+      The owner approved the exact draft and it was
+      posted on all four social channels, then read
+      back verbatim on every channel at the five- and
+      ten-minute checks. The chart image and caption
+      matched the approved version everywhere.
+    begin: 2026-11-27 07:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Job application submitted after portal draft fill"
+    description: |
+      A tailored application package was built for a
+      global AI literacy manager role surfaced by the
+      daily sweep: resume, cover letter and glossary
+      re-angled to the posting, with the owner's
+      answers to the four open decisions recorded.
+      The portal form was then filled as a saved draft,
+      parser errors corrected, and the application
+      submitted on the owner's standalone word, with
+      an employee referral named and confirmation
+      received. A follow-up marker is set for early
+      December.
+    begin: 2026-11-27 08:11:00
+    duration: { minutes: 70 }
+
+  - summary: "Market-open gap blocked at verification gate; waiver pending"
+    description: |
+      The market-open gap production completed and all
+      its own checks passed, but the verification gate
+      failed on the same cause as the morning pivots:
+      the independent source has no bar for the holiday
+      half-session, so the prior close is single-source
+      today. Per the standing rule no gap numbers were
+      delivered or posted anywhere. Whether to waive the
+      cross-check or hold was put to the owner and is
+      still pending.
+    begin: 2026-11-27 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Doctoral track: supervisor declined; meeting rebooked; new primary ask drafted, send blocked"
+    description: |
+      One supervisor candidate declined the primary
+      ask, being fully committed to supervision next
+      year; that ask is closed with no reply owed. The
+      pathway-meeting rebook was corrected: the owner
+      had already sent his own rebook request, and new
+      times arrived later in the day for the following
+      Wednesday, one day after the go/no-go decision
+      it was meant to feed. A new primary-supervisor
+      draft was prepared and the owner gave the word
+      to send, but the send did not complete because
+      the approval prompt timed out; the letter sits
+      as a verified ready draft awaiting a re-attempt.
+    begin: 2026-11-27 11:06:00
+    duration: { hours: 1 }
+
+  - summary: "MacBook unreachable again late afternoon; tunnel route healthy"
+    description: |
+      The tunnel route recovered on its own around
+      midday and mailbox checks ran clean, but the
+      laptop went unreachable again from late
+      afternoon. A control check to the other home
+      machine over the same route succeeded, so the
+      fault is specific to the laptop rather than the
+      route. The owner was asked to check the
+      laptop's power state when he gets a moment.
+    begin: 2026-11-27 16:05:00
+    duration: { minutes: 15 }
